@@ -17,7 +17,7 @@ export default class Carousel {
    * Default duration in milliseconds between automatic slide transitions.
    * @type {number}
    */
-  static DURATION = 8000;
+  static DURATION = 8500;
 
   #id = 0;
   #slides = [];

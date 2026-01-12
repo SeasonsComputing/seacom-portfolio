@@ -33,6 +33,10 @@
   transform: translateX(100%);
 }
 
+.Carousel .CarouselSlide:nth-child(4) {
+  transform: translateX(100%);
+}
+
 .Carousel .CarouselSlideOverlay {
   position: absolute;
   top: 0;
