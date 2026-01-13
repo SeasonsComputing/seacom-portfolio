@@ -553,7 +553,7 @@ I'm a fan of clamp() as a design tool.
   backdrop-filter: var(--sc-blur-bg);
 }
 
-.FooterLayout>.CompanyName {
+.FooterLayout .CompanyName {
   font-size: 14px;
   letter-spacing: 1px;
 }
