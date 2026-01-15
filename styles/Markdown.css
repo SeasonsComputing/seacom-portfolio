@@ -23,6 +23,64 @@
   backdrop-filter: var(--sc-blur-bg);
 }
 
+ 
+/*************************************
+  MarkdownIndex
+ *************************************/
+
+.MarkdownIndex h3 {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #334155;
+}
+
+.MarkdownIndexList,
+.MarkdownIndexChildList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.MarkdownIndexChildList {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.MarkdownIndexItem {
+  margin: 0.25rem 0;
+}
+
+.MarkdownIndexItem a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: block;
+  padding: 0.25rem 0;
+  transition: color 0.2s ease;
+}
+
+.MarkdownIndexItem a:hover {
+  color: #60a5fa;
+}
+
+.MarkdownIndexLevel2>a {
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.MarkdownIndexLevel3>a {
+  color: #94a3b8;
+}
+
+.MarkdownIndexLevel4>a,
+.MarkdownIndexLevel5>a {
+  color: #64748b;
+  font-size: 0.85em;
+}
+
 
 /*************************************
   MarkdownContent

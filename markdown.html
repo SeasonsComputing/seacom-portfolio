@@ -21,7 +21,7 @@
 
     const init = async () => {
       const fn = window.location.search.substring(1);
-      await Markdown.renderHtml(fn, '#content');
+      await Markdown.renderHtml(fn, '#content', '#index');
       document.body.style.opacity = "1";
     }
 
@@ -44,6 +44,7 @@
     <section class="Markdown">
       <div class="Container">
         <div class="MarkdownLayout">
+          <div class="MarkdownIndex MarkdownCard" id="index"></div>
           <div class="MarkdownContent MarkdownCard" id="content"></div>
         </div>
       </div>
