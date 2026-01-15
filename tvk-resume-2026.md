@@ -116,7 +116,8 @@ I am driven by a few first principles that have always served me well. For examp
 
 *Founder / Principal Consultant*
 
-Software construction services company providing technology executive leadership, software architecture, full-stack development, and SDLC management to startups, SMBs, and enterprises.
+Seasons Computing provides software construction services lending four decades of experience to a clientele of startups, SMBs, and enterprises.
+Services include roles as technology executive, software architect, full-stack developer, and manager of SDLC functions.
 
 #### Service Offerings
 
@@ -130,21 +131,17 @@ Software construction services company providing technology executive leadership
 
 ##### MedCAD (2024-2025)
 
-| Field        | Details                                                                                                                                        |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Industry     | Patient-matched medical device manufacturing                                                                                                   |
-| Products     | In-house proprietary workflow & coordination system for the patient, CAD, Surgeon, Manufacturing and production... the end result, a body part |
-| Deliverables | Lean agile cadence, Laravel feature delivery, Dockerized packaging, next-gen creative input spanning tech stack, APIs, libraries, and services |
+MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, patient-matched plating, surgical planning and 3D modeling products and services.
 
 ##### Drum Free Experience (2024), Farm Best Feed (2019), Hometown Boys Construction (2018), Underground Nutrientz (2017), Venice Nail Salon (2016), Roofics (2015)
 
-- Website design & development, technology consulting, SEO, digital marketing
+Responsible for website design & programming and technology marketing including mobile strategy & SEO; counseled company ownership on branding strategy; authored original content for marketing communications & messaging.
 
 ### 5.2 Tapwow (2019-2023)
 
 *Technical Founder, Chief Technology Officer*
 
-Digital marker platform transforming utilization of NFC, GS1, QRC, and RFID technologies for manufacturing, supply chain tracking, product authentication, and user engagement.
+Tapwow develops a cutting-edge platform that transforms the way digital markers (NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of designing, managing, deploying, and analyzing these markers, catering to various industries such as manufacturing, supply chain tracking, product authentication, and user engagement.
 
 #### Key Responsibilities
 
@@ -203,7 +200,7 @@ Digital marker platform transforming utilization of NFC, GS1, QRC, and RFID tech
 
 *Technical Founder, Chief Technology Officer*
 
-North America's largest and only 24x7 brick-and-mortar hydroponics superstore. Innovative retail company requiring comprehensive technology infrastructure.
+Grow Big Supply, an innovative retail hydroponics supply company, was the largest and only 24x7 brick & mortar hydroponics superstore in North America.
 
 #### Key Responsibilities
 
@@ -231,7 +228,7 @@ North America's largest and only 24x7 brick-and-mortar hydroponics superstore. I
 
 *Cofounder, Chief Technology Officer*
 
-Real-time crowd opinion aggregation platform combining topic extraction, sentiment detection, social networking, and search.
+30dB combined topic extraction, sentiment detection, social networking, and search to aggregate real-time crowd opinion.
 
 #### Technical Leadership
 
@@ -260,7 +257,7 @@ Real-time crowd opinion aggregation platform combining topic extraction, sentime
 
 *Cofounder, Chief Technology Officer*
 
-Market research company converting unsolicited online opinions into actionable insights through proprietary NLP and machine learning. Acquired by JD Powers and Associates in 2008.
+Umbria converted unsolicited online opinions into actionable market research through the application of proprietary natural language processing and machine learning algorithms for topic extraction, sentiment analysis, and author demographic classification.
 
 #### Technology Focus
 
@@ -318,7 +315,7 @@ Market research company converting unsolicited online opinions into actionable i
 
 *Cofounder, Chief Technology Officer*
 
-Early-stage startup developing private desktop recommendation engine for news, blogs, books, and advertising based on internet activity.
+Green Planet Software, an early-stage startup, developed a private, desktop recommendation engine for news, blogs, books, and advertising based on internet activity.
 
 #### Technical Contributions
 
@@ -348,7 +345,7 @@ Early-stage startup developing private desktop recommendation engine for news, b
 
 *Software Architect*
 
-Medical imaging company developing full-field digital mammography system for acquisition and review over unreliable wide area networks.
+Fischer Imaging developed a full-field digital mammography system for acquisition and review of digital x-rays over unreliable wide area networks.
 
 #### System Architecture
 
@@ -386,7 +383,7 @@ Medical imaging company developing full-field digital mammography system for acq
 
 *Technical Founder, Chief Software Architect*
 
-Combined operational and analytical CRM application using machine learning to predict customer lifecycle events and drive actionable multi-channel results.
+Athene Software developed combined operational and analytical applications, using machine learning to predict customer life-cycle events and drive actionable results via a multi-channel CRM.
 
 #### Leadership Role
 
@@ -430,7 +427,7 @@ Combined operational and analytical CRM application using machine learning to pr
 
 *Cofounder / Principal Consultant*
 
-Boulder, Colorado software consultancy founded with database and machine learning thought-leader Richard Wolniewicz, Ph.D.
+Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D. Responsibilities included lead generation, financial obligations, and client projects.
 
 #### Business Responsibilities
 
@@ -472,7 +469,7 @@ Boulder, Colorado software consultancy founded with database and machine learnin
 
 *Principal Engineer (1994-1996), Software Engineer (1992-1994)*
 
-Pioneer in cross-platform GUI development tools for C and C++. Winner of prestigious Jolt Cola Award.
+XVT Software pioneered cross-platform GUI development tools for C and C++ application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
 #### Principal Engineer (1994-1996)
 
@@ -510,7 +507,7 @@ Pioneer in cross-platform GUI development tools for C and C++. Winner of prestig
 
 *Software Engineer*
 
-Cross-platform meta-modeling software design tool, Paradigm Plus, supporting multiple notations and methods.
+ProtoSoft produced a cross-platform meta-modeling software design tool, ParadigmPlus, supporting a variety of notations and methods.
 
 #### Technical Contributions
 
