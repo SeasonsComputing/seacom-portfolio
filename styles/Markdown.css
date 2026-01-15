@@ -1,0 +1,121 @@
+/*************************************
+  MarkdownLayout
+ *************************************/
+
+ .MarkdownLayout {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+}
+
+/*************************************
+  MarkdownCard
+ *************************************/
+
+.MarkdownCard {
+  width: 100%;
+  overflow: hidden;
+  padding: var(--sc-gap);
+  background: #0a0a0a33;
+  border: var(--sc-border-card);
+  border-radius: var(--sc-radius-medium);
+  backdrop-filter: var(--sc-blur-bg);
+}
+
+
+/*************************************
+  MarkdownContent
+ *************************************/
+
+.MarkdownContent p {
+  line-height: 1.6;
+  margin-block: 16px 24px;
+  font-size: 1rem;
+}
+
+.MarkdownContent h1 {
+  color: #ffffff;
+  font-size: 1.65em;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+
+.MarkdownContent h2 {
+  color: #f43971;
+  font-size: 1.35em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.MarkdownContent h3 {
+  color: #00b0f0;
+  font-size: 1.15em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.MarkdownContent h4,
+.MarkdownContent h5 {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.MarkdownContent h4 {
+  color: #30a5fa;
+}
+
+.MarkdownContent h5 {
+  color: #90a5fa;
+}
+
+.MarkdownContent hr {
+  visibility: hidden;
+}
+
+.MarkdownContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.MarkdownContent thead {
+  background: var(--sc-gradient-blue);
+}
+
+.MarkdownContent th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: white;
+}
+
+.MarkdownContent td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #334155;
+  line-height: 1.6
+}
+
+.MarkdownContent tr:hover {
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+.MarkdownContent ul {
+  padding-inline-start: 24px;
+  line-height: 1.6
+}
+
+.MarkdownContent a {
+  color: #d0d0d0;
+  text-decoration: underline dashed 1px;
+  text-underline-offset: 4px;
+}
+
+.MarkdownContent a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
