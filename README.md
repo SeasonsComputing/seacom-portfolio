@@ -3,8 +3,9 @@
 ## Overview
 
 This project is a single-page portfolio website for Ted V. Kremer, operating
-under the brand "Seasons Computing". It showcases professional experience,
-services, and contact information through a modern, responsive web interface.
+under the brand "Seasons Computing", plus a markdown resume viewer. It
+showcases professional experience, services, and contact information through a
+modern, responsive web interface.
 
 ## Getting Started
 
@@ -15,6 +16,8 @@ services, and contact information through a modern, responsive web interface.
 2. Open `http://localhost:8000/` to verify the page loads, the hero carousel
    auto-advances, and the indicator dots respond to clicks. Avoid `file://`
    since fonts will fail to load due to CORS.
+3. Open `http://localhost:8000/markdown.html?tvk-resume-2026.md` to view the
+   markdown resume and its generated index.
 
 ## Technology Stack
 
@@ -32,6 +35,7 @@ services, and contact information through a modern, responsive web interface.
 seacom-portfolio/
 ├── README.md
 ├── index.html                 # Main HTML entry point
+├── markdown.html              # Markdown resume viewer
 ├── assets/                    # Static assets
 │   ├── Comfortaa-Regular.woff2
 │   ├── favicon.png
@@ -40,11 +44,17 @@ seacom-portfolio/
 │   └── Varino-Regular.woff2
 ├── modules/                   # JavaScript modules
 │   ├── Carousel.js
+│   ├── Markdown.js
 │   ├── utils.js
 │   └── Website.js
-└── styles/                    # CSS stylesheets
-    ├── Carousel.css
-    └── index.css
+├── styles/                    # CSS stylesheets
+│   ├── Carousel.css
+│   ├── Markdown.css
+│   └── index.css
+├── tvk-resume-2026.md          # Markdown resume content
+├── .markdownlint.json          # Markdown lint rules
+├── .cspell.json                # Spellcheck dictionary
+└── .vscode/settings.json       # Editor settings
 ```
 
 ## Architecture Patterns
@@ -58,6 +68,8 @@ components:
   state management
 - **Carousel Class**: Component-based architecture for interactive carousel
   functionality
+- **Markdown Utilities**: Load markdown, render HTML, and build a numbered
+  table of contents for the resume viewer
 
 ### CSS Design System
 
@@ -83,6 +95,12 @@ A comprehensive design system built with CSS custom properties:
 - Supports manual navigation via indicator buttons
 - Uses CSS transforms for smooth animations
 
+#### Markdown Viewer
+
+- Loads markdown content via fetch and renders it to HTML
+- Builds a numbered index from section headings
+- Adds a mobile menu for the index on smaller screens
+
 ## Key Features
 
 - **Responsive Design**: Mobile-first approach with fluid typography and
@@ -91,11 +109,14 @@ A comprehensive design system built with CSS custom properties:
 - **Accessibility**: ARIA attributes and keyboard navigation support
 - **Performance**: Font preloading and optimized asset loading
 - **Visual Effects**: CSS animations, gradients, and backdrop filters
+- **Resume Viewer**: Markdown-powered resume with a linked index
 
 ## Development Notes
 
 - Keep preload `href`s in `index.html` aligned with `@font-face` `src` URLs in
   `styles/index.css`.
+- When updating the resume, verify `markdown.html?tvk-resume-2026.md` renders
+  headings and index anchors correctly.
 - CSS variables drive spacing, colors, and typography; tweak them in `:root`
   and check responsive overrides.
 - If you change carousel markup, keep ARIA roles/labels in sync with
