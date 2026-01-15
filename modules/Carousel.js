@@ -1,8 +1,9 @@
-import { $, $$ } from './utils.js';
+/**
+ * Carousel module for managing image/content slideshows with automatic progression.
+ * @module Carousel
+ */
 
-/*************************************
-  Carousel
- *************************************/
+import { $, $$ } from './utils.js';
 
 /**
  * Carousel component for managing slide transitions and navigation.

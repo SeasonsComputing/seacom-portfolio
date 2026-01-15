@@ -1,17 +1,13 @@
-import Carousel from './Carousel.js';
+/**
+ * Website application module providing singleton access to core site functionality.
+ * @module Website
+ */
 
-/*************************************
-  Website Application Singleton
- *************************************/
+import Carousel from './Carousel.js';
 
 /**
  * Singleton class managing the website application.
  * Handles initialization of components and provides global access to the application instance.
- *
- * @example
- * Website.bootstrap();
- * // Later in code:
- * const app = Website.the;
  */
 export default class Website {
   /** @static @private {Website} Singleton instance */
@@ -26,6 +22,7 @@ export default class Website {
    */
   #init() {
     this.#heroCarousel.init();
+    document.body.style.opacity = "1"
   }
 
   /**
@@ -47,7 +44,6 @@ export default class Website {
     if (Website.#the) console.error("bootstrap() already completed!");
     
     Website.#the = new Website();
-    window.addEventListener('DOMContentLoaded', () => Website.the.#init());
-    window.addEventListener('DOMContentLoaded', () => document.body.style.opacity = "1");
+    self.addEventListener('DOMContentLoaded', () => Website.the.#init());
   }
 }
