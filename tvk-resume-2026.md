@@ -532,7 +532,7 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 ### 7.2 Interests
 
-- Music (musician)
+- Music ([musician](https://soundcloud.com/tedvkremer))
 - Gastronomy
 - Horticulture
 - History
