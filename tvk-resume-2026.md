@@ -12,7 +12,7 @@ Between ventures, I return to Seasons Computing, my independent consultancy, whe
 
 ## 1. Contact Information
 
-| Field    | Details                        |
+| Contact  | Details                        |
 | -------- | ------------------------------ |
 | Name     | Ted V. Kremer                  |
 | Email    | <ted@seasonscomputing.com>     |
@@ -85,7 +85,7 @@ I am driven by a few first principles that have always served me well. For examp
 
 ### 4.1 US 20080215607
 
-| Field     | Details                                                                                                           |
+| Patent    | Details                                                                                                           |
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
 | Patent    | "Tribe or group-based analysis of social media including generating intelligence from a tribe's weblogs or blogs" |
 | Inventors | Ted V Kremer, et al                                                                                               |
@@ -94,7 +94,7 @@ I am driven by a few first principles that have always served me well. For examp
 
 ### 4.2 US 20060053156
 
-| Field     | Details                                                                                  |
+| Patent    | Details                                                                                  |
 | --------- | ---------------------------------------------------------------------------------------- |
 | Patent    | "Systems and methods for developing intelligence from information existing on a network" |
 | Inventors | Ted V Kremer, et al                                                                      |
@@ -103,7 +103,7 @@ I am driven by a few first principles that have always served me well. For examp
 
 ### 4.3 US 7639780, US 20040114714, US 20080279439, US 7406150
 
-| Field     | Details                                                                      |
+| Patent    | Details                                                                      |
 | --------- | ---------------------------------------------------------------------------- |
 | Patent    | "Distributed architecture for mammographic image acquisition and processing" |
 | Inventors | Ted V Kremer, et al                                                          |
@@ -127,7 +127,7 @@ Services include roles as technology executive, software architect, full-stack d
 - SDLC function management and optimization
 - Technology marketing and digital strategy
 
-#### Client Projects
+#### Client Projects (Seasons Computing)
 
 ##### MedCAD (2024-2025)
 
@@ -439,31 +439,31 @@ Flatirons Computing was a Boulder Colorado-based software consultancy founded wi
 
 ##### HeurisTec
 
-| Field        | Details                                      |
+| Heuristec    | Details                                      |
 | ------------ | -------------------------------------------- |
 | Project      | SuperSked for Windows scheduling application |
 | Technologies | C++, MFC, ODBC, Visual Basic, ActiveX        |
 
 ##### Qwest Communications
 
-| Field        | Details                                                  |
-| ------------ | -------------------------------------------------------- |
-| Project      | Network Operations Center (NOC) work request application |
-| Technologies | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
+| Qwest Communications  | Details                                                  |
+| --------------------- | -------------------------------------------------------- |
+| Project               | Network Operations Center (NOC) work request application |
+| Technologies          | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
 
 ##### TransLogic
 
-| Field        | Details                                           |
+| TransLogic   | Details                                           |
 | ------------ | ------------------------------------------------- |
 | Project      | Scheduling application for pneumatic tube systems |
 | Technologies | C++, XVT-Power++                                  |
 
 ##### Blue Cross/Blue Shield
 
-| Field        | Details                      |
-| ------------ | ---------------------------- |
-| Project      | Asset management application |
-| Technologies | C++, MFC                     |
+| Blue Cross/Blue Shield | Details                           |
+| ---------------------- | --------------------------------- |
+| Project                | Asset management application      |
+| Technologies           | C++, Microsoft Foundation Classes |
 
 ### 5.10 XVT Software (1992-1996)
 
@@ -552,7 +552,7 @@ Started writing accounting software on the TRS-80 at age 10 for father's softwar
 
 ### 7.3 Personal Background
 
-| Field     | Details                                                                                    |
+| Personal  | Details                                                                                    |
 | --------- | ------------------------------------------------------------------------------------------ |
 | Born      | February 8, 1971, Akron, Ohio                                                              |
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
