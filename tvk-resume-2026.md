@@ -518,24 +518,16 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Diagramming capabilities | Supported multiple notation systems    |
 | Model persistence        | Database integration for model storage |
 
-## 6. Career Origins
-
-### 6.1 Early Career (1980s)
-
-Started writing accounting software on the TRS-80 at age 10 for father's software startup. No games — all business from day one.
-
-- Foundation in entrepreneurship and shipping production code
-- Strong work ethic
-- Passion for technology and creativity
-- Drive for excellence and achievement
-
-## 7. Personal Attributes
+## 7. Personal Qualities
 
 ### 7.1 Work Style
 
+- Foundation in entrepreneurship
 - Strong work ethic
-- Perfectionist approach to quality
-- Optimistic outlook
+- Passion for technology and creativity
+- Drive for excellence and achievement
+- Perfectionist approach to software, inside and out
+- Optimistic, smart, creative
 - Perpetual learner and early technology adopter
 
 ### 7.2 Interests
@@ -556,7 +548,7 @@ Started writing accounting software on the TRS-80 at age 10 for father's softwar
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
 | Relocated | Boulder, Colorado (1992)                                                                   |
 
-## 8. Notable Achievements
+### 7.4 Notable Achievements
 
 | Achievement          | Details                                                                                                  |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -567,23 +559,23 @@ Started writing accounting software on the TRS-80 at age 10 for father's softwar
 | Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
 | Technical Innovation | Early adoption of ML/NLP (2003), cloud computing (2008), distributed systems, microservices architecture |
 
-## 9. Career Themes
+## 8. Career Themes
 
-### 9.1 Technology Evolution Leadership
+### 8.1 Technology Evolution Leadership
 
 - Championed paradigm shifts in programming (OO, dynamic, functional)
 - Early adopter of distributed processing and cloud computing
 - Pioneer in unstructured data storage, machine learning, NLP applications
 - Advocate for modern architectural patterns (microservices, REST, SPA)
 
-### 9.2 Methodological Advancement
+### 8.2 Methodological Advancement
 
 - Unified Process implementation
 - Agile methodology adoption
 - DevOps and CI/CD ascension
 - SDLC best practices
 
-### 9.3 Business Impact
+### 8.3 Business Impact
 
 - Executive technology strategy and execution
 - Investor and customer technical presentations
