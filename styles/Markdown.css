@@ -97,7 +97,6 @@
   font-size: 1.65em;
   font-weight: 700;
   padding-bottom: 0.5em;
-  line-height: 1.6;
 }
 
 .MarkdownContent h2 {
@@ -105,7 +104,6 @@
   font-size: 1.35em;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  line-height: 1.6;
 }
 
 .MarkdownContent h3 {
@@ -113,7 +111,6 @@
   font-size: 1.15em;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  line-height: 1.6;
 }
 
 .MarkdownContent h4,
@@ -121,7 +118,6 @@
   font-size: 1em;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  line-height: 1.6;
 }
 
 .MarkdownContent h4 {
@@ -130,6 +126,7 @@
 
 .MarkdownContent h5 {
   color: #90a5fa;
+  line-height: 1.6;
 }
 
 .MarkdownContent hr {
