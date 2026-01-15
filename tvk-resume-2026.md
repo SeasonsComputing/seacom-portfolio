@@ -524,8 +524,6 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 Started writing accounting software on the TRS-80 at age 10 for father's software startup. No games — all business from day one.
 
-#### 6.1.1 This Formative Experience Established
-
 - Foundation in entrepreneurship and shipping production code
 - Strong work ethic
 - Passion for technology and creativity
