@@ -2,7 +2,7 @@
 
 Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
 
-I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early immersion revealed a passion for entrepreneurship and technology that drives me still.
+I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early experience revealed a passion for entrepreneurship and technology that drives me still.
 
 Over four decades as a serial entrepreneur, I've founded and led half-a-dozen companies, authored novel innovations awarded patent protection, and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented/dynamic/functional programming, to SQL/OLAP/NoSQL/Text, to distributed processing & cloud computing, to machine learning & NLP, to CMM/UML/Agile—one principle has remained constant: engineering discipline as the foundation of the creative software process.
 
@@ -15,11 +15,11 @@ Between ventures, I return to Seasons Computing, my independent consultancy, whe
 | Contact  | Details                        |
 | -------- | ------------------------------ |
 | Name     | Ted V. Kremer                  |
-| Email    | <ted@seasonscomputing.com>     |
+| Email    | ted@seasonscomputing.com       |
 | Phone    | +1 (469) 940-8848              |
-| Location | Dallas & Denver                |
+| Location | Dallas, Texas                  |
 | Company  | Seasons Computing              |
-| Website  | <https://seasonscomputing.com> |
+| Website  | seasonscomputing.com           |
 
 ## 2. Professional Summary
 
@@ -574,8 +574,8 @@ Started writing accounting software on the TRS-80 at age 10 for father's softwar
 ### 9.1 Technology Evolution Leadership
 
 - Championed paradigm shifts in programming (OO, dynamic, functional)
-- Early adopter of unstructured data storage and cloud computing
-- Pioneer in distributed processing and machine learning applications
+- Early adopter of distributed processing and cloud computing
+- Pioneer in unstructured data storage, machine learning, NLP applications
 - Advocate for modern architectural patterns (microservices, REST, SPA)
 
 ### 9.2 Methodological Advancement
