@@ -122,5 +122,12 @@ export class Markdown {
       const headers = $$(`h${i.level}`, contentDiv);
       headers.forEach(h => toAnchor(h, i, a));
     })
+
+    // Responsive menu handlers
+    const menuBtn = $('.MarkdownMenuButton');
+    const toggleMenu = () => document.body.classList.toggle('menu-open');
+    const closeMenu = () => document.body.classList.remove('menu-open');
+    menuBtn?.addEventListener('click', toggleMenu);
+    $$('a', indexDiv).forEach(a => a.addEventListener('click', closeMenu));
   }
 }
