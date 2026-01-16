@@ -132,7 +132,7 @@ I am driven by a few first principles that have always served me well. For examp
 | --------- | ----------------------------------------------------------------------------------- |
 | Title     | Systems and methods for classifying user content in a social networking environment |
 | Inventors | Theodore V. Kremer, Dana Ziv                                                        |
-| Assignee  | J.D. Powers & Associates                                                            |
+| Assignee  | J.D. Power                                                                          |
 | Filed     | December 29, 2006                                                                   |
 | Issued    | January 8, 2013                                                                     |
 | Summary   | Systems for categorizing and analyzing user posts in social networks                |
@@ -346,7 +346,7 @@ Umbria converted unsolicited online opinions into actionable market research thr
 #### Liquidity Event
 
 - Successful Acquisition
-- JD Powers and Associates
+- J.D. Power
 - 2008
 
 ### 5.6 Green Planet Software (2003)
@@ -605,8 +605,8 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Achievement          | Details                                                                                                  |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
 | Serial Entrepreneur  | Multiple startups from inception                                                                         |
-| Patent Portfolio     | 5 issued patents across 2 families: medical imaging (Hologic) and social media analytics (J.D. Powers)   |
-| Acquisition Success  | Led technology for company acquired by JD Powers                                                         |
+| Patent Portfolio     | 5 issued patents across 2 families: medical imaging (Hologic) and social media analytics (J.D. Power)    |
+| Acquisition Success  | Led technology for company acquired by J.D. Power                                                        |
 | Industry Recognition | Jolt Cola Award, Boulder Colorado Innovators Award                                                       |
 | Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
 | Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
