@@ -74,32 +74,68 @@ I am driven by a few first principles that have always served me well. For examp
 
 ## 4. Patent Portfolio
 
-### 4.1 US 20080215607
+### 4.1 Medical Imaging Patents
 
-| Patent    | Details                                                                                                           |
-| --------- | ----------------------------------------------------------------------------------------------------------------- |
-| Patent    | "Tribe or group-based analysis of social media including generating intelligence from a tribe's weblogs or blogs" |
-| Inventors | Ted V Kremer, et al                                                                                               |
-| Company   | Umbria                                                                                                            |
-| Date      | September 2008                                                                                                    |
+*Fischer Imaging / Hologic Inc. (2003–2010)*
 
-### 4.2 US 20060053156
+#### US 7,702,142 B2 - Distributed imaging system
 
-| Patent    | Details                                                                                  |
-| --------- | ---------------------------------------------------------------------------------------- |
-| Patent    | "Systems and methods for developing intelligence from information existing on a network" |
-| Inventors | Ted V Kremer, et al                                                                      |
-| Company   | Umbria                                                                                   |
-| Date      | March 2006                                                                               |
+| Patent    | Details                                                                   |
+| --------- | ------------------------------------------------------------------------- |
+| Title     | Distributed imaging system                                                |
+| Inventors | Theodore V. Kremer, Morgan W. Nields, et al                               |
+| Assignee  | Hologic Inc.                                                              |
+| Filed     | March 27, 2003                                                            |
+| Issued    | April 20, 2010                                                            |
+| Summary   | Distributed system for handling medical images over networks              |
 
-### 4.3 US 7639780, US 20040114714, US 20080279439, US 7406150
+#### US 7,627,363 B2 - Distributed architecture for mammographic image acquisition and processing
 
-| Patent    | Details                                                                      |
-| --------- | ---------------------------------------------------------------------------- |
-| Patent    | "Distributed architecture for mammographic image acquisition and processing" |
-| Inventors | Ted V Kremer, et al                                                          |
-| Company   | Hologic                                                                      |
-| Date      | December 2005                                                                |
+| Patent    | Details                                                                   |
+| --------- | ------------------------------------------------------------------------- |
+| Title     | Distributed architecture for mammographic image acquisition and processing|
+| Inventors | Theodore V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al            |
+| Assignee  | Hologic Inc.                                                              |
+| Filed     | March 27, 2003                                                            |
+| Issued    | December 1, 2009                                                          |
+| Summary   | Multi-node architectures for mammogram processing                         |
+
+### 4.2 Social Media Analytics Patents
+
+*Umbria Inc. / J.D. Power (2006–2013)*
+
+#### US 8,175,678 B2 - Automated detection of user or brand deception
+
+| Patent    | Details                                                                   |
+| --------- | ------------------------------------------------------------------------- |
+| Title     | Automated detection of user or brand deception                            |
+| Inventors | Theodore V. Kremer, Dana Ziv                                              |
+| Assignee  | J.D. Power                                                                |
+| Filed     | November 25, 2008                                                         |
+| Issued    | May 8, 2012                                                               |
+| Summary   | Algorithms for detecting deceptive content in user-generated media        |
+
+#### US 8,386,316 B2 - Systems and methods for locating product URLs
+
+| Patent    | Details                                                                   |
+| --------- | ------------------------------------------------------------------------- |
+| Title     | Systems and methods for locating product URLs                             |
+| Inventors | Theodore V. Kremer, Dana Ziv                                              |
+| Assignee  | J.D. Power                                                                |
+| Filed     | December 29, 2006                                                         |
+| Issued    | February 26, 2013                                                         |
+| Summary   | Methods for extracting and classifying product links from social content  |
+
+#### US 8,352,400 B2 - Systems and methods for classifying user content in a social networking environment
+
+| Patent    | Details                                                                             |
+| --------- | ----------------------------------------------------------------------------------- |
+| Title     | Systems and methods for classifying user content in a social networking environment |
+| Inventors | Theodore V. Kremer, Dana Ziv                                                        |
+| Assignee  | J.D. Powers & Associates                                                            |
+| Filed     | December 29, 2006                                                                   |
+| Issued    | January 8, 2013                                                                     |
+| Summary   | Systems for categorizing and analyzing user posts in social networks                |
 
 ## 5. Professional Experience
 
@@ -112,7 +148,7 @@ Services include roles as technology executive, software architect, full-stack d
 
 #### Service Offerings
 
-- Technology executive guidance and strategic planning
+- Executive technology guidance and strategic planning
 - Software architecture design and implementation
 - Full-stack development (frontend and backend)
 - SDLC function management and optimization
@@ -123,6 +159,17 @@ Services include roles as technology executive, software architect, full-stack d
 ##### MedCAD (2024-2025)
 
 MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, patient-matched plating, surgical planning and 3D modeling products and services.
+
+**Products**
+
+In-house proprietary workflow & coordination system for the patient, CAD, Surgeon, Manufacturing and production
+
+**Deliverables**
+
+- Lean agile process maximizing cadence
+- Laravel feature delivery
+- Dockerized packaging & deployment
+- Next-gen creative input spanning tech stack, APIs, libraries, and services
 
 ##### Drum Free Experience (2024), Farm Best Feed (2019), Hometown Boys Construction (2018), Underground Nutrientz (2017), Venice Nail Salon (2016), Roofics (2015)
 
@@ -523,7 +570,7 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 ### 6.2 Interests
 
-- Music ([musician](https://soundcloud.com/tedvkremer))
+- [Musician](https://soundcloud.com/tedvkremer)
 - Gastronomy
 - Horticulture
 - History
@@ -548,7 +595,6 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 ### 6.5 Business Impact
 
-- Culture of excellence
 - Executive technology strategy and execution
 - Investor and customer technical communications
 - Acquisition readiness and due diligence
@@ -558,8 +604,8 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 | Achievement          | Details                                                                                                  |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Serial Entrepreneur  | Multiple startups from inception through exit                                                            |
-| Patent Portfolio     | 3 patent families covering social media analysis, web intelligence, and medical imaging                  |
+| Serial Entrepreneur  | Multiple startups from inception                                                                         |
+| Patent Portfolio     | 5 issued patents across 2 families: medical imaging (Hologic) and social media analytics (J.D. Powers)   |
 | Acquisition Success  | Led technology for company acquired by JD Powers                                                         |
 | Industry Recognition | Jolt Cola Award, Boulder Colorado Innovators Award                                                       |
 | Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
