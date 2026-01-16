@@ -94,20 +94,20 @@
 
 .MarkdownContent h1 {
   color: #ffffff;
-  font-size: 1.65em;
+  font-size: 1.6em;
   font-weight: 700;
   padding-bottom: 0.5em;
 }
 
 .MarkdownContent h2 {
-  color: #f43971;
-  font-size: 1.35em;
+  color: #ffffff;
+  font-size: 1.3em;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
 
 .MarkdownContent h3 {
-  color: #00b0f0;
+  color: #f43971;
   font-size: 1.15em;
   margin-top: 1em;
   margin-bottom: 0.5em;
