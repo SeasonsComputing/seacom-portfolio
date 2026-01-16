@@ -74,6 +74,8 @@ I am driven by a few first principles that have always served me well. For examp
 
 ## 4. Patent Portfolio
 
+### 4.1 US 20080215607
+
 | Patent    | Details                                                                                                           |
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
 | Patent    | "Tribe or group-based analysis of social media including generating intelligence from a tribe's weblogs or blogs" |
