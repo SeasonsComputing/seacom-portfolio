@@ -518,9 +518,9 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Diagramming capabilities | Supported multiple notation systems    |
 | Model persistence        | Database integration for model storage |
 
-## 7. Personal Qualities
+## 6. Personal Qualities
 
-### 7.1 Work Style
+### 6.1 Work Style
 
 - Foundation in entrepreneurship
 - Strong work ethic
@@ -530,7 +530,7 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 - Optimistic, smart, creative
 - Perpetual learner and early technology adopter
 
-### 7.2 Interests
+### 6.2 Interests
 
 - Music ([musician](https://soundcloud.com/tedvkremer))
 - Gastronomy
@@ -540,7 +540,7 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 - Space exploration
 - Design
 
-### 7.3 Personal Background
+### 6.3 Background
 
 | Personal  | Details                                                                                    |
 | --------- | ------------------------------------------------------------------------------------------ |
@@ -548,7 +548,7 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
 | Relocated | Boulder, Colorado (1992)                                                                   |
 
-### 7.4 Notable Achievements
+### 6.4 Notable Achievements
 
 | Achievement          | Details                                                                                                  |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -559,24 +559,16 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
 | Technical Innovation | Early adoption of ML/NLP (2003), cloud computing (2008), distributed systems, microservices architecture |
 
-## 8. Career Themes
-
-### 8.1 Technology Evolution Leadership
+### 6.5 Technology Leadership
 
 - Championed paradigm shifts in programming (OO, dynamic, functional)
 - Early adopter of distributed processing and cloud computing
 - Pioneer in unstructured data storage, machine learning, NLP applications
 - Advocate for modern architectural patterns (microservices, REST, SPA)
 
-### 8.2 Methodological Advancement
+### 6.6 Business Impact
 
-- Unified Process implementation
-- Agile methodology adoption
-- DevOps and CI/CD ascension
-- SDLC best practices
-
-### 8.3 Business Impact
-
+- Culture of excellence
 - Executive technology strategy and execution
 - Investor and customer technical presentations
 - Acquisition readiness and due diligence

@@ -147,14 +147,16 @@
 }
 
 .MarkdownContent th {
-  padding: 12px;
+  padding-block: 12px;
+  padding-inline-start: 8px;
   text-align: left;
   font-weight: 600;
   color: white;
 }
 
 .MarkdownContent td {
-  padding: 10px 12px;
+  padding-block: 8px;
+  padding-inline-start: 8px;
   border-bottom: 1px solid #334155;
   line-height: 1.6
 }
