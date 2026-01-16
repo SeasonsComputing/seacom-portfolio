@@ -83,7 +83,7 @@ I am driven by a few first principles that have always served me well. For examp
 | Patent    | Details                                                                   |
 | --------- | ------------------------------------------------------------------------- |
 | Title     | Distributed imaging system                                                |
-| Inventors | Theodore V. Kremer, Morgan W. Nields, et al                               |
+| Inventors | Ted V. Kremer, Thomas J. Minyard,  Morgan W. Nields, et al                |
 | Assignee  | Hologic Inc.                                                              |
 | Filed     | March 27, 2003                                                            |
 | Issued    | April 20, 2010                                                            |
@@ -94,7 +94,7 @@ I am driven by a few first principles that have always served me well. For examp
 | Patent    | Details                                                                   |
 | --------- | ------------------------------------------------------------------------- |
 | Title     | Distributed architecture for mammographic image acquisition and processing|
-| Inventors | Theodore V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al            |
+| Inventors | Ted V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al                 |
 | Assignee  | Hologic Inc.                                                              |
 | Filed     | March 27, 2003                                                            |
 | Issued    | December 1, 2009                                                          |
@@ -109,7 +109,7 @@ I am driven by a few first principles that have always served me well. For examp
 | Patent    | Details                                                                   |
 | --------- | ------------------------------------------------------------------------- |
 | Title     | Automated detection of user or brand deception                            |
-| Inventors | Theodore V. Kremer, Dana Ziv                                              |
+| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                   |
 | Assignee  | J.D. Power                                                                |
 | Filed     | November 25, 2008                                                         |
 | Issued    | May 8, 2012                                                               |
@@ -120,7 +120,7 @@ I am driven by a few first principles that have always served me well. For examp
 | Patent    | Details                                                                   |
 | --------- | ------------------------------------------------------------------------- |
 | Title     | Systems and methods for locating product URLs                             |
-| Inventors | Theodore V. Kremer, Dana Ziv                                              |
+| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                   |
 | Assignee  | J.D. Power                                                                |
 | Filed     | December 29, 2006                                                         |
 | Issued    | February 26, 2013                                                         |
@@ -131,7 +131,7 @@ I am driven by a few first principles that have always served me well. For examp
 | Patent    | Details                                                                             |
 | --------- | ----------------------------------------------------------------------------------- |
 | Title     | Systems and methods for classifying user content in a social networking environment |
-| Inventors | Theodore V. Kremer, Dana Ziv                                                        |
+| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                             |
 | Assignee  | J.D. Power                                                                          |
 | Filed     | December 29, 2006                                                                   |
 | Issued    | January 8, 2013                                                                     |
@@ -150,8 +150,8 @@ Services include roles as technology executive, software architect, full-stack d
 
 - Executive technology guidance and strategic planning
 - Software architecture design and implementation
-- Full-stack development (frontend and backend)
-- SDLC function management and optimization
+- Full-stack development
+- SDLC management and optimization
 - Technology marketing and digital strategy
 
 #### Client Projects (Seasons Computing)
@@ -160,11 +160,8 @@ Services include roles as technology executive, software architect, full-stack d
 
 MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, patient-matched plating, surgical planning and 3D modeling products and services.
 
-**Products**
-
-In-house proprietary workflow & coordination system for the patient, CAD, Surgeon, Manufacturing and production
-
-**Deliverables**
+Contributed to proprietary system coordinating patient, customer care, CAD, surgeon, manufacturing and sales.
+Deliverables included:
 
 - Lean agile process maximizing cadence
 - Laravel feature delivery
