@@ -40,9 +40,10 @@ I am driven by a few first principles that have always served me well. For examp
 | Category | Details                                                                                              |
 | -------- | ---------------------------------------------------------------------------------------------------- |
 | Primary  | TypeScript, JavaScript, C++, C, PHP, Java                                                            |
-| Frontend | Solid, React, HTML, CSS,                                                                             |
-| Backend  | Deno, Node.js, NestJS, Laravel                                                                       |
-| Legacy   | Ajax, jQuery, Bootstrap, Sprint, Hibernate, Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA |
+| Frontend | Solid, React, HTML, CSS, Ajax, jQuery, Bootstrap, JSP, ASP                                           |
+| Backend  | Deno, Node.js, NestJS, Laravel, WordPress, OpenCart                                                  |
+| Java EE  | Spring, Hibernate, JavaBeans                                                                         |
+| Legacy   | Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA                                             |
 
 ### 3.2 Architecture & Infrastructure
 
@@ -50,40 +51,28 @@ I am driven by a few first principles that have always served me well. For examp
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
 | Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)                                       |
 | Architectural Patterns | Cloud, Microservice, Grid, Client/Server, Single Page Application, Responsive & Adaptive Design |
-| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven                                                       |
+| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented                                        |
+| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                                         |
 
 ### 3.3 Data & Integration
 
 | Category          | Details                                        |
 | ----------------- | ---------------------------------------------- |
-| Databases         | PostgreSQL, MySQL, Oracle, SQL Server, MongoDB |
+| RDBMS             | PostgreSQL, MySQL, Oracle, SQL Server          |
+| NoSQL & Search    | MongoDB, Redis, eXist, Lucene                  |
 | Data Technologies | TypeORM, ODBC/JDBC, JSON, XML, XSLT, XQuery    |
 | APIs              | REST, SOAP                                     |
-| Search & NoSQL    | eXist, Lucene, MongoDB, Redis                  |
 
 ### 3.4 Specialized Domains
 
-| Domain            | Details                                                                 |
-| ----------------- | ----------------------------------------------------------------------- |
-| AI/ML             | Machine Learning, Natural Language Processing, Text Mining, Data Mining |
-| Analytics         | OLAP, Sentiment Analysis, Topic Extraction, Predictive Modeling         |
-| Storage Paradigms | Document-text, Key-value, Message-oriented, Relational, NoSQL           |
-
-### 3.5 Methodologies
-
-| Methodology | Emphasis                                           |
-| ----------- | -------------------------------------------------- |
-| Agile       | Iterative delivery and customer feedback           |
-| XP          | Engineering rigor and continuous improvement       |
-| Scrum       | Cross-functional execution and cadence             |
-| UML         | Shared modeling and communication                  |
-| RUP         | Process discipline and architecture-first thinking |
-| CMM         | Maturity-based quality systems                     |
-| DevOps      | Integrated delivery and operational excellence     |
+| Domain            | Details                                                                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| AI/ML             | Machine Learning, Natural Language Processing, Sentiment Analysis, Topic Extraction, Predictive Modeling |
+| Analytics         | Text Mining, Data Mining, OLAP                                                                           |
+| Storage Paradigms | Document-text, Key-value, Message-oriented, Relational, NoSQL                                            |
+| Process           | Agile, XP, Scrum, UML, RUP, CMM, ISO 9000                                                                |
 
 ## 4. Patent Portfolio
-
-### 4.1 US 20080215607
 
 | Patent    | Details                                                                                                           |
 | --------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -546,30 +535,31 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | --------- | ------------------------------------------------------------------------------------------ |
 | Born      | February 8, 1971, Akron, Ohio                                                              |
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
-| Relocated | Boulder, Colorado (1992)                                                                   |
+| Relocated | Boulder, Colorado in 1992, returning to Texas in 2018                                      |
 
-### 6.4 Notable Achievements
-
-| Achievement          | Details                                                                                                  |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Serial Entrepreneur  | Multiple successful startups from inception through exit                                                 |
-| Patent Portfolio     | 3 patent families covering social media analysis, web intelligence, and medical imaging                  |
-| Acquisition Success  | Led technology for company acquired by JD Powers                                                         |
-| Industry Recognition | Jolt Cola Award winner (XVT Software)                                                                    |
-| Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
-| Technical Innovation | Early adoption of ML/NLP (2003), cloud computing (2008), distributed systems, microservices architecture |
-
-### 6.5 Technology Leadership
+### 6.4 Technology Leadership
 
 - Championed paradigm shifts in programming (OO, dynamic, functional)
 - Early adopter of distributed processing and cloud computing
 - Pioneer in unstructured data storage, machine learning, NLP applications
 - Advocate for modern architectural patterns (microservices, REST, SPA)
 
-### 6.6 Business Impact
+### 6.5 Business Impact
 
 - Culture of excellence
 - Executive technology strategy and execution
-- Investor and customer technical presentations
+- Investor and customer technical communications
 - Acquisition readiness and due diligence
 - Cross-functional team leadership (development, marketing, sales)
+
+### 6.6 Notable Achievements
+
+| Achievement          | Details                                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| Serial Entrepreneur  | Multiple startups from inception through exit                                                            |
+| Patent Portfolio     | 3 patent families covering social media analysis, web intelligence, and medical imaging                  |
+| Acquisition Success  | Led technology for company acquired by JD Powers                                                         |
+| Industry Recognition | Jolt Cola Award, Boulder Colorado Innovators Award                                                       |
+| Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
+| Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
+| Technical Innovation | Early adoption of ML/NLP, cloud computing, distributed systems, microservices architecture               |
