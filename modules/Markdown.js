@@ -44,7 +44,7 @@ export class Markdown {
     });
 
     // Build nested list structure
-    let html = '<nav class="MarkdownIndex"><ul class="MarkdownIndexList">';
+    let html = '<nav><ul class="MarkdownIndexList">';
     let prevLevel = 2; // Start at h2 level
 
     index.forEach((item, index) => {
@@ -99,20 +99,20 @@ export class Markdown {
    * Renders markdown content and index into the given DOM containers.
    * @param {string} filename - filename of markdown to load
    * @param {string} contentId - Selector for the markdown content container.
+   * @param {string} indexId - Selector for the index container.
    * @returns {void}
    */
   static async renderHtml(filename, contentId, indexId) {
     const md = await Markdown.load(filename);
-    const contentDiv = $(contentId);
-    const indexDiv = $(indexId);
 
+    const contentDiv = $(contentId);
     const contentHtml = Markdown.transformContentToHtml(md);
     contentDiv.innerHTML = contentHtml;
 
+    const indexDiv = $(indexId);
     const { html: indexHtml, index } = Markdown.transformIndexToHtml(md);
     indexDiv.innerHTML = indexHtml;
 
-    // Add IDs to content headers for anchor links
     const toAnchor = (h, i, a) =>
       h.textContent.includes(i.sectionNum) &&
       h.textContent.includes(i.title) &&
@@ -123,11 +123,16 @@ export class Markdown {
       headers.forEach(h => toAnchor(h, i, a));
     })
 
-    // Responsive menu handlers
     const menuBtn = $('.MarkdownMenuButton');
     const toggleMenu = () => document.body.classList.toggle('menu-open');
     const closeMenu = () => document.body.classList.remove('menu-open');
-    menuBtn?.addEventListener('click', toggleMenu);
+    menuBtn.addEventListener('click', toggleMenu);
     $$('a', indexDiv).forEach(a => a.addEventListener('click', closeMenu));
+
+    const topBtn = $('#scrollTop');
+    const showTop = () => topBtn.classList.toggle('visible', self.scrollY > 300)
+    const toTop = () => self.scrollTo({ top: 0, behavior: 'smooth' });
+    self.addEventListener('scroll', showTop);
+    topBtn.addEventListener('click', toTop);
   }
 }

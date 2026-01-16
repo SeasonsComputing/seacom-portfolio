@@ -2,7 +2,7 @@
   MarkdownLayout
  *************************************/
 
- .MarkdownLayout {
+.MarkdownLayout {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 2fr;
@@ -16,14 +16,14 @@
 .MarkdownCard {
   width: 100%;
   overflow: hidden;
-  padding: var(--sc-gap);
+  padding: calc(0.75 * var(--sc-gap));
   background: #0a0a0a33;
   border: var(--sc-border-card);
   border-radius: var(--sc-radius-medium);
   backdrop-filter: var(--sc-blur-bg);
 }
 
- 
+
 /*************************************
   MarkdownIndex
  *************************************/
@@ -100,14 +100,14 @@
 }
 
 .MarkdownContent h2 {
-  color: #ffffff;
+  color: #2C9DF3;
   font-size: 1.3em;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
 
 .MarkdownContent h3 {
-  color: #f43971;
+  color: #6472F5;
   font-size: 1.15em;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -121,11 +121,11 @@
 }
 
 .MarkdownContent h4 {
-  color: #30a5fa;
+  color: #B855C0;
 }
 
 .MarkdownContent h5 {
-  color: #90a5fa;
+  color: #EA4AAE;
   line-height: 1.6;
 }
 
@@ -187,12 +187,12 @@
 
 .MarkdownMenuButton {
   display: none;
-  background: none;
+  background: #0a0a0a33;
   border: none;
   cursor: pointer;
   position: fixed;
-  top: 1rem;
-  left: 1rem;
+  top: 0.75rem;
+  left: 0.5rem;
   z-index: 1001;
   width: 24px;
   height: 20px;
@@ -201,18 +201,27 @@
 .MarkdownMenuButton span {
   display: block;
   position: absolute;
-  width: 100%;
+  left: 3px;
+  width: 18px;
   height: 2px;
-  background: #94a3b8;
+  background: #ebeef3;
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.MarkdownMenuButton span:nth-child(1) { top: 0; }
-.MarkdownMenuButton span:nth-child(2) { top: 9px; }
-.MarkdownMenuButton span:nth-child(3) { top: 18px; }
+.MarkdownMenuButton span:nth-child(1) {
+  top: 3px;
+}
+
+.MarkdownMenuButton span:nth-child(2) {
+  top: 9px;
+}
+
+.MarkdownMenuButton span:nth-child(3) {
+  top: 15px;
+}
 
 body.menu-open .MarkdownMenuButton span:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
 }
 
 body.menu-open .MarkdownMenuButton span:nth-child(2) {
@@ -220,7 +229,19 @@ body.menu-open .MarkdownMenuButton span:nth-child(2) {
 }
 
 body.menu-open .MarkdownMenuButton span:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 630px) {
+  .Markdown .Container {
+    padding-inline: 0;
+  }
+
+  .MarkdownContent {
+    padding-block: 0;
+    border-color: transparent;
+    background: transparent;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -243,6 +264,30 @@ body.menu-open .MarkdownMenuButton span:nth-child(3) {
     pointer-events: none;
   }
 
+  .MarkdownContent p,
+  .MarkdownContent th,
+  .MarkdownContent td {
+    font-size: 1em;
+  }
+
+  .MarkdownContent h1 {
+    font-size: 1.1em;
+  }
+
+  .MarkdownContent h2 {
+    font-size: 1.05em;
+  }
+
+  .MarkdownContent h3,
+  .MarkdownContent h4,
+  .MarkdownContent h5 {
+    font-size: 1em;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
   body.menu-open .MarkdownIndex {
     opacity: 1;
     transform: scale(1);
@@ -251,5 +296,77 @@ body.menu-open .MarkdownMenuButton span:nth-child(3) {
 
   .MarkdownMenuButton {
     display: block;
+  }
+}
+
+/*************************************
+  Scroll to Top Button
+ *************************************/
+
+.BtnScrollTop {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  border: none;
+  border-radius: 50%;
+  bottom: 2rem;
+  box-shadow:
+    0 10px 30px rgba(59, 130, 246, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  height: 2.5rem;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
+  right: 2rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 2.5rem;
+  z-index: 1000;
+}
+
+.BtnScrollTop::before {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  content: '';
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: left 0.5s ease;
+  width: 100%;
+}
+
+.BtnScrollTop.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+body.menu-open .BtnScrollTop {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.BtnScrollTop:hover {
+  box-shadow:
+    0 15px 40px rgba(59, 130, 246, 0.4),
+    0 0 40px rgba(139, 92, 246, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+}
+
+.BtnScrollTop:hover::before {
+  left: 100%;
+}
+
+@media (max-width: 450px) {
+  .BtnScrollTop {
+    bottom: 1rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    font-size: 0.8rem;
   }
 }
