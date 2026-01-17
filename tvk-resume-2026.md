@@ -10,16 +10,17 @@ Between ventures, I return to Seasons Computing, my independent consultancy, whe
 
 *But really, I'm just an old-school coder who lives to craft software that is genuinely beautiful inside and out. I love this shit.*
 
-## 1. Contact Information
+## 1. Identity
 
-| Contact  | Details                        |
-| -------- | ------------------------------ |
-| Name     | Ted V. Kremer                  |
-| Email    | ted@seasonscomputing.com       |
-| Phone    | +1 (469) 940-8848              |
-| Location | Dallas, Texas                  |
-| Company  | Seasons Computing              |
-| Website  | seasonscomputing.com           |
+| Information | Details                               |
+| ----------- | ------------------------------------- |
+| Name        | Ted V. Kremer                         |
+| Email       | ted@seasonscomputing.com              |
+| Phone       | +1 (469) 940-8848                     |
+| Location    | Dallas, Texas                         |
+| Company     | Seasons Computing                     |
+| Website     | <https://seasonscomputing.com>        |
+| GitHub      | <https://github.com/SeasonsComputing> |
 
 ## 2. Professional Summary
 
