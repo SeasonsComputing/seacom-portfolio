@@ -4,9 +4,9 @@ Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
 
 I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early experience revealed a passion for entrepreneurship and technology that drives me still.
 
-Over four decades as a serial entrepreneur, I've founded and led half-a-dozen companies, authored novel innovations awarded patent protection, and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented/dynamic/functional programming, to SQL/OLAP/NoSQL/Text, to distributed processing & cloud computing, to machine learning & NLP, to CMM/UML/Agile—one principle has remained constant: engineering discipline as the foundation of the creative software process.
+Over four decades as a serial entrepreneur, I've founded and led half-a-dozen companies, authored novel innovations awarded patent protection and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented/dynamic/functional programming, to SQL/OLAP/NoSQL/Text, to distributed processing & cloud computing, to machine learning & NLP, to CMM/UML/Agile—one principle has remained constant: engineering discipline as the foundation of the creative software process.
 
-Between ventures, I return to Seasons Computing, my independent consultancy, where I provide strategic insight, technical leadership, software architecture, and full-stack development to organizations of all sizes.
+Between ventures, I return to Seasons Computing, my independent consultancy, where I provide strategic insight, technical leadership, software architecture and full-stack development to organizations of all sizes.
 
 *But really, I'm just an old-school coder who lives to craft software that is genuinely beautiful inside and out. I love this shit.*
 
@@ -23,15 +23,21 @@ Between ventures, I return to Seasons Computing, my independent consultancy, whe
 
 ## 2. Professional Summary
 
-Technology executive, software architect, full-stack developer and SDLC manager spanning four decades. Serial entrepreneur with multiple exits, patent portfolio, and deep expertise across all aspects of software construction.
+- Technology executive, software architect, full-stack developer and SDLC manager spanning four decades.
+- Serial entrepreneur; multi patent-family portfolio; expertise across all aspects of software construction.
+- Early adopter of paradigm shifts including object-oriented/dynamic/functional programming, unstructured data storage, cloud computing, distributed processing and machine learning.
 
 ### 2.1 Career Philosophy
 
-Dedicated to building excellent products, teams, and companies through innovation, leadership, and adoption of cutting-edge methodologies. Early adopter of paradigm shifts including object-oriented/dynamic/functional programming, unstructured data storage, cloud computing, distributed processing, and machine learning.
-I am driven by a few first principles that have always served me well. For example:
+Dedicated to building the best possible products, teams, and companies through innovation, leadership and best practices.
+Guided by essential first principles, such as:
 
-- **Less is more**: less design, less features, less code, less UX. Will require less V&V and will contain fewer defects.
-- **Do it right, Do it now**: it's never faster nor cheaper to do it right later. In fact it's worse because often time misjudgment becomes imbued and codified in the source.
+- **Less is more**: less design, fewer features, less code results in fewer defects.
+- **Pareto principle of feature design**: craft the 20% of functionality that satisfies 80% of customer needs.
+- **Better to drop a feature than ship it incomplete**: half-baked features that aren't used and reflect poorly on the whole product are costly construction with bad ROI and reputational damage.
+- **Do it right, do it now**: it's never faster nor cheaper to do it right later. In fact, it's worse because often time misjudgment becomes imbued and codified in the source.
+- **Anyone can write code that works**: writing functional software is expected. Constructing software that is aesthetically beautiful inside and out while adhering to engineering discipline is exceptional.
+- **Leaders set the standard, even when they don't**: implicit behavior sets the standard for the entire team as much as explicit expectations.
 
 ## 3. Core Technical Competencies
 
@@ -144,7 +150,7 @@ I am driven by a few first principles that have always served me well. For examp
 *Founder / Principal Consultant*
 
 Seasons Computing provides software construction services lending four decades of experience to a clientele of startups, SMBs, and enterprises.
-Services include roles as technology executive, software architect, full-stack developer, and manager of SDLC functions.
+Services include roles as technology executive, software architect, full-stack developer and manager of SDLC functions.
 
 #### Service Offerings
 
@@ -158,7 +164,7 @@ Services include roles as technology executive, software architect, full-stack d
 
 ##### MedCAD (2024-2025)
 
-MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, patient-matched plating, surgical planning and 3D modeling products and services.
+MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, plating, surgical planning and 3D modeling products and services.
 
 Contributed to proprietary system coordinating patient, customer care, CAD, surgeon, manufacturing and sales.
 Deliverables included:
@@ -166,7 +172,7 @@ Deliverables included:
 - Lean agile process maximizing cadence
 - Laravel feature delivery
 - Dockerized packaging & deployment
-- Next-gen creative input spanning tech stack, APIs, libraries, and services
+- Next-gen creative input spanning tech stack, APIs, libraries and services
 
 ##### Drum Free Experience (2024), Farm Best Feed (2019), Hometown Boys Construction (2018), Underground Nutrientz (2017), Venice Nail Salon (2016), Roofics (2015)
 
@@ -176,14 +182,14 @@ Responsible for website design & programming and technology marketing including 
 
 *Technical Founder, Chief Technology Officer*
 
-Tapwow develops a cutting-edge platform that transforms the way digital markers (NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of designing, managing, deploying, and analyzing these markers, catering to various industries such as manufacturing, supply chain tracking, product authentication, and user engagement.
+Tapwow develops a cutting-edge platform that transforms the way digital markers (NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of designing, managing, deploying and analyzing these markers, catering to various industries such as manufacturing, supply chain tracking, product authentication and user engagement.
 
 #### Key Responsibilities
 
 - Executive technology strategy and execution
 - System architecture evolution from static 3-tier to dynamic multi-tier model
 - Core component software development
-- Technical presentations to customers, investors, and acquisition prospects
+- Technical presentations to customers, investors and acquisition prospects
 
 #### Technology Stack
 
@@ -263,7 +269,7 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 
 *Cofounder, Chief Technology Officer*
 
-30dB combined topic extraction, sentiment detection, social networking, and search to aggregate real-time crowd opinion.
+30dB combined topic extraction, sentiment detection, social networking and search to aggregate real-time crowd opinion.
 
 #### Technical Leadership
 
@@ -281,7 +287,7 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 #### Vendor Management
 
 - Selected vendors for change management, administration, API libraries
-- Managed hosting, email, and infrastructure providers
+- Managed hosting, email and infrastructure providers
 
 #### Development
 
@@ -292,7 +298,7 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 
 *Cofounder, Chief Technology Officer*
 
-Umbria converted unsolicited online opinions into actionable market research through the application of proprietary natural language processing and machine learning algorithms for topic extraction, sentiment analysis, and author demographic classification.
+Umbria converted unsolicited online opinions into actionable market research through the application of proprietary natural language processing and machine learning algorithms for topic extraction, sentiment analysis and author demographic classification.
 
 #### Technology Focus
 
@@ -350,7 +356,7 @@ Umbria converted unsolicited online opinions into actionable market research thr
 
 *Cofounder, Chief Technology Officer*
 
-Green Planet Software, an early-stage startup, developed a private, desktop recommendation engine for news, blogs, books, and advertising based on internet activity.
+Green Planet Software, an early-stage startup, developed a private, desktop recommendation engine for news, blogs, books and advertising based on internet activity.
 
 #### Technical Contributions
 
@@ -462,7 +468,7 @@ Athene Software developed combined operational and analytical applications, usin
 
 *Cofounder / Principal Consultant*
 
-Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D. Responsibilities included lead generation, financial obligations, and client projects.
+Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D. Responsibilities included lead generation, financial obligations and client projects.
 
 #### Business Responsibilities
 
