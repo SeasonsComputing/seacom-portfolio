@@ -595,8 +595,8 @@ Dedicated to building the best possible products, teams, and companies through i
 | Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
 | Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
 | Technical Innovation | Early adoption of ML/NLP, cloud computing, distributed systems, microservices architecture               |
-| Leadership Skills    | Developed and executed technology strategies for successful software, service, and retail organizations  |
-| Strategic Vision     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
+| Leadership Skills    | Developed and executed technology strategies for successful software, service, anhd retail organizations |
+| Strategic Vision     | Guided companies through significant growth phases (4 to 20+ employees, $50 to 30K daily revenue)        |
 
 ### 5.7 Personal Interests
 
