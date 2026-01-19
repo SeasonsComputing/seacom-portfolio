@@ -61,7 +61,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 
 ## 3. Patents
 
-### 3.1 Medical Imaging Patents
+### 3.1 Medical Imaging
 
 *Fischer Imaging / Hologic Inc. (2003–2010)*
 
@@ -87,7 +87,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 | Issued    | December 1, 2009                                                           |
 | Summary   | Multi-node architectures for mammogram processing                          |
 
-### 3.2 Social Media Analytics Patents
+### 3.2 Social Media Analytics
 
 *Umbria Inc. / J.D. Power (2006–2013)*
 
