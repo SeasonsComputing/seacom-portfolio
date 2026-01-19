@@ -8,7 +8,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 
 *But really, I'm just an old-school coder who lives to craft software that is genuinely beautiful inside and out. I love this shit.*
 
-## 1. Contact Information
+## 1. Contact
 
 | Information | Details                               |
 | ----------- | ------------------------------------- |
@@ -20,7 +20,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 | Website     | <https://seasonscomputing.com>        |
 | GitHub      | <https://github.com/SeasonsComputing> |
 
-## 2. Expertise
+## 2. Skills
 
 ### 2.1 Languages & Frameworks
 
