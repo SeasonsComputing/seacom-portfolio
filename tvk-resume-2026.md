@@ -1,16 +1,14 @@
 # Ted V. Kremer - Professional Experience
 
-Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
+Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2025.md)
 
 I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early experience revealed a passion for entrepreneurship and technology that drives me still.
 
-Over four decades as a serial entrepreneur, I've founded and led half-a-dozen companies, authored novel innovations awarded patent protection and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented/dynamic/functional programming, to SQL/OLAP/NoSQL/Text, to distributed processing & cloud computing, to machine learning & NLP, to CMM/UML/Agile—one principle has remained constant: engineering discipline as the foundation of the creative software process.
-
-Between ventures, I return to Seasons Computing, my independent consultancy, where I provide strategic insight, technical leadership, software architecture and full-stack development to organizations of all sizes.
+Over four decades as a serial entrepreneur, I've founded, co-founded and led half-a-dozen companies, authored novel innovations awarded patent protection, and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented, dynamic, and functional programming to unstructured data and cloud computing to distributed processing and machine learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to disciplined engineering within the creative software process.
 
 *But really, I'm just an old-school coder who lives to craft software that is genuinely beautiful inside and out. I love this shit.*
 
-## 1. Identity
+## 1. Contact Information
 
 | Information | Details                               |
 | ----------- | ------------------------------------- |
@@ -22,37 +20,19 @@ Between ventures, I return to Seasons Computing, my independent consultancy, whe
 | Website     | <https://seasonscomputing.com>        |
 | GitHub      | <https://github.com/SeasonsComputing> |
 
-## 2. Professional Summary
+## 2. Expertise
 
-- Technology executive, software architect, full-stack developer and SDLC manager spanning four decades.
-- Serial entrepreneur; multi patent-family portfolio; expertise across all aspects of software construction.
-- Early adopter of paradigm shifts including object-oriented/dynamic/functional programming, unstructured data storage, cloud computing, distributed processing and machine learning.
+### 2.1 Languages & Frameworks
 
-### 2.1 Career Philosophy
+| Category | Details                                                    |
+| -------- | ---------------------------------------------------------- |
+| Primary  | TypeScript, JavaScript, C++, C, PHP, Java                  |
+| Frontend | Solid, React, HTML, CSS, Ajax, jQuery, Bootstrap, JSP, ASP |
+| Backend  | Deno, Node.js, NestJS, Laravel, WordPress, OpenCart        |
+| Java EE  | Spring, Hibernate, JavaBeans                               |
+| Legacy   | Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA   |
 
-Dedicated to building the best possible products, teams, and companies through innovation, leadership and best practices.
-Guided by essential first principles, such as:
-
-- **Less is more**: less design, fewer features, less code results in fewer defects.
-- **Pareto principle of feature design**: craft the 20% of functionality that satisfies 80% of customer needs.
-- **Better to drop a feature than ship it incomplete**: half-baked features that aren't used and reflect poorly on the whole product are costly construction with bad ROI and reputational damage.
-- **Do it right, do it now**: it's never faster nor cheaper to do it right later. In fact, it's worse because often time misjudgment becomes imbued and codified in the source.
-- **Anyone can write code that works**: writing functional software is expected. Constructing software that is aesthetically beautiful inside and out while adhering to engineering discipline is exceptional.
-- **Leaders set the standard, even when they don't**: implicit behavior sets the standard for the entire team as much as explicit expectations.
-
-## 3. Core Technical Competencies
-
-### 3.1 Languages & Frameworks
-
-| Category | Details                                                                                              |
-| -------- | ---------------------------------------------------------------------------------------------------- |
-| Primary  | TypeScript, JavaScript, C++, C, PHP, Java                                                            |
-| Frontend | Solid, React, HTML, CSS, Ajax, jQuery, Bootstrap, JSP, ASP                                           |
-| Backend  | Deno, Node.js, NestJS, Laravel, WordPress, OpenCart                                                  |
-| Java EE  | Spring, Hibernate, JavaBeans                                                                         |
-| Legacy   | Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA                                             |
-
-### 3.2 Architecture & Infrastructure
+### 2.2 Architecture & Infrastructure
 
 | Category               | Details                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
@@ -61,16 +41,16 @@ Guided by essential first principles, such as:
 | Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented                                        |
 | DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                                         |
 
-### 3.3 Data & Integration
+### 2.3 Data & Integration
 
-| Category          | Details                                        |
-| ----------------- | ---------------------------------------------- |
-| RDBMS             | PostgreSQL, MySQL, Oracle, SQL Server          |
-| NoSQL & Search    | MongoDB, Redis, eXist, Lucene                  |
-| Data Technologies | TypeORM, ODBC/JDBC, JSON, XML, XSLT, XQuery    |
-| APIs              | REST, SOAP                                     |
+| Category          | Details                                     |
+| ----------------- | ------------------------------------------- |
+| RDBMS             | PostgreSQL, MySQL, Oracle, SQL Server       |
+| NoSQL & Search    | MongoDB, Redis, eXist, Lucene               |
+| Data Technologies | TypeORM, ODBC/JDBC, JSON, XML, XSLT, XQuery |
+| APIs              | REST, SOAP                                  |
 
-### 3.4 Specialized Domains
+### 2.4 Specialized Domains
 
 | Domain            | Details                                                                                                  |
 | ----------------- | -------------------------------------------------------------------------------------------------------- |
@@ -79,59 +59,59 @@ Guided by essential first principles, such as:
 | Storage Paradigms | Document-text, Key-value, Message-oriented, Relational, NoSQL                                            |
 | Process           | Agile, XP, Scrum, UML, RUP, CMM, ISO 9000                                                                |
 
-## 4. Patent Portfolio
+## 3. Patents
 
-### 4.1 Medical Imaging Patents
+### 3.1 Medical Imaging Patents
 
 *Fischer Imaging / Hologic Inc. (2003–2010)*
 
 #### US 7,702,142 B2 - Distributed imaging system
 
-| Patent    | Details                                                                   |
-| --------- | ------------------------------------------------------------------------- |
-| Title     | Distributed imaging system                                                |
-| Inventors | Ted V. Kremer, Thomas J. Minyard,  Morgan W. Nields, et al                |
-| Assignee  | Hologic Inc.                                                              |
-| Filed     | March 27, 2003                                                            |
-| Issued    | April 20, 2010                                                            |
-| Summary   | Distributed system for handling medical images over networks              |
+| Patent    | Details                                                      |
+| --------- | ------------------------------------------------------------ |
+| Title     | Distributed imaging system                                   |
+| Inventors | Ted V. Kremer, Thomas J. Minyard,  Morgan W. Nields, et al   |
+| Assignee  | Hologic Inc.                                                 |
+| Filed     | March 27, 2003                                               |
+| Issued    | April 20, 2010                                               |
+| Summary   | Distributed system for handling medical images over networks |
 
 #### US 7,627,363 B2 - Distributed architecture for mammographic image acquisition and processing
 
-| Patent    | Details                                                                   |
-| --------- | ------------------------------------------------------------------------- |
-| Title     | Distributed architecture for mammographic image acquisition and processing|
-| Inventors | Ted V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al                 |
-| Assignee  | Hologic Inc.                                                              |
-| Filed     | March 27, 2003                                                            |
-| Issued    | December 1, 2009                                                          |
-| Summary   | Multi-node architectures for mammogram processing                         |
+| Patent    | Details                                                                    |
+| --------- | -------------------------------------------------------------------------- |
+| Title     | Distributed architecture for mammographic image acquisition and processing |
+| Inventors | Ted V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al                  |
+| Assignee  | Hologic Inc.                                                               |
+| Filed     | March 27, 2003                                                             |
+| Issued    | December 1, 2009                                                           |
+| Summary   | Multi-node architectures for mammogram processing                          |
 
-### 4.2 Social Media Analytics Patents
+### 3.2 Social Media Analytics Patents
 
 *Umbria Inc. / J.D. Power (2006–2013)*
 
 #### US 8,175,678 B2 - Automated detection of user or brand deception
 
-| Patent    | Details                                                                   |
-| --------- | ------------------------------------------------------------------------- |
-| Title     | Automated detection of user or brand deception                            |
-| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                   |
-| Assignee  | J.D. Power                                                                |
-| Filed     | November 25, 2008                                                         |
-| Issued    | May 8, 2012                                                               |
-| Summary   | Algorithms for detecting deceptive content in user-generated media        |
+| Patent    | Details                                                            |
+| --------- | ------------------------------------------------------------------ |
+| Title     | Automated detection of user or brand deception                     |
+| Inventors | Ted V. Kremer, Howard Kaushansky, et al                            |
+| Assignee  | J.D. Power                                                         |
+| Filed     | November 25, 2008                                                  |
+| Issued    | May 8, 2012                                                        |
+| Summary   | Algorithms for detecting deceptive content in user-generated media |
 
 #### US 8,386,316 B2 - Systems and methods for locating product URLs
 
-| Patent    | Details                                                                   |
-| --------- | ------------------------------------------------------------------------- |
-| Title     | Systems and methods for locating product URLs                             |
-| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                   |
-| Assignee  | J.D. Power                                                                |
-| Filed     | December 29, 2006                                                         |
-| Issued    | February 26, 2013                                                         |
-| Summary   | Methods for extracting and classifying product links from social content  |
+| Patent    | Details                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| Title     | Systems and methods for locating product URLs                            |
+| Inventors | Ted V. Kremer, Howard Kaushansky, et al                                  |
+| Assignee  | J.D. Power                                                               |
+| Filed     | December 29, 2006                                                        |
+| Issued    | February 26, 2013                                                        |
+| Summary   | Methods for extracting and classifying product links from social content |
 
 #### US 8,352,400 B2 - Systems and methods for classifying user content in a social networking environment
 
@@ -144,9 +124,9 @@ Guided by essential first principles, such as:
 | Issued    | January 8, 2013                                                                     |
 | Summary   | Systems for categorizing and analyzing user posts in social networks                |
 
-## 5. Professional Experience
+## 4. Experience
 
-### 5.1 Seasons Computing (2014-2018, 2024-2025)
+### 4.1 Seasons Computing (2014-2018, 2024-2025)
 
 *Founder / Principal Consultant*
 
@@ -179,7 +159,7 @@ Deliverables included:
 
 Responsible for website design & programming and technology marketing including mobile strategy & SEO; counseled company ownership on branding strategy; authored original content for marketing communications & messaging.
 
-### 5.2 Tapwow (2019-2023)
+### 4.2 Tapwow (2019-2023)
 
 *Technical Founder, Chief Technology Officer*
 
@@ -238,7 +218,7 @@ Tapwow develops a cutting-edge platform that transforms the way digital markers 
 - Established complete modern development workflow and toolchain
 - Delivered compelling technical presentations driving business development
 
-### 5.3 Grow Big Supply (2012-2014)
+### 4.3 Grow Big Supply (2012-2014)
 
 *Technical Founder, Chief Technology Officer*
 
@@ -266,7 +246,7 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 - Built scalable infrastructure supporting 60x retail growth
 - Integrated diverse technology platforms into cohesive ecosystem
 
-### 5.4 30dB (2010-2011)
+### 4.4 30dB (2010-2011)
 
 *Cofounder, Chief Technology Officer*
 
@@ -295,7 +275,7 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 - Managed development of initial MVP iteration
 - Established development processes and standards
 
-### 5.5 Umbria Communications (2003-2008)
+### 4.5 Umbria Communications (2003-2008)
 
 *Cofounder, Chief Technology Officer*
 
@@ -353,7 +333,7 @@ Umbria converted unsolicited online opinions into actionable market research thr
 - J.D. Power
 - 2008
 
-### 5.6 Green Planet Software (2003)
+### 4.6 Green Planet Software (2003)
 
 *Cofounder, Chief Technology Officer*
 
@@ -383,7 +363,7 @@ Green Planet Software, an early-stage startup, developed a private, desktop reco
 - Client-side machine learning for personalization
 - Cross-platform compatibility strategy
 
-### 5.7 Fischer Imaging (2002-2003)
+### 4.7 Fischer Imaging (2002-2003)
 
 *Software Architect*
 
@@ -421,7 +401,7 @@ Fischer Imaging developed a full-field digital mammography system for acquisitio
 - Multiple patents on distributed mammographic imaging architecture
 - Filed under Hologic (Fischer Imaging acquisition)
 
-### 5.8 Athene Software (1998-2001)
+### 4.8 Athene Software (1998-2001)
 
 *Technical Founder, Chief Software Architect*
 
@@ -465,13 +445,13 @@ Athene Software developed combined operational and analytical applications, usin
 - Web component framework with advanced UI capabilities
 - Business object infrastructure aggregating UI and business rules
 
-### 5.9 Flatirons Computing (1996-1998)
+### 4.9 Flatirons Computing (1996-1998)
 
 *Cofounder / Principal Consultant*
 
-Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D. Responsibilities included lead generation, financial obligations and client projects.
+Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D.
 
-#### Business Responsibilities
+#### Responsibilities
 
 - Lead generation and business development
 - Financial management
@@ -488,10 +468,10 @@ Flatirons Computing was a Boulder Colorado-based software consultancy founded wi
 
 ##### Qwest Communications
 
-| Qwest Communications  | Details                                                  |
-| --------------------- | -------------------------------------------------------- |
-| Project               | Network Operations Center (NOC) work request application |
-| Technologies          | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
+| Qwest Communications | Details                                                  |
+| -------------------- | -------------------------------------------------------- |
+| Project              | Network Operations Center (NOC) work request application |
+| Technologies         | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
 
 ##### TransLogic
 
@@ -507,9 +487,9 @@ Flatirons Computing was a Boulder Colorado-based software consultancy founded wi
 | Project                | Asset management application      |
 | Technologies           | C++, Microsoft Foundation Classes |
 
-### 5.10 XVT Software (1992-1996)
+### 4.10 XVT Software (1992-1996)
 
-*Principal Engineer (1994-1996), Software Engineer (1992-1994)*
+*Principal Engineer (1994-1996), Software Engineer (1992-1994), Technical Support (1992)*
 
 XVT Software pioneered cross-platform GUI development tools for C and C++ application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
@@ -545,11 +525,11 @@ XVT Software pioneered cross-platform GUI development tools for C and C++ applic
 
 - Recipient of XVT Software Award of Excellence (two consecutive years)
 
-### 5.11 ProtoSoft (1990-1992)
+### 4.11 ProtoSoft (1990-1992)
 
 *Software Engineer*
 
-ProtoSoft produced a cross-platform meta-modeling software design tool, ParadigmPlus, supporting a variety of notations and methods.
+ProtoSoft produced a cross-platform meta-modeling software design tool, ParadigmPlus, supporting a variety of notations and methods for the aerospace industry in Clear Lake City, Texas.
 
 #### Technical Contributions
 
@@ -560,29 +540,9 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Diagramming capabilities | Supported multiple notation systems    |
 | Model persistence        | Database integration for model storage |
 
-## 6. Personal Qualities
+## 5. Personal
 
-### 6.1 Work Style
-
-- Foundation in entrepreneurship
-- Strong work ethic
-- Passion for technology and creativity
-- Drive for excellence and achievement
-- Perfectionist approach to software, inside and out
-- Optimistic, smart, creative
-- Perpetual learner and early technology adopter
-
-### 6.2 Interests
-
-- [Musician](https://soundcloud.com/tedvkremer)
-- Gastronomy
-- Horticulture
-- History
-- Science
-- Space exploration
-- Design
-
-### 6.3 Background
+### 5.1 Background
 
 | Personal  | Details                                                                                    |
 | --------- | ------------------------------------------------------------------------------------------ |
@@ -590,21 +550,41 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
 | Relocated | Boulder, Colorado in 1992, returning to Texas in 2018                                      |
 
-### 6.4 Technology Leadership
+### 5.2 Career Philosophy
+
+Dedicated to building the best possible products, teams, and companies through innovation, leadership and best practices. Guided by essential first principles, such as:
+
+- Less is more: less design, fewer features, less code results in fewer defects.
+- Pareto principle of feature design: craft the 20% of functionality that satisfies 80% of customer needs.
+- Better to drop a feature than ship it incomplete: half-baked features that aren't used and reflect poorly on the whole product are costly construction with bad ROI and reputational damage.
+- Do it right, do it now: it's never faster nor cheaper to do it right later. In fact, it's worse because often time misjudgment becomes imbued and codified in the source.
+- Anyone can write code that works: writing functional software is expected. Constructing software that is aesthetically beautiful inside and out while adhering to engineering discipline is exceptional.
+- Leaders set the standard, even when they don't: implicit behavior sets the standard for the entire team as much as explicit expectations.
+
+### 5.3 Ascribed Work Style
+
+- Foundation in entrepreneurship
+- Strong work ethic
+- Passion for technology and creativity
+- Drive for excellence and achievement
+- Perfectionist approach to software, inside and out
+- Perpetual learner and early technology adopter
+
+### 5.4 Technology Leadership
 
 - Championed paradigm shifts in programming (OO, dynamic, functional)
 - Early adopter of distributed processing and cloud computing
 - Pioneer in unstructured data storage, machine learning, NLP applications
 - Advocate for modern architectural patterns (microservices, REST, SPA)
 
-### 6.5 Business Impact
+### 5.5 Business Impact
 
 - Executive technology strategy and execution
 - Investor and customer technical communications
 - Acquisition readiness and due diligence
 - Cross-functional team leadership (development, marketing, sales)
 
-### 6.6 Notable Achievements
+### 5.6 Notable Achievements
 
 | Achievement          | Details                                                                                                  |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -615,3 +595,15 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 | Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
 | Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
 | Technical Innovation | Early adoption of ML/NLP, cloud computing, distributed systems, microservices architecture               |
+| Leadership Skills    | Developed and executed technology strategies for successful software, service, and retail organizations  |
+| Strategic Vision     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
+
+### 5.7 Personal Interests
+
+- [Musician](https://soundcloud.com/tedvkremer)
+- Gastronomy
+- Horticulture
+- History
+- Science
+- Space exploration
+- Design
