@@ -12,13 +12,13 @@ and navigated successful liquidity events. As an early adopter of industry
 paradigm shifts—from object-oriented, dynamic, and functional programming to
 unstructured data and cloud computing, to distributed processing and machine
 learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
-disciplined engineering within the creative software process.
+disciplined engineering within the creative software construction process.
 
-I employ **agentic AI** across the full development stack
+Today, I employ **agentic AI** across the full development stack
 —architecture through deployment—while honoring agile guarantees,
 disciplined engineering and best-practices.
 
-_I'm a seasoned old-school coder who is manic about crafting software that
+_I'm an old-school coder who's manic about crafting software that
 I'm proud of. I love this shit._
 
 ## 1. Contact
