@@ -18,8 +18,8 @@ I employ **agentic AI** across the full development stack
 —architecture through deployment—while honoring agile guarantees,
 disciplined engineering and best-practices.
 
-_But really, I'm just an old-school coder who lives to craft software that is
-genuinely beautiful inside and out. I love this shit._
+_I'm a seasoned old-school coder who is manic about crafting software that
+I'm proud of. I love this shit._
 
 ## 1. Contact
 
