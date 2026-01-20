@@ -10,7 +10,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led
 half-a-dozen companies, authored novel innovations awarded patent protection,
 and navigated successful liquidity events. As an early adopter of industry
 paradigm shifts—from object-oriented, dynamic, and functional programming to
-unstructured data and cloud computing to distributed processing and machine
+unstructured data and cloud computing, to distributed processing and machine
 learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
 disciplined engineering within the creative software process.
 
