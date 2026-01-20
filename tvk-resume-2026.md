@@ -14,6 +14,10 @@ unstructured data and cloud computing, to distributed processing and machine
 learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
 disciplined engineering within the creative software process.
 
+I employ **agentic AI** across the full development stack
+—architecture through deployment—while honoring agile guarantees,
+disciplined engineering and best-practices.
+
 _But really, I'm just an old-school coder who lives to craft software that is
 genuinely beautiful inside and out. I love this shit._
 
