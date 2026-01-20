@@ -135,10 +135,10 @@ export class Markdown {
       h.textContent.includes(i.sectionNum) &&
       h.textContent.includes(i.title) &&
       (h.id = a);
-    index.forEach((i) => {
+    index.forEach(i => {
       const a = `${i.sectionNum}-${i.id}`;
       const headers = $$(`h${i.level}`, contentDiv);
-      headers.forEach((h) => toAnchor(h, i, a));
+      headers.forEach(h => toAnchor(h, i, a));
     });
 
     // Toggle Menu button
@@ -146,12 +146,11 @@ export class Markdown {
     const toggleMenu = () => document.body.classList.toggle("menu-open");
     const closeMenu = () => document.body.classList.remove("menu-open");
     menuBtn.addEventListener("click", toggleMenu);
-    $$("a", indexDiv).forEach((a) => a.addEventListener("click", closeMenu));
+    $$("a", indexDiv).forEach(a => a.addEventListener("click", closeMenu));
 
     // Scroll Top button
     const topBtn = $("#scrollTop");
-    const showTop = () =>
-      topBtn.classList.toggle("visible", self.scrollY > 300);
+    const showTop = () => topBtn.classList.toggle("visible", self.scrollY > 300);
     const toTop = () => self.scrollTo({ top: 0, behavior: "smooth" });
     self.addEventListener("scroll", showTop);
     topBtn.addEventListener("click", toTop);
