@@ -163,9 +163,13 @@
   line-height: 1.6;
 }
 
+.MarkdownContent td:first-child {
+  width: 20%;
+}
+
 .MarkdownContent th:last-child,
 .MarkdownContent td:last-child {
-  width: 75%;
+  padding-inline-end: 1rem;
 }
 
 .MarkdownContent tr:hover {
