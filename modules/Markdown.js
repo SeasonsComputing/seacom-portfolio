@@ -96,6 +96,20 @@ export class Markdown {
   }
 
   /**
+   * Post-processes rendered HTML content by wrapping tables in scrollable containers.
+   * @param {HTMLElement} contentDiv - The container element holding rendered markdown HTML.
+   * @returns {void}
+   */
+  static postProcessContentHtml(contentDiv) {
+    $$("table", contentDiv).forEach((table) => {
+      const scroller = document.createElement("div");
+      scroller.className = "MarkdownContentTableScroller";
+      table.parentNode.insertBefore(scroller, table);
+      scroller.appendChild(table);
+    });
+  }
+
+  /**
    * Renders markdown content and index into the given DOM containers.
    * @param {string} filename - filename of markdown to load
    * @param {string} contentId - Selector for the markdown content container.
@@ -108,6 +122,7 @@ export class Markdown {
     const contentDiv = $(contentId);
     const contentHtml = Markdown.transformContentToHtml(md);
     contentDiv.innerHTML = contentHtml;
+    Markdown.postProcessContentHtml(contentDiv);
 
     const indexDiv = $(indexId);
     const { html: indexHtml, index } = Markdown.transformIndexToHtml(md);
@@ -117,22 +132,23 @@ export class Markdown {
       h.textContent.includes(i.sectionNum) &&
       h.textContent.includes(i.title) &&
       (h.id = a);
-    index.forEach(i => {
-      const a = `${i.sectionNum}-${i.id}`
+    index.forEach((i) => {
+      const a = `${i.sectionNum}-${i.id}`;
       const headers = $$(`h${i.level}`, contentDiv);
-      headers.forEach(h => toAnchor(h, i, a));
-    })
+      headers.forEach((h) => toAnchor(h, i, a));
+    });
 
-    const menuBtn = $('.MarkdownMenuButton');
-    const toggleMenu = () => document.body.classList.toggle('menu-open');
-    const closeMenu = () => document.body.classList.remove('menu-open');
-    menuBtn.addEventListener('click', toggleMenu);
-    $$('a', indexDiv).forEach(a => a.addEventListener('click', closeMenu));
+    const menuBtn = $(".MarkdownMenuButton");
+    const toggleMenu = () => document.body.classList.toggle("menu-open");
+    const closeMenu = () => document.body.classList.remove("menu-open");
+    menuBtn.addEventListener("click", toggleMenu);
+    $$("a", indexDiv).forEach((a) => a.addEventListener("click", closeMenu));
 
-    const topBtn = $('#scrollTop');
-    const showTop = () => topBtn.classList.toggle('visible', self.scrollY > 300)
-    const toTop = () => self.scrollTo({ top: 0, behavior: 'smooth' });
-    self.addEventListener('scroll', showTop);
-    topBtn.addEventListener('click', toTop);
+    const topBtn = $("#scrollTop");
+    const showTop = () =>
+      topBtn.classList.toggle("visible", self.scrollY > 300);
+    const toTop = () => self.scrollTo({ top: 0, behavior: "smooth" });
+    self.addEventListener("scroll", showTop);
+    topBtn.addEventListener("click", toTop);
   }
 }

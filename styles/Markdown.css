@@ -98,13 +98,13 @@
 }
 
 .MarkdownContent h2 {
-  color: #f0f0f0;
+  color: #00b0f0;
   font-size: 1.3em;
   margin-block: 2em 0.5em;
 }
 
 .MarkdownContent h3 {
-  color: #e0e0e0;
+  color: #3b82f6;
   font-size: 1.15em;
   margin-block: 1em 0.5em;
 }
@@ -118,22 +118,29 @@
   font-size: 1em;
   margin-top: 1em;
   margin-bottom: 0.5em;
+  line-height: 1.8;
 }
 
 .MarkdownContent h4 {
-  color: #c0c0c0;
+  color: #ec4899;
 }
 
 .MarkdownContent h5 {
-  color: #b0b0b0;
+  color: #8b5cf6;
+}
+
+.MarkdownContent .MarkdownContentTableScroller {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .MarkdownContent table {
-  width: 85%;
+  width: 100%;
   border-collapse: collapse;
-  margin: 1em 0;
+  margin: 1rem 0;
   background: rgba(255, 255, 255, 0.02);
-  border-radius: 8px;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -142,17 +149,23 @@
 }
 
 .MarkdownContent th {
-  padding: 1rem;
+  padding-block: 1rem;
+  padding-inline-start: 1rem;
+  color: #f0f0f0;
   text-align: left;
   font-weight: 600;
-  color: #f0f0f0;
 }
 
 .MarkdownContent td {
-  padding-block: 8px;
-  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  padding-inline-start: 1rem;
   border-bottom: 1px solid #334155;
   line-height: 1.6;
+}
+
+.MarkdownContent th:last-child,
+.MarkdownContent td:last-child {
+  width: 75%;
 }
 
 .MarkdownContent tr:hover {
@@ -264,6 +277,12 @@ body.menu-open .MarkdownMenuButton span:nth-child(3) {
       opacity 0.25s ease,
       transform 0.25s ease;
     pointer-events: none;
+  }
+
+  .MarkdownContent table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
   }
 
   .MarkdownContent p,
