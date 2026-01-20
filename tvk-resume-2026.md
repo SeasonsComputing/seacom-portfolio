@@ -1,6 +1,6 @@
 # Ted V. Kremer - Professional Experience
 
-Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2025.md)
+Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
 
 I began my professional journey in 1981, writing accounting software on the
 TRS-80 for my father's software startup. That early experience revealed a
@@ -189,7 +189,7 @@ and user engagement.
 - Executive technology strategy and execution
 - System architecture evolution from static 3-tier to dynamic multi-tier model
 - Core component software development
-- Technical presentations to customers, investors and acquisition prospects
+- Technical presentations to customers, investors and acquirers
 
 #### Technology Stack
 
@@ -231,18 +231,19 @@ and user engagement.
 | Documentation      | Confluence |
 | Project Management | Jira       |
 
-#### Achievements
+#### Achievements & Exit
 
-- Successfully transitioned architecture to scalable, generalized platform
-- Established complete modern development workflow and toolchain
-- Delivered compelling technical presentations driving business development
+- When Covid forced Tapwow to scale back operations, the team was reduced to the original founders and myself as the sole technical resource
+- I assumed all software development roles—architect, DevOps, full-stack developer, tester, and project manager
+- Over six months, I refactored the entire architecture and delivered a major 2.0 release with substantial features and improvements across the solution
+- Post-pandemic, I presented the architecture and new features directly to investors and acquirers during liquidity discussions, which proved instrumental in securing a white-label licensing agreement
 
 ### 4.3 Grow Big Supply (2012-2014)
 
 _Technical Founder, Chief Technology Officer_
 
 Grow Big Supply, an innovative retail hydroponics supply company, was the
-largest and only 24x7 brick & mortar hydroponics superstore in North America.
+largest and only 24x7 brick & mortar retail hydroponics superstore in North America.
 
 #### Key Responsibilities
 
@@ -258,7 +259,6 @@ largest and only 24x7 brick & mortar hydroponics superstore in North America.
 | Sales Systems       | Commercial sales, Retail point-of-sale, E-commerce      |
 | Customer Experience | In-store digital UX, Mobile applications                |
 | Marketing           | SEM, Print, Email, Radio campaigns                      |
-| Services            | Professional services, Education & e-learning platforms |
 
 #### Impact
 
@@ -303,13 +303,13 @@ _Cofounder, Chief Technology Officer_
 Umbria converted unsolicited online opinions into actionable market research
 through the application of proprietary natural language processing and machine
 learning algorithms for topic extraction, sentiment analysis and author
-demographic classification.
+classification.
 
 #### Technology Focus
 
 - Topic extraction from unstructured text
 - Sentiment analysis algorithms
-- Author demographic classification
+- Author classification
 - Large-scale internet crawling and text mining
 
 #### Leadership Responsibilities
@@ -317,7 +317,7 @@ demographic classification.
 - Managed diverse engineering teams
 - Implemented agile development methodologies
 - Oversaw operational budgets and vendor relationships
-- Co-architected scalable data center infrastructure
+- Directed scalable data center infrastructure
 
 #### Data Center Architecture
 
@@ -353,7 +353,7 @@ demographic classification.
 
 #### Liquidity Event
 
-- Successful Acquisition
+- Successful acquisition
 - J.D. Power
 - 2008
 
@@ -369,7 +369,8 @@ activity.
 
 ##### Client-Side Components
 
-- Architected lightweight, cross-platform C++ and ATL text mining components
+- The client-side component was an entire inversion-of-control modeling engine, background process, packaged into a 1MB core download
+- Architected lightweight, cross-platform C++ and Active Template Library (ATL) text mining components
 - Implemented dynamic component loading, threading, networking
 - Built logging and regular expression processing
 - Created extraction engine (IE & file system cache)
