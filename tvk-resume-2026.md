@@ -2,11 +2,20 @@
 
 Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2025.md)
 
-I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early experience revealed a passion for entrepreneurship and technology that drives me still.
+I began my professional journey in 1981, writing accounting software on the
+TRS-80 for my father's software startup. That early experience revealed a
+passion for entrepreneurship and technology that drives me still.
 
-Over four decades as a serial entrepreneur, I've founded, co-founded and led half-a-dozen companies, authored novel innovations awarded patent protection, and navigated successful liquidity events. As an early adopter of industry paradigm shifts—from object-oriented, dynamic, and functional programming to unstructured data and cloud computing to distributed processing and machine learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to disciplined engineering within the creative software process.
+Over four decades as a serial entrepreneur, I've founded, co-founded and led
+half-a-dozen companies, authored novel innovations awarded patent protection,
+and navigated successful liquidity events. As an early adopter of industry
+paradigm shifts—from object-oriented, dynamic, and functional programming to
+unstructured data and cloud computing to distributed processing and machine
+learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
+disciplined engineering within the creative software process.
 
-*But really, I'm just an old-school coder who lives to craft software that is genuinely beautiful inside and out. I love this shit.*
+_But really, I'm just an old-school coder who lives to craft software that is
+genuinely beautiful inside and out. I love this shit._
 
 ## 1. Contact
 
@@ -63,14 +72,14 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 
 ### 3.1 Medical Imaging
 
-*Fischer Imaging / Hologic Inc. (2003–2010)*
+_Fischer Imaging / Hologic Inc. (2003–2010)_
 
 #### US 7,702,142 B2 - Distributed imaging system
 
 | Patent    | Details                                                      |
 | --------- | ------------------------------------------------------------ |
 | Title     | Distributed imaging system                                   |
-| Inventors | Ted V. Kremer, Thomas J. Minyard,  Morgan W. Nields, et al   |
+| Inventors | Ted V. Kremer, Thomas J. Minyard, Morgan W. Nields, et al    |
 | Assignee  | Hologic Inc.                                                 |
 | Filed     | March 27, 2003                                               |
 | Issued    | April 20, 2010                                               |
@@ -89,7 +98,7 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 
 ### 3.2 Social Media Analytics
 
-*Umbria Inc. / J.D. Power (2006–2013)*
+_Umbria Inc. / J.D. Power (2006–2013)_
 
 #### US 8,175,678 B2 - Automated detection of user or brand deception
 
@@ -128,10 +137,12 @@ Over four decades as a serial entrepreneur, I've founded, co-founded and led hal
 
 ### 4.1 Seasons Computing (2014-2018, 2024-2025)
 
-*Founder / Principal Consultant*
+_Founder / Principal Consultant_
 
-Seasons Computing provides software construction services lending four decades of experience to a clientele of startups, SMBs, and enterprises.
-Services include roles as technology executive, software architect, full-stack developer and manager of SDLC functions.
+Seasons Computing provides software construction services lending four decades
+of experience to a clientele of startups, SMBs, and enterprises. Services
+include roles as technology executive, software architect, full-stack developer
+and manager of SDLC functions.
 
 #### Service Offerings
 
@@ -145,10 +156,12 @@ Services include roles as technology executive, software architect, full-stack d
 
 ##### MedCAD (2024-2025)
 
-MedCAD is an innovator in the patient-matched medical device industry, offering cranial implants, plating, surgical planning and 3D modeling products and services.
+MedCAD is an innovator in the patient-matched medical device industry, offering
+cranial implants, plating, surgical planning and 3D modeling products and
+services.
 
-Contributed to proprietary system coordinating patient, customer care, CAD, surgeon, manufacturing and sales.
-Deliverables included:
+Contributed to proprietary system coordinating patient, customer care, CAD,
+surgeon, manufacturing and sales. Deliverables included:
 
 - Lean agile process maximizing cadence
 - Laravel feature delivery
@@ -157,13 +170,19 @@ Deliverables included:
 
 ##### Drum Free Experience (2024), Farm Best Feed (2019), Hometown Boys Construction (2018), Underground Nutrientz (2017), Venice Nail Salon (2016), Roofics (2015)
 
-Responsible for website design & programming and technology marketing including mobile strategy & SEO; counseled company ownership on branding strategy; authored original content for marketing communications & messaging.
+Responsible for website design & programming and technology marketing including
+mobile strategy & SEO; counseled company ownership on branding strategy;
+authored original content for marketing communications & messaging.
 
 ### 4.2 Tapwow (2019-2023)
 
-*Technical Founder, Chief Technology Officer*
+_Technical Founder, Chief Technology Officer_
 
-Tapwow develops a cutting-edge platform that transforms the way digital markers (NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of designing, managing, deploying and analyzing these markers, catering to various industries such as manufacturing, supply chain tracking, product authentication and user engagement.
+Tapwow develops a cutting-edge platform that transforms the way digital markers
+(NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of
+designing, managing, deploying and analyzing these markers, catering to various
+industries such as manufacturing, supply chain tracking, product authentication
+and user engagement.
 
 #### Key Responsibilities
 
@@ -220,9 +239,10 @@ Tapwow develops a cutting-edge platform that transforms the way digital markers 
 
 ### 4.3 Grow Big Supply (2012-2014)
 
-*Technical Founder, Chief Technology Officer*
+_Technical Founder, Chief Technology Officer_
 
-Grow Big Supply, an innovative retail hydroponics supply company, was the largest and only 24x7 brick & mortar hydroponics superstore in North America.
+Grow Big Supply, an innovative retail hydroponics supply company, was the
+largest and only 24x7 brick & mortar hydroponics superstore in North America.
 
 #### Key Responsibilities
 
@@ -248,9 +268,10 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 
 ### 4.4 30dB (2010-2011)
 
-*Cofounder, Chief Technology Officer*
+_Cofounder, Chief Technology Officer_
 
-30dB combined topic extraction, sentiment detection, social networking and search to aggregate real-time crowd opinion.
+30dB combined topic extraction, sentiment detection, social networking and
+search to aggregate real-time crowd opinion.
 
 #### Technical Leadership
 
@@ -277,9 +298,12 @@ Grow Big Supply, an innovative retail hydroponics supply company, was the larges
 
 ### 4.5 Umbria Communications (2003-2008)
 
-*Cofounder, Chief Technology Officer*
+_Cofounder, Chief Technology Officer_
 
-Umbria converted unsolicited online opinions into actionable market research through the application of proprietary natural language processing and machine learning algorithms for topic extraction, sentiment analysis and author demographic classification.
+Umbria converted unsolicited online opinions into actionable market research
+through the application of proprietary natural language processing and machine
+learning algorithms for topic extraction, sentiment analysis and author
+demographic classification.
 
 #### Technology Focus
 
@@ -335,9 +359,11 @@ Umbria converted unsolicited online opinions into actionable market research thr
 
 ### 4.6 Green Planet Software (2003)
 
-*Cofounder, Chief Technology Officer*
+_Cofounder, Chief Technology Officer_
 
-Green Planet Software, an early-stage startup, developed a private, desktop recommendation engine for news, blogs, books and advertising based on internet activity.
+Green Planet Software, an early-stage startup, developed a private, desktop
+recommendation engine for news, blogs, books and advertising based on internet
+activity.
 
 #### Technical Contributions
 
@@ -365,9 +391,10 @@ Green Planet Software, an early-stage startup, developed a private, desktop reco
 
 ### 4.7 Fischer Imaging (2002-2003)
 
-*Software Architect*
+_Software Architect_
 
-Fischer Imaging developed a full-field digital mammography system for acquisition and review of digital x-rays over unreliable wide area networks.
+Fischer Imaging developed a full-field digital mammography system for
+acquisition and review of digital x-rays over unreliable wide area networks.
 
 #### System Architecture
 
@@ -403,9 +430,11 @@ Fischer Imaging developed a full-field digital mammography system for acquisitio
 
 ### 4.8 Athene Software (1998-2001)
 
-*Technical Founder, Chief Software Architect*
+_Technical Founder, Chief Software Architect_
 
-Athene Software developed combined operational and analytical applications, using machine learning to predict customer life-cycle events and drive actionable results via a multi-channel CRM.
+Athene Software developed combined operational and analytical applications,
+using machine learning to predict customer life-cycle events and drive
+actionable results via a multi-channel CRM.
 
 #### Leadership Role
 
@@ -447,9 +476,10 @@ Athene Software developed combined operational and analytical applications, usin
 
 ### 4.9 Flatirons Computing (1996-1998)
 
-*Cofounder / Principal Consultant*
+_Cofounder / Principal Consultant_
 
-Flatirons Computing was a Boulder Colorado-based software consultancy founded with database and machine learning thought-leader Richard Wolniewicz Ph.D.
+Flatirons Computing was a Boulder Colorado-based software consultancy founded
+with database and machine learning thought-leader Richard Wolniewicz Ph.D.
 
 #### Responsibilities
 
@@ -489,9 +519,11 @@ Flatirons Computing was a Boulder Colorado-based software consultancy founded wi
 
 ### 4.10 XVT Software (1992-1996)
 
-*Principal Engineer (1994-1996), Software Engineer (1992-1994), Technical Support (1992)*
+_Principal Engineer (1994-1996), Software Engineer (1992-1994), Technical
+Support (1992)_
 
-XVT Software pioneered cross-platform GUI development tools for C and C++ application frameworks. Winner of software industry prestigious Jolt Cola Award.
+XVT Software pioneered cross-platform GUI development tools for C and C++
+application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
 #### Principal Engineer (1994-1996)
 
@@ -527,9 +559,11 @@ XVT Software pioneered cross-platform GUI development tools for C and C++ applic
 
 ### 4.11 ProtoSoft (1990-1992)
 
-*Software Engineer*
+_Software Engineer_
 
-ProtoSoft produced a cross-platform meta-modeling software design tool, ParadigmPlus, supporting a variety of notations and methods for the aerospace industry in Clear Lake City, Texas.
+ProtoSoft produced a cross-platform meta-modeling software design tool,
+ParadigmPlus, supporting a variety of notations and methods for the aerospace
+industry in Clear Lake City, Texas.
 
 #### Technical Contributions
 
@@ -552,14 +586,25 @@ ProtoSoft produced a cross-platform meta-modeling software design tool, Paradigm
 
 ### 5.2 Career Philosophy
 
-Dedicated to building the best possible products, teams, and companies through innovation, leadership and best practices. Guided by essential first principles, such as:
+Dedicated to building the best possible products, teams, and companies through
+innovation, leadership and best practices. Guided by essential first principles,
+such as:
 
-- Less is more: less design, fewer features, less code results in fewer defects.
-- Pareto principle of feature design: craft the 20% of functionality that satisfies 80% of customer needs.
-- Better to drop a feature than ship it incomplete: half-baked features that aren't used and reflect poorly on the whole product are costly construction with bad ROI and reputational damage.
-- Do it right, do it now: it's never faster nor cheaper to do it right later. In fact, it's worse because often time misjudgment becomes imbued and codified in the source.
-- Anyone can write code that works: writing functional software is expected. Constructing software that is aesthetically beautiful inside and out while adhering to engineering discipline is exceptional.
-- Leaders set the standard, even when they don't: implicit behavior sets the standard for the entire team as much as explicit expectations.
+- **Less is more**: less design, fewer features, less code results in fewer
+  defects.
+- **Pareto principle of feature design**: craft the 20% of functionality that
+  satisfies 80% of customer needs.
+- **Better to drop a feature than ship it incomplete**: half-baked features that
+  aren't used and reflect poorly on the whole product are costly construction
+  with bad ROI and reputational damage.
+- **Do it right, do it now**: it's never faster nor cheaper to do it right
+  later. In fact, it's worse because often time misjudgment becomes imbued and
+  codified in the source.
+- **Anyone can write code that works**: writing functional software is expected.
+  Constructing software that is aesthetically beautiful inside and out while
+  adhering to engineering discipline is exceptional.
+- **Leaders set the standard, even when they don't**: implicit behavior sets the
+  standard for the entire team as much as explicit expectations.
 
 ### 5.3 Ascribed Work Style
 
@@ -600,10 +645,5 @@ Dedicated to building the best possible products, teams, and companies through i
 
 ### 5.7 Personal Interests
 
-- [Musician](https://soundcloud.com/tedvkremer)
-- Gastronomy
-- Horticulture
-- History
-- Science
-- Space exploration
-- Design
+- [Musician](https://soundcloud.com/tedvkremer), Gastronomy, Horticulture,
+  History, Science, Space exploration, Design
