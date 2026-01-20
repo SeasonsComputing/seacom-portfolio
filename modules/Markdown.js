@@ -82,7 +82,7 @@ export class Markdown {
   /**
    * Fetches markdown text from a URL or relative path.
    * @param {string} url - URL or path to the markdown file.
-   * @returns {Promise<string>} Markdown file contents.
+   * @returns {string} Markdown file contents.
    * @throws {Error} When the request fails or returns a non-OK status.
    */
   static async load(url) {
