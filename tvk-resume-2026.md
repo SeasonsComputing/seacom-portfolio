@@ -146,7 +146,7 @@ and manager of SDLC functions.
 
 #### Service Offerings
 
-- Executive technology guidance and strategic planning
+- Executive technology guidance and strategic planning/Fractional CTO
 - Software architecture design and implementation
 - Full-stack development
 - SDLC management and optimization
