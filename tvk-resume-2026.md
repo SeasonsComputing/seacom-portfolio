@@ -257,12 +257,12 @@ largest and only 24x7 brick & mortar retail hydroponics superstore in North Amer
 
 #### Platform & Service Implementations
 
-| Domain              | Implementations                                         |
-| ------------------- | ------------------------------------------------------- |
-| Business Operations | Accounting, Inventory, ERP, CRM                         |
-| Sales Systems       | Commercial sales, Retail point-of-sale, E-commerce      |
-| Customer Experience | In-store digital UX, Mobile applications                |
-| Marketing           | SEM, Print, Email, Radio campaigns                      |
+| Domain              | Implementations                                    |
+| ------------------- | -------------------------------------------------- |
+| Business Operations | Accounting, Inventory, ERP, CRM                    |
+| Sales Systems       | Commercial sales, Retail point-of-sale, E-commerce |
+| Customer Experience | In-store digital UX, Mobile applications           |
+| Marketing           | SEM, Print, Email, Radio campaigns                 |
 
 #### Impact
 
@@ -570,14 +570,18 @@ ProtoSoft produced a cross-platform meta-modeling software design tool,
 ParadigmPlus, supporting a variety of notations and methods for the aerospace
 industry in Clear Lake City, Texas.
 
-#### Technical Contributions
+#### Technical Highlights
 
-| Contribution             | Details                                |
-| ------------------------ | -------------------------------------- |
-| Diagramming kernel       | Programmed core diagramming engine     |
-| Technologies             | C, XVT, Raima dbVista                  |
-| Diagramming capabilities | Supported multiple notation systems    |
-| Model persistence        | Database integration for model storage |
+**Innovations**: Sophisticated meta-model, schemas & instances, with scripting  
+such that proprietary methods could be implemented (diagram types,
+regulatory content, auto-enforced method constraints). The full  
+specification of a methodology was a "Paradigm".
+
+| Contribution             | Details                             |
+| ------------------------ | ----------------------------------- |
+| Diagramming kernel       | Programmed core diagramming engine  |
+| Technologies             | C, XVT, Raima dbVista               |
+| Diagramming capabilities | Supported multiple notation systems |
 
 ## 5. Personal
 
@@ -596,18 +600,19 @@ innovation, leadership and best practices. Guided by essential first principles,
 such as:
 
 - **Less is more**: less design, fewer features, less code results in fewer
-  defects.
+  defects. It is the single greatest simplification tool for reducing complexity
 - **Pareto principle of feature design**: craft the 20% of functionality that
   satisfies 80% of customer needs.
-- **Better to drop a feature than ship it incomplete**: half-baked features that
+- **Better to kill a feature than ship it incomplete**: half-baked features that
   aren't used and reflect poorly on the whole product are costly construction
   with bad ROI and reputational damage.
 - **Do it right, do it now**: it's never faster nor cheaper to do it right
-  later. In fact, it's worse because often time misjudgment becomes imbued and
-  codified in the source.
-- **Anyone can write code that works**: writing functional software is expected.
-  Constructing software that is aesthetically beautiful inside and out while
-  adhering to engineering discipline is exceptional.
+  later. In fact, it's worse because often time misjudgment becomes institionalized
+  and imbued in the literal software artifacts.
+- **Anyone can write code that works**: writing functional software is the bare minimum.
+  Constructing software that is essential, durable, minimalist and comprehensible within
+  the prescribed confines of agile guarantees, engineering discipline, and best practices
+  is exceptional.
 - **Leaders set the standard, even when they don't**: implicit behavior sets the
   standard for the entire team as much as explicit expectations.
 
