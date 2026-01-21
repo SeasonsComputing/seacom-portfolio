@@ -14,9 +14,8 @@ unstructured data and cloud computing, to distributed processing and machine
 learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
 disciplined engineering within the creative software construction process.
 
-Today, I employ **agentic AI** across the full development stack
-—architecture through deployment—while honoring agile guarantees,
-disciplined engineering and best-practices.
+Today, I employ **agentic AI** across the full development stack—architecture
+through deployment—while honoring agile guarantees, disciplined engineering and best-practices.
 
 _I'm an old-school coder who's manic about crafting software that
 I'm proud of. I love this shit._
@@ -572,10 +571,10 @@ industry in Clear Lake City, Texas.
 
 #### Technical Highlights
 
-**Innovations**: Sophisticated meta-model, schemas & instances, with scripting  
+Sophisticated meta-model, schemas & instances, with scripting  
 such that proprietary methods could be implemented (diagram types,
-regulatory content, auto-enforced method constraints). The full  
-specification of a methodology was a "Paradigm".
+regulatory content, auto-enforced methodology rules & constraints).
+The full specification of a methodology was a "Paradigm".
 
 | Contribution             | Details                             |
 | ------------------------ | ----------------------------------- |
@@ -605,7 +604,7 @@ such as:
   satisfies 80% of customer needs.
 - **Better to kill a feature than ship it incomplete**: half-baked features that
   aren't used and reflect poorly on the whole product are costly construction
-  with bad ROI and reputational damage.
+  with bad ROI and worse, reputational damage.
 - **Do it right, do it now**: it's never faster nor cheaper to do it right
   later. In fact, it's worse because often time misjudgment becomes institionalized
   and imbued in the literal software artifacts.
@@ -618,19 +617,38 @@ such as:
 
 ### 5.3 Ascribed Work Style
 
-- Foundation in entrepreneurship
-- Strong work ethic
-- Passion for technology and creativity
-- Drive for excellence and achievement
-- Perfectionist approach to software, inside and out
-- Perpetual learner and early technology adopter
+- "Foundation in entrepreneurship"
+- "Strong work ethic"
+- "Passion for technology and creativity"
+- "Drive for excellence and achievement"
+- "Perfectionist approach to software, inside and out"
+- "Perpetual learner and early technology adopter"
 
 ### 5.4 Technology Leadership
 
-- Championed paradigm shifts in programming (OO, dynamic, functional)
-- Early adopter of distributed processing and cloud computing
-- Pioneer in unstructured data storage, machine learning, NLP applications
-- Advocate for modern architectural patterns (microservices, REST, SPA)
+Pre-early-adopter advocate for what became paradigm shifting within the software industry.
+
+- Programming
+  - C -> C++ -> Java -> C++ -> Typescript -> Rust
+- Scaling
+  - Distributed processing/Grid computing
+  - Cloud computing/SaaS
+  - Unstructured storage, Messaging queues, Block-stores
+  - Microservices/REST
+- AI
+  - Machine learning with Artificial Neural Networks
+  - Natural language processing
+  - Parts of Speech Tagging, Topic Extraction, Sentiment Analysis, Author Classification
+- Architecture patterns
+  - Domain driven modeling
+  - Inversion of control
+  - Declarative systems
+- Methodologies
+  - Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
+  - Steve McConnell, Robert C. Martin, Martin Fowler
+  - Domain Modeling, Interface Driven Design, Frameworks, Design Patterns
+  - ISO 9000 -> CMM -> McConnel -> RUP -> Agile
+  - CI/CD & DevOps
 
 ### 5.5 Business Impact
 
