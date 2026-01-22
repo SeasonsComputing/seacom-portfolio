@@ -588,24 +588,23 @@ The full specification of a methodology was a "Paradigm".
 Dedicated to building the best possible products, teams, and companies. Always curious.
 Guided by essential first principles.
 
-- **Agile gaurantees, disciplined engineering and best practices**: only the
-  "with what" and the "why" change, "how" remains constant.
-- **Less is almost always more**: less design, fewer features, less code results in fewer
+- **Agile gaurantees, disciplined engineering and best practices** - only the
+  "with what" and the "why" change, "how" remains constant
+- **Less is almost always more** - less design, fewer features, less code results in fewer
   defects. It is the single greatest simplification tool for reducing complexity
-- **Pareto principle of feature design**: craft the 20% of functionality that
-  satisfies 80% of customer needs.
-- **Better to kill a feature than ship incomplete**: half-baked features that
-  aren't used and reflect poorly on the whole product are costly construction
-  with bad ROI and worse, reputational damage.
-- **Do it right, do it now**: it's never faster nor cheaper to do it right
+- **Pareto principle of feature design** - craft the 20% of functionality that
+  satisfies 80% of customer needs
+- **Better to kill a feature than ship incomplete** - half-baked features that
+  aren't used and reflect poorly on the whole product are costly and worse,
+  may result in reputational damage and distrust
+- **Do it right, do it now** - it's never faster nor cheaper to do it right
   later. In fact, it's worse because often time misjudgment becomes institionalized
-  and imbued in the literal software artifacts.
-- **Anyone can write code that works**: writing functional software is the bare minimum.
-  Constructing software that is essential, durable, minimalist and comprehensible within
-  the prescribed confines of agile guarantees, engineering discipline, and best practices
-  is exceptional.
-- **Leaders set the standard, even when they don't**: implicit behavior sets the
-  standard for the entire team as much as explicit expectations.
+  in shared understanding and imbued in the software artifacts produced.
+- **Anyone can write code that works** - writing functional software is the bare minimum.
+  Constructing software that is essential, durable, minimalist, comprehensible _and_
+  functional _while_ adhering to first principles is aspirational
+- **Leaders set the standard, even when they don't** - implicit behavior sets the
+  standard for the entire team as much as explicit expectations
 
 ### 5.3 Ascribed Work Style
 
