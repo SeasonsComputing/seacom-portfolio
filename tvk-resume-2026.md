@@ -20,7 +20,7 @@ remained committed to the first principles of agile guarantees, disciplined engi
 and best practices.
 
 Today, I employ agentic and generative AI across the SDLC and full development stack:
-imagining, planning and architecture through deployment and maintenance.
+imagining, planning and architecture through development, deployment and maintenance.
 
 _Essentially, I'm an old-school coder who's manic about crafting software that
 I'm proud of, with an unyielding sense of curiosity. I love this shit._
