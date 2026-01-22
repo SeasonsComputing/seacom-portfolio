@@ -22,7 +22,8 @@ and best practices.
 Today, I employ agentic and generative AI across the SDLC and full development stack:
 imagining, planning and architecture through development, deployment and maintenance.
 
-_Essentially, I'm an old-school coder with an unyielding sense of curiosity, who's manic about crafting software that makes me proud. I ❤️ this shit._
+_Essentially, I'm an old-school coder with an unyielding sense of curiosity, who's manic 
+about crafting software that makes me proud. I ❤️ this shit._
 
 ## 1. Contact
 
@@ -50,12 +51,13 @@ _Essentially, I'm an old-school coder with an unyielding sense of curiosity, who
 
 ### 2.2 Architecture & Infrastructure
 
-| Category               | Details                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------- |
-| Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)                                       |
-| Architectural Patterns | Cloud, Microservice, Grid, Client/Server, Single Page Application, Responsive & Adaptive Design |
-| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented                                        |
-| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                                         |
+| Category               | Details                                                                |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)              |
+| Architectural Patterns | Cloud, Microservice, Grid, Distributed, Client/Server,                 |
+|                        | Desktop, Mobile  Single Page Application, Responsive & Adaptive Design |
+| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented               |
+| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                |
 
 ### 2.3 Data & Integration
 
@@ -231,7 +233,7 @@ and user engagement.
 | Documentation | Confluence |
 | Project       | Jira       |
 
-#### Achievements
+#### Notable Achievements
 
 - When Covid forced Tapwow to scale back operations, the team was reduced to the original founders and myself as the sole technical resource
 - I assumed all software development roles—architect, DevOps, full-stack developer, tester, and project manager
@@ -260,7 +262,7 @@ largest and only 24x7 brick & mortar retail hydroponics superstore in North Amer
 | Customer Experience | In-store digital UX, Mobile applications           |
 | Marketing           | SEM, Print, Email, Radio campaigns                 |
 
-#### Impact
+#### Noteable Achievements
 
 - Defined evolutionary rollout strategy ensuring minimal disruption
 - Built scalable infrastructure supporting 60x retail growth
