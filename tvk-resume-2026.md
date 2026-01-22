@@ -585,16 +585,16 @@ The full specification of a methodology was a "Paradigm".
 
 ### 5.2 Career Philosophy
 
-Dedicated to building the best possible products, teams, and companies through
-innovation, leadership and best practices. Guided by essential first principles.
+Dedicated to building the best possible products, teams, and companies. Always curious.
+Guided by essential first principles.
 
 - **Agile gaurantees, disciplined engineering and best practices**: only the
-  "with what and" the "why" change, how remains the constant.
-- **Less is more**: less design, fewer features, less code results in fewer
+  "with what" and the "why" change, "how" remains constant.
+- **Less is almost always more**: less design, fewer features, less code results in fewer
   defects. It is the single greatest simplification tool for reducing complexity
 - **Pareto principle of feature design**: craft the 20% of functionality that
   satisfies 80% of customer needs.
-- **Better to kill a feature than ship it incomplete**: half-baked features that
+- **Better to kill a feature than ship incomplete**: half-baked features that
   aren't used and reflect poorly on the whole product are costly construction
   with bad ROI and worse, reputational damage.
 - **Do it right, do it now**: it's never faster nor cheaper to do it right
