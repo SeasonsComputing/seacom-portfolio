@@ -17,7 +17,7 @@
   width: 100%;
   overflow: hidden;
   padding: var(--sc-gap);
-  background: #0a0a0a33;
+  background: var(--sc-bg-dark-trans);
   border: var(--sc-border-card);
   border-radius: var(--sc-radius-medium);
   backdrop-filter: var(--sc-blur-bg);
@@ -27,12 +27,8 @@
   MarkdownIndex
  *************************************/
 
-.MarkdownIndex h3 {
-  color: #ffffff;
-  font-size: 1.2em;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid pink;
+.MarkdownIndex.MarkdownCard {
+  padding: calc(0.5 * var(--sc-gap));
 }
 
 .MarkdownIndexList,
@@ -52,31 +48,33 @@
 }
 
 .MarkdownIndexItem a {
-  color: #94a3b8;
+  color: var(--sc-text-muted);
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   display: block;
   padding: 0.25rem 0;
   transition: color 0.2s ease;
 }
 
-.MarkdownIndexItem a:hover {
-  color: #60a5fa;
+.MarkdownIndexItem a:hover,
+.MarkdownIndexItem a:focus {
+  color: var(--sc-color-blue);
+  outline: none;
 }
 
 .MarkdownIndexLevel2 > a {
-  color: #e0e0e0;
+  color: var(--sc-subtitle-color);
   font-weight: 600;
-  font-size: 0.95em;
+  font-size: 0.95rem;
 }
 
 .MarkdownIndexLevel3 > a {
-  color: #94a3b8;
+  color: var(--sc-text-muted);
 }
 
 .MarkdownIndexLevel4 > a,
 .MarkdownIndexLevel5 > a {
-  color: #64748b;
+  color: var(--sc-text-muted-dark);
   font-size: 0.85rem;
 }
 
@@ -84,9 +82,13 @@
   MarkdownContent
  *************************************/
 
+.MarkdownContent.MarkdownCard {
+  padding-block: calc(0.5 * var(--sc-gap));
+}
+
 .MarkdownContent p {
   line-height: 1.6;
-  margin-block: 8px 12px;
+  margin-block: 0.5rem 0.75rem;
   font-size: 1rem;
 }
 
@@ -100,24 +102,23 @@
   line-height: 1.4;
 }
 
-.MarkdownContent h3,
 .MarkdownContent h4,
 .MarkdownContent h5 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
-.MarkdownContent h1 {color: #ffffff;}
-.MarkdownContent h2 {color: #08abf1;}
-.MarkdownContent h3 {color: #ff4ca4;}
-.MarkdownContent h4 {color: #60a5fa;}
-.MarkdownContent h5 {color: #a5b4fc;}
-.MarkdownContent h3 + p > em {color: #d0d0d0;}
+.MarkdownContent h1 {
+  padding-block-start: 0.25rem;
+  text-align: center;
+  color: var(--sc-text-white);
+}
 
 .MarkdownContent h2 {
   padding-block-start: 1.5rem;
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
+  color: var(--sc-color-blue-bright);
 }
 
 .MarkdownContent h3 {
@@ -125,6 +126,19 @@
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
+  color: var(--sc-color-pink);
+}
+
+.MarkdownContent h4 {
+  color: var(--sc-color-blue);
+}
+
+.MarkdownContent h5 {
+  color: var(--sc-color-blue-light);
+}
+
+.MarkdownContent h3 + p > em {
+  color: var(--sc-subtitle-color);
 }
 
 .MarkdownContent .MarkdownContentTableScroller {
@@ -137,7 +151,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--sc-bg-table);
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -149,7 +163,7 @@
 .MarkdownContent th {
   padding-block: 0.75rem;
   padding-inline-start: 1rem;
-  color: #f0f0f0;
+  color: var(--sc-text-light);
   text-align: left;
   font-weight: 600;
 }
@@ -157,7 +171,7 @@
 .MarkdownContent td {
   padding-block: 0.6rem;
   padding-inline-start: 1rem;
-  border-bottom: 1px solid #334155;
+  border-bottom: 1px solid var(--sc-border-table);
   line-height: 1.6;
 }
 
@@ -171,31 +185,33 @@
 }
 
 .MarkdownContent tr:hover {
-  background-color: rgba(59, 130, 246, 0.05);
+  background-color: var(--sc-bg-hover);
 }
 
 .MarkdownContent ul {
-  padding-inline-start: 24px;
+  padding-inline-start: 1.5rem;
   line-height: 1.6;
 }
 
 .MarkdownContent ul > li::marker {
-  color: #707070;
+  color: var(--sc-text-dim);
 }
 
 .MarkdownContent a {
-  color: #94a3b8;
+  color: var(--sc-text-muted);
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   display: inline-block;
   padding: 0.25rem 0;
   transition: color 0.2s ease;
 }
 
-.MarkdownContent a:hover {
-  color: #60a5fa;
+.MarkdownContent a:hover,
+.MarkdownContent a:focus {
+  color: var(--sc-text-white);
   text-decoration: underline;
   text-underline-offset: 4px;
+  outline: none;
 }
 
 /*************************************
@@ -204,43 +220,43 @@
 
 .MarkdownMenuButton {
   display: none;
-  background: #0a0a0a33;
+  background: var(--sc-bg-dark-trans);
   border: none;
   cursor: pointer;
   position: fixed;
   top: 0.75rem;
   left: 0.5rem;
   z-index: 1001;
-  width: 24px;
-  height: 20px;
+  width: 1.5rem;
+  height: 1.25rem;
 }
 
 .MarkdownMenuButton span {
   display: block;
   position: absolute;
-  left: 3px;
-  width: 18px;
-  height: 2px;
-  background: #ebeef3;
+  left: 0.1875rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: var(--sc-text-light);
   transition:
     transform 0.25s ease,
     opacity 0.25s ease;
 }
 
 .MarkdownMenuButton span:nth-child(1) {
-  top: 3px;
+  top: 0.1875rem;
 }
 
 .MarkdownMenuButton span:nth-child(2) {
-  top: 9px;
+  top: 0.5625rem;
 }
 
 .MarkdownMenuButton span:nth-child(3) {
-  top: 15px;
+  top: 0.9375rem;
 }
 
 body.menu-open .MarkdownMenuButton span:nth-child(1) {
-  transform: translateY(6px) rotate(45deg);
+  transform: translateY(0.375rem) rotate(45deg);
 }
 
 body.menu-open .MarkdownMenuButton span:nth-child(2) {
@@ -248,76 +264,7 @@ body.menu-open .MarkdownMenuButton span:nth-child(2) {
 }
 
 body.menu-open .MarkdownMenuButton span:nth-child(3) {
-  transform: translateY(-6px) rotate(-45deg);
-}
-
-@media (max-width: 630px) {
-  .Markdown .Container {
-    padding-inline: 0;
-  }
-
-  .MarkdownContent {
-    padding-block: 0;
-    border-color: transparent;
-    background: transparent;
-  }
-}
-
-@media (max-width: 1000px) {
-  .MarkdownLayout {
-    grid-template-columns: 1fr;
-  }
-
-  .MarkdownIndex {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    border-radius: 0;
-    background: #0a0a0a;
-    backdrop-filter: none;
-    padding: 3rem;
-    overflow-y: auto;
-    opacity: 0;
-    transform: scale(0.9);
-    transition:
-      opacity 0.25s ease,
-      transform 0.25s ease;
-    pointer-events: none;
-  }
-
-  .MarkdownContent table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd;
-  }
-
-  .MarkdownContent p,
-  .MarkdownContent th,
-  .MarkdownContent td {
-    font-size: 1em;
-  }
-
-  .MarkdownContent h1 {
-    font-size: 1.1em;
-  }
-
-  .MarkdownContent h2 {
-    font-size: 1.05em;
-  }
-
-  body.menu-open {
-    overflow: hidden;
-  }
-
-  body.menu-open .MarkdownIndex {
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: auto;
-  }
-
-  .MarkdownMenuButton {
-    display: block;
-  }
+  transform: translateY(-0.375rem) rotate(-45deg);
 }
 
 /*************************************
@@ -370,16 +317,95 @@ body.menu-open .BtnScrollTop {
   pointer-events: none;
 }
 
-.BtnScrollTop:hover {
+.BtnScrollTop:hover,
+.BtnScrollTop:focus {
   box-shadow:
     0 15px 40px rgba(59, 130, 246, 0.4),
     0 0 40px rgba(139, 92, 246, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  transform: translateY(-3px);
+  transform: translateY(-0.1875rem);
+  outline: none;
 }
 
-.BtnScrollTop:hover::before {
+.BtnScrollTop:hover::before,
+.BtnScrollTop:focus::before {
   left: 100%;
+}
+
+.MarkdownMenuButton:focus {
+  outline: 2px solid var(--sc-color-blue);
+  outline-offset: 2px;
+}
+
+/*************************************
+  Media Queries
+ *************************************/
+
+@media (max-width: 1000px) {
+  .MarkdownLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .MarkdownIndex {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    border-radius: 0;
+    background: var(--sc-bg-dark);
+    backdrop-filter: none;
+    padding: 3rem;
+    overflow-y: auto;
+    opacity: 0;
+    transform: scale(0.9);
+    transition:
+      opacity 0.25s ease,
+      transform 0.25s ease;
+    pointer-events: none;
+  }
+
+  .MarkdownContent p,
+  .MarkdownContent th,
+  .MarkdownContent td {
+    font-size: 1rem;
+  }
+
+  .MarkdownContent h1 {
+    font-size: 1.35rem;
+  }
+
+  .MarkdownContent h2 {
+    font-size: 1.25rem;
+  }
+
+  .MarkdownContent h3 {
+    font-size: 1.15rem;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  body.menu-open .MarkdownIndex {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .MarkdownMenuButton {
+    display: block;
+  }
+}
+
+@media (max-width: 630px) {
+  .Markdown .Container {
+    padding-inline: 0;
+  }
+
+  .MarkdownContent {
+    padding-block: 0;
+    border-color: transparent;
+    background: transparent;
+  }
 }
 
 @media (max-width: 450px) {

@@ -1,24 +1,29 @@
-# Ted V. Kremer - Professional Experience
+# Professional Experience
 
 Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
 
 I began my professional journey in 1981, writing accounting software on the
 TRS-80 for my father's software startup. That early experience revealed a
-passion for entrepreneurship and technology that drives me still.
+passion for entrepreneurship and technology that still drives me.
 
-Over four decades as a serial entrepreneur, I've founded, co-founded and led
-half-a-dozen companies, authored novel innovations awarded patent protection,
-and navigated successful liquidity events. As an early adopter of industry
-paradigm shifts—from object-oriented, dynamic, and functional programming to
-unstructured data and cloud computing, to distributed processing and machine
-learning, to ISO 9000, CMM, RUP, and Agile— I've remained committed to
-disciplined engineering within the creative software construction process.
+Over four decades as a serial entrepreneur of venture-backed and bootstrapped startups,
+I've led technology for half-a-dozen companies, authored novel innovations
+awarded patent protection and navigated successful liquidity events.
+As a technical founder I've executed and evolved a principal founder's vision
+as if it were my own. I'm hands-on across the SDLC — from R&D, architecture
+and code to customer acceptance and feedback.
 
-Today, I employ **agentic AI** across the full development stack—architecture
-through deployment—while honoring agile guarantees, disciplined engineering and best-practices.
+I'm an early adopter of most software paradigm shifts of the last 30 years —
+from object-oriented, dynamic and functional programming to cloud computing,
+distributed processing, machine learning and artificial intelligence. Throughout, I've
+remained committed to the first principles of agile guarantees, disciplined engineering
+and best practices.
+
+Today, I employ agentic and generative AI across the SDLC and full development stack:
+imagining, planning and architecture through deployment, monitoring and maintenance.
 
 _Essentially, I'm an old-school coder who's manic about crafting software that
-I'm proud of. I love this shit._
+I'm proud of, with an unyielding sense of curiosity. I love this shit._
 
 ## 1. Contact
 
@@ -150,10 +155,10 @@ and manager of SDLC functions.
 
 #### Service Offerings
 
-- Executive technology guidance and strategic planning/Fractional CTO
+- Technology guidance and strategic planning/Fractional CTO
 - Software architecture design and implementation
 - Full-stack development
-- SDLC management and optimization
+- SDLC management
 - Technology marketing and digital strategy
 
 #### Clients (Seasons Computing)
@@ -168,7 +173,7 @@ Contributed to proprietary system coordinating patient, customer care, CAD,
 surgeon, manufacturing and sales. Deliverables included:
 
 - Lean agile process maximizing cadence
-- Laravel feature delivery
+- Feature development within Laravel-based architecture
 - Dockerized packaging & deployment
 - Next-gen creative input spanning tech stack, APIs, libraries and services
 
