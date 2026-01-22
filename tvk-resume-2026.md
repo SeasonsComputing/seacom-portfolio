@@ -22,7 +22,7 @@ and best practices.
 Today, I employ agentic and generative AI across the SDLC and full development stack:
 imagining, planning and architecture through development, deployment and maintenance.
 
-_Essentially, I'm an old-school coder with an unyielding sense of curiosity, who's manic 
+_Essentially, I'm an old-school coder with an unyielding sense of curiosity, who's manic
 about crafting software that makes me proud. I ❤️ this shit._
 
 ## 1. Contact
@@ -586,9 +586,10 @@ The full specification of a methodology was a "Paradigm".
 ### 5.2 Career Philosophy
 
 Dedicated to building the best possible products, teams, and companies through
-innovation, leadership and best practices. Guided by essential first principles,
-such as:
+innovation, leadership and best practices. Guided by essential first principles.
 
+- **Agile gaurantees, disciplined engineering and best practices**: only the
+  "with what and" the "why" change, how remains the constant.
 - **Less is more**: less design, fewer features, less code results in fewer
   defects. It is the single greatest simplification tool for reducing complexity
 - **Pareto principle of feature design**: craft the 20% of functionality that
