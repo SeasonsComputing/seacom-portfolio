@@ -645,10 +645,10 @@ Early adopter for what became paradigm shifting within the software industry.
 #### Methodologies
 
 - Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
-- Steve McConnell, Robert C. Martin, Martin Fowler
+- Steve McConnell, Robert C. Martin, Martin Fowler, Gang of Four
 - Domain Modeling, Interface Driven Design, Frameworks, Design Patterns
-- ISO 9000 ➔ CMM ➔ McConnel ➔ RUP ➔ Agile
-- CI/CD & DevOps
+- McConnel, Unified Process, Agile
+- CI/CD, DevOps
 
 ### 5.5 Business Impact
 
