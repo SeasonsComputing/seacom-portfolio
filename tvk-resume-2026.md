@@ -23,7 +23,7 @@ Today, I employ agentic and generative AI across the SDLC and full development s
 imagining, planning and architecture through development, deployment and maintenance.
 
 _Essentially, I'm an old-school coder who's manic about crafting software that
-I'm proud of, with an unyielding sense of curiosity. I love this shit._
+I'm proud of, with an unyielding sense of curiosity. I ❤️ this shit._
 
 ## 1. Contact
 
