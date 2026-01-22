@@ -206,12 +206,12 @@ p {
 /*
 For CompanyName & CompanyTagline only.
 
-I've given up on finding the exact voodoo for clamp() to obtain 
+I've given up on finding the exact voodoo for clamp() to obtain
 the UX I desire. I've tried a dizzying array of get-AI from
-various vendors and source samples. Eyeballing it here. 
+various vendors and source samples. Eyeballing it here.
 
-Verbose & sadly it is tacky but it is aesthetically 
-superior to clamp() in this circumstance. In general, 
+Verbose & sadly it is tacky but it is aesthetically
+superior to clamp() in this circumstance. In general,
 I'm a fan of clamp() as a design tool.
 */
 

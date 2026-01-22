@@ -3,7 +3,7 @@
  * @module Markdown
  */
 
-import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+import { marked } from "./marked.esm.js";
 import { $, $$ } from "./utils.js";
 
 /** Matches headers with section numbers (e.g., "## 1. Title", "### 2.1 Title"). */

@@ -12,7 +12,7 @@ import Carousel from './Carousel.js';
 export default class Website {
   /** @static @private {Website} Singleton instance */
   static #the = null;
-  
+
   /** @type {Carousel} The hero carousel instance for the main page carousel */
   #heroCarousel = new Carousel('#hero-carousel');
 
@@ -21,8 +21,12 @@ export default class Website {
    * @private
    */
   #init() {
-    this.#heroCarousel.init();
-    document.body.style.opacity = "1"
+    try {
+      this.#heroCarousel.init();
+    } catch (err) {
+      console.error(err);
+    }
+    document.body.style.opacity = "1";
   }
 
   /**
@@ -42,7 +46,7 @@ export default class Website {
    */
   static bootstrap() {
     if (Website.#the) console.error("bootstrap() already completed!");
-    
+
     Website.#the = new Website();
     self.addEventListener('DOMContentLoaded', () => Website.the.#init());
   }

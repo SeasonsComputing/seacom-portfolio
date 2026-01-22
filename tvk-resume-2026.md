@@ -17,7 +17,7 @@ disciplined engineering within the creative software construction process.
 Today, I employ **agentic AI** across the full development stack—architecture
 through deployment—while honoring agile guarantees, disciplined engineering and best-practices.
 
-_I'm an old-school coder who's manic about crafting software that
+_Essentially, I'm an old-school coder who's manic about crafting software that
 I'm proud of. I love this shit._
 
 ## 1. Contact
@@ -55,21 +55,22 @@ I'm proud of. I love this shit._
 
 ### 2.3 Data & Integration
 
-| Category          | Details                                     |
-| ----------------- | ------------------------------------------- |
-| RDBMS             | PostgreSQL, MySQL, Oracle, SQL Server       |
-| NoSQL & Search    | MongoDB, Redis, eXist, Lucene               |
-| Data Technologies | TypeORM, ODBC/JDBC, JSON, XML, XSLT, XQuery |
-| APIs              | REST, SOAP                                  |
+| Category    | Details                               |
+| ----------- | ------------------------------------- |
+| Relational  | PostgreSQL, MySQL, Oracle, SQL Server |
+|             | TypeORM, ODBC/JDBC                    |
+| Alternative | MongoDB, Redis, eXist, Lucene         |
+|             | JSON, XML, XSLT, XQuery               |
+| Remote      | REST, SOAP                            |
 
 ### 2.4 Specialized Domains
 
-| Domain            | Details                                                                                                  |
-| ----------------- | -------------------------------------------------------------------------------------------------------- |
-| AI/ML             | Machine Learning, Natural Language Processing, Sentiment Analysis, Topic Extraction, Predictive Modeling |
-| Analytics         | Text Mining, Data Mining, OLAP                                                                           |
-| Storage Paradigms | Document-text, Key-value, Message-oriented, Relational, NoSQL                                            |
-| Process           | Agile, XP, Scrum, UML, RUP, CMM, ISO 9000                                                                |
+| Domain      | Details                                                       |
+| ----------- | ------------------------------------------------------------- |
+| AI/ML       | Artificial Neural Networks, Natural Language Processing       |
+|             | Sentiment Analysis, Topic Extraction, Predictive Modeling     |
+| Analytics   | Text Mining, Data Mining, OLAP                                |
+| Persistence | Document-text, Key-value, Message-oriented, Relational, NoSQL |
 
 ## 3. Patents
 
@@ -155,7 +156,7 @@ and manager of SDLC functions.
 - SDLC management and optimization
 - Technology marketing and digital strategy
 
-#### Client Projects (Seasons Computing)
+#### Clients (Seasons Computing)
 
 ##### MedCAD (2024-2025)
 
@@ -196,9 +197,7 @@ and user engagement.
 
 #### Technology Stack
 
-##### Backend
-
-| Layer          | Stack                                       |
+| Backend        | Stack                                       |
 | -------------- | ------------------------------------------- |
 | Infrastructure | AWS (EC2, RDS, SES, S3, R53), Nginx, Docker |
 | Runtime        | Node.js                                     |
@@ -208,9 +207,7 @@ and user engagement.
 | ORM            | TypeORM                                     |
 | Tools          | Swagger, JWT, Sentry, Handlebars            |
 
-##### Frontend
-
-| Layer            | Stack      |
+| Frontend         | Stack      |
 | ---------------- | ---------- |
 | Framework        | React      |
 | UI Library       | Ant Design |
@@ -218,23 +215,19 @@ and user engagement.
 | State Management | MobX       |
 | Language         | JavaScript |
 
-##### Additional
-
-| Layer     | Stack                   |
+| Marketing | Stack                   |
 | --------- | ----------------------- |
 | Database  | MongoDB                 |
 | CMS       | Strapi                  |
 | Analytics | Tableau Embedded/Server |
 
-##### SDLC Tools
+| SDLC          | Tool       |
+| ------------- | ---------- |
+| Version       | GitHub     |
+| Documentation | Confluence |
+| Project       | Jira       |
 
-| Area               | Stack      |
-| ------------------ | ---------- |
-| Version Control    | GitHub     |
-| Documentation      | Confluence |
-| Project Management | Jira       |
-
-#### Achievements & Exit
+#### Achievements
 
 - When Covid forced Tapwow to scale back operations, the team was reduced to the original founders and myself as the sole technical resource
 - I assumed all software development roles—architect, DevOps, full-stack developer, tester, and project manager
@@ -493,28 +486,20 @@ with database and machine learning thought-leader Richard Wolniewicz Ph.D.
 
 #### Client Projects (Flatirons Computing)
 
-##### HeurisTec
-
-| Heuristec    | Details                                      |
+| HeurisTec    | Details                                      |
 | ------------ | -------------------------------------------- |
 | Project      | SuperSked for Windows scheduling application |
 | Technologies | C++, MFC, ODBC, Visual Basic, ActiveX        |
-
-##### Qwest Communications
 
 | Qwest Communications | Details                                                  |
 | -------------------- | -------------------------------------------------------- |
 | Project              | Network Operations Center (NOC) work request application |
 | Technologies         | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
 
-##### TransLogic
-
 | TransLogic   | Details                                           |
 | ------------ | ------------------------------------------------- |
 | Project      | Scheduling application for pneumatic tube systems |
 | Technologies | C++, XVT-Power++                                  |
-
-##### Blue Cross/Blue Shield
 
 | Blue Cross/Blue Shield | Details                           |
 | ---------------------- | --------------------------------- |
@@ -531,7 +516,7 @@ application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
 #### Principal Engineer (1994-1996)
 
-##### XVT-Architect (State-of-the-art cross-platform C++ GUI development tool)
+_XVT-Architect (State-of-the-art cross-platform C++ GUI development tool)_
 
 - Co-designed complete architecture
 - Co-designed metasystem for modeling object types and instances
@@ -542,7 +527,7 @@ application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
 #### Software Engineer (1992-1994)
 
-##### XVT-Power++ (Cross-platform C++ application framework)
+_XVT-Power++ (Cross-platform C++ application framework)_
 
 - Primary programmer for state-of-the-art framework
 - Implemented UI components: splitter, menus, imaging, font, pen, brush
@@ -624,31 +609,40 @@ such as:
 - "Perfectionist approach to software, inside and out"
 - "Perpetual learner and early technology adopter"
 
-### 5.4 Technology Leadership
+### 5.4 Technology Foresight
 
-Pre-early-adopter advocate for what became paradigm shifting within the software industry.
+Early adopter for what became paradigm shifting within the software industry.
 
-- Programming
-  - C -> C++ -> Java -> C++ -> Typescript -> Rust
-- Scaling
-  - Distributed processing/Grid computing
-  - Cloud computing/SaaS
-  - Unstructured storage, Messaging queues, Block-stores
-  - Microservices/REST
-- AI
-  - Machine learning with Artificial Neural Networks
-  - Natural language processing
-  - Parts of Speech Tagging, Topic Extraction, Sentiment Analysis, Author Classification
-- Architecture patterns
-  - Domain driven modeling
-  - Inversion of control
-  - Declarative systems
-- Methodologies
-  - Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
-  - Steve McConnell, Robert C. Martin, Martin Fowler
-  - Domain Modeling, Interface Driven Design, Frameworks, Design Patterns
-  - ISO 9000 -> CMM -> McConnel -> RUP -> Agile
-  - CI/CD & DevOps
+#### Programming
+
+- C ➔ C++ ➔ Java ➔ C++ ➔ Typescript ➔ Rust
+
+#### Scaling
+
+- Distributed processing/Grid computing
+- Cloud computing/SaaS
+- Unstructured storage, Messaging queues, Block-stores
+- Microservices/REST
+
+#### AI
+
+- Machine learning with Artificial Neural Networks
+- Natural language processing
+- Parts of Speech Tagging, Topic Extraction, Sentiment Analysis, Author Classification
+
+#### Architecture patterns
+
+- Domain driven modeling
+- Inversion of control
+- Declarative systems
+
+#### Methodologies
+
+- Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
+- Steve McConnell, Robert C. Martin, Martin Fowler
+- Domain Modeling, Interface Driven Design, Frameworks, Design Patterns
+- ISO 9000 ➔ CMM ➔ McConnel ➔ RUP ➔ Agile
+- CI/CD & DevOps
 
 ### 5.5 Business Impact
 
