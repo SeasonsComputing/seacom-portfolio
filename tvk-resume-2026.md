@@ -522,7 +522,7 @@ application frameworks. Winner of software industry prestigious Jolt Cola Award.
 
 #### Principal Engineer (1994-1996)
 
-_XVT-Architect (State-of-the-art cross-platform C++ GUI development tool)_
+_XVT-Architect (Cross-platform C++ GUI development tool)_
 
 - Co-designed complete architecture
 - Co-designed metasystem for modeling object types and instances
@@ -581,7 +581,7 @@ The full specification of a methodology was a "Paradigm".
 | --------- | ------------------------------------------------------------------------------------------ |
 | Born      | February 8, 1971, Akron, Ohio                                                              |
 | Education | Lufkin High School, Texas (1989); Computer Science studies at San Jacinto College, Houston |
-| Relocated | Boulder, Colorado in 1992, returning to Texas in 2018                                      |
+| Relocated | Boulder, Colorado in 1991, returning to Texas in 2018                                      |
 
 ### 5.2 Career Philosophy
 
@@ -598,8 +598,8 @@ Guided by essential first principles.
   aren't used and reflect poorly on the whole product are costly and worse,
   may result in reputational damage and distrust
 - **Do it right, do it now** - it's never faster nor cheaper to do it right
-  later. In fact, it's worse because often time misjudgment becomes institionalized
-  in shared understanding and imbued in the software artifacts produced.
+  later. In fact, it's worse because often time misjudgment becomes institutionalized
+  in shared memories and imbued in the software artifacts produced
 - **Anyone can write code that works** - writing functional software is the bare minimum.
   Constructing software that is essential, durable, minimalist, comprehensible _and_
   functional _while_ adhering to first principles is aspirational
@@ -625,20 +625,27 @@ Early adopter for what became paradigm shifting within the software industry.
 
 #### Scaling
 
-- Distributed processing/Grid computing
-- Cloud computing/SaaS
-- Unstructured storage, Messaging queues, Block-stores
-- Microservices/REST
+- Distributed processing/Multi-node computing
+- Cloud computing/SaaS/IaaS provisionsing
+- Unstructured/Document/Attribute/Messaging-queue stores
+- Microservices/REST interfaces
 
 #### AI
 
-- Machine learning with Artificial Neural Networks
+- Machine learning
+  - Artificial Neural Networks
+  - Clustering & Classification
+  - Predictive Modeling
+  - Reinforcement Learning
 - Natural language processing
-- Parts of Speech Tagging, Topic Extraction, Sentiment Analysis, Author Classification
+  - Parts of Speech Tagging
+  - Content Discovery & Topic Extraction
+  - Sentiment Analysis
 
 #### Architecture patterns
 
-- Domain driven modeling
+- Data pipeline
+- Domain driven
 - Inversion of control
 - Declarative systems
 
