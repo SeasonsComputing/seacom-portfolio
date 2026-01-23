@@ -48,13 +48,13 @@ imagining, planning and architecture through development, deployment and mainten
 
 ### 2.2 Architecture & Infrastructure
 
-| Category               | Details                                                                |
-| ---------------------- | ---------------------------------------------------------------------- |
-| Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)              |
-| Architectural Patterns | Cloud, Microservice, Grid, Distributed, Client/Server,                 |
-|                        | Desktop, Mobile  Single Page Application, Responsive & Adaptive Design |
-| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented               |
-| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                |
+| Category               | Details                                                               |
+| ---------------------- | --------------------------------------------------------------------- |
+| Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
+| Architectural Patterns | Cloud, Microservice, Grid, Distributed, Client/Server,                |
+|                        | Desktop, Mobile Single Page Application, Responsive & Adaptive Design |
+| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented              |
+| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j               |
 
 ### 2.3 Data & Integration
 
@@ -232,7 +232,7 @@ and user engagement.
 
 #### Notable Achievements
 
-- When Covid forced Tapwow to scale back operations, the team was reduced to the original founders and myself as the sole technical resource
+- When Covid forced Tapwow to scale back operations, the team was reduced to the principal founders and myself as the sole technical resource
 - I assumed all software development roles—architect, DevOps, full-stack developer, tester, and project manager
 - Over six months, I refactored the entire architecture and delivered a major 2.0 release with substantial features and improvements across the solution
 - Post-pandemic, I presented the architecture and new features directly to investors and acquirers during liquidity discussions, which proved instrumental in securing a white-label licensing agreement
@@ -331,19 +331,17 @@ classification.
 | Aspect       | Details                                        |
 | ------------ | ---------------------------------------------- |
 | Technology   | C++, CLucene, XML, XSLT                        |
-| Architecture | Lightweight HTTP REST microservices            |
+| Architecture | Lightweight REST microservices                 |
 | Capabilities | Crawling, extraction, transformation, modeling |
-| Design       | Open and scalable solution                     |
-| Data Source  | Internet opinion data                          |
+| Data Sources | Blogs, Message Board Forums, Social Media      |
 
 #### Market Research Portal
 
-| Aspect       | Details                                          |
-| ------------ | ------------------------------------------------ |
-| Technology   | HTML, JavaScript, Java, RMI, Servlets, XML, XSLT |
-| Features     | Analysis, visualization, personalization         |
-| Architecture | Open and scalable design                         |
-| Target Users | Market researchers and analysts                  |
+| Aspect       | Details                                               |
+| ------------ | ----------------------------------------------------- |
+| Technology   | HTML, CSS, JavaScript, Java, RMI, Servlets, XML, XSLT |
+| Features     | Analysis, visualization, personalization              |
+| Target Users | Market researchers and analysts                       |
 
 #### Press Recognition
 
@@ -366,16 +364,16 @@ activity.
 
 #### Technical Contributions
 
-##### Client-Side Components
+##### Client-Side System
 
-- The client-side component was an entire inversion-of-control modeling engine, background process, packaged into a 1MB core download
+- The client-side system was an entire inversion-of-control modeling engine, background process
+- A tiny core IoC engine was downloaded and then it would download client components & target interest vectors
 - Architected lightweight, cross-platform C++ and Active Template Library (ATL) text mining components
-- Implemented dynamic component loading, threading, networking
-- Built logging and regular expression processing
+- Implemented dynamic component loading, threading, networking, logging and regular expression processing
 - Created extraction engine (IE & file system cache)
 - Developed HTML scrubbing and text tokenization
 - Implemented term/document frequency analysis
-- Built clustering and categorization models
+- Built clustering and categorization algorithms
 
 ##### Server-Side Systems
 
@@ -386,6 +384,7 @@ activity.
 ##### Innovation
 
 - Privacy-focused recommendation engine (desktop-based, no data sharing)
+- Light-weight IoC modeling engine
 - Client-side machine learning for personalization
 - Cross-platform compatibility strategy
 
