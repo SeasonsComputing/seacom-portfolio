@@ -22,9 +22,6 @@ and best practices.
 Today, I employ agentic and generative AI across the SDLC and full development stack:
 imagining, planning and architecture through development, deployment and maintenance.
 
-_Essentially, I'm an old-school coder with an unyielding sense of curiosity, who's manic
-about crafting software that makes me proud. I ❤️ this shit._
-
 ## 1. Contact
 
 | Information | Details                               |
