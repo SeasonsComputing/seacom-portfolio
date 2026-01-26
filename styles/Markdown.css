@@ -208,7 +208,7 @@
 
 .MarkdownContent a:hover,
 .MarkdownContent a:focus {
-  color: var(--sc-text-white);
+  color: var(--sc-color-blue);
   text-decoration: underline;
   text-underline-offset: 4px;
   outline: none;

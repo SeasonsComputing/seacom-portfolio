@@ -14,13 +14,13 @@ as if it were my own. I'm hands-on across the SDLC — from R&D, architecture
 and code to customer acceptance and feedback.
 
 I'm an early adopter of most software paradigm shifts of the last 30 years —
-from object-oriented, dynamic and functional programming to cloud computing,
-distributed processing, machine learning and artificial intelligence. Throughout, I've
+from object-oriented/dynamic/functional programming and FOSS to cloud computing/SaaS/IaaS,
+distributed processing, machine learning and NLP. Throughout, I've
 remained committed to the first principles of agile guarantees, disciplined engineering
 and best practices.
 
-Today, I employ AI across the SDLC and full development stack:
-imagining, planning and architecture through development, deployment and maintenance.
+Today, I employ AI across the entire SDLC and full development stack:
+imagining, planning and architecture through development, deployment and evolution.
 
 ## 1. Contact
 
@@ -467,7 +467,7 @@ actionable results via a multi-channel CRM.
 - Team lead and primary programmer for APT Churn 1.0
 - Selected all technologies and vendors
 - Set software engineering standards
-- Presented architecture to customers, partners, investors
+- Presented architecture to customers, partners and investors
 
 #### Architecture
 
@@ -644,26 +644,14 @@ Early adopter for what became paradigm shifting within the software industry.
 
 #### Programming
 
-- C ➔ C++, C++ ➔ Java ➔ C++, Javascript ➔ Typescript, C/C++ ➔ Rust
+- C ➔ C++, C++ ➔ Java ➔ C++, Javascript ➔ Typescript, C/C++ ➔ Go ➔ Rust
 
 #### Scaling
 
 - Distributed processing/Multi-node computing
 - Cloud computing/SaaS/IaaS provisionsing
-- Unstructured/Document/Attribute/Messaging-queue stores
+- Unstructured/Document/Attribute/Message-queue stores
 - Microservices/REST interfaces
-
-#### AI
-
-- Machine learning
-  - Artificial Neural Networks
-  - Clustering & Classification
-  - Predictive Modeling
-  - Reinforcement Learning
-- Natural language processing
-  - Parts of Speech Tagging
-  - Content Discovery & Topic Extraction
-  - Sentiment Analysis
 
 #### Architecture patterns
 
