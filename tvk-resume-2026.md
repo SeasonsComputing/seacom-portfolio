@@ -333,9 +333,16 @@ classification.
 
 #### Technology Focus
 
-- Topic extraction from unstructured text
-- Sentiment analysis algorithms
-- Author classification
+- Machine learning
+  - Artificial neural networks
+  - Clustering & Classification
+  - Predictive Modeling
+  - Reinforcement learning
+- Natural language processing
+  - Parts of speech tagging
+  - Content discovery & Topic extraction
+  - Sentiment analysis
+  - Author classification
 - Large-scale internet crawling and text mining
 
 #### Leadership Responsibilities
@@ -655,17 +662,16 @@ Early adopter for what became paradigm shifting within the software industry.
 
 #### Architecture patterns
 
-- Data pipeline
-- Domain model driven
-- Inversion of control
-- Declarative systems
+- Data pipeline, Stream processing, Event-driven
+- ETML, Map/reduce
+- Inversion of control, Declarative systems
 
 #### Methodologies
 
-- Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
+- Booch, Rumbaugh, Coad-Yourdon, Schlaer-Mellor
 - Steve McConnell, Robert C. Martin, Martin Fowler, Gang of Four
 - Domain Model & Interface Driven Design, Frameworks, Design Patterns
-- McConnel, Unified Process, Agile
+- Steve McConnel, Unified Process, Agile
 - CI/CD, DevOps
 
 ### 5.5 Business Impact
