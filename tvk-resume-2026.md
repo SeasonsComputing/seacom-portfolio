@@ -613,8 +613,8 @@ Guided by essential first principles.
 
 - **Agile gaurantees, disciplined engineering and best practices** - only the
   "with what" and the "why" change, "how" remains constant
-- **Less is almost always more** - less design, fewer features, less code results in fewer
-  defects. It is the single greatest simplification tool for reducing complexity
+- **Less is almost always more** - less design, fewer features, less code results in
+  more quality, more reliability. It is the single greatest tool for minimizing complexity
 - **Pareto principle of feature design** - craft the 20% of functionality that
   satisfies 80% of customer needs
 - **Better to kill a feature than ship incomplete** - half-baked features that
@@ -622,14 +622,14 @@ Guided by essential first principles.
   may result in reputational damage and distrust
 - **Do it right, do it now** - it's never faster nor cheaper to do it right
   later. In fact, it's worse because often time misjudgment becomes institutionalized
-  in shared memories and imbued in the software artifacts produced
+  in shared memories and imbued in the software produced
 - **Anyone can write code that works** - writing functional software is the bare minimum.
   Constructing software that is essential, durable, minimalist, comprehensible _and_
   functional _while_ adhering to first principles is aspirational
 - **Leaders set the standard, even when they don't** - implicit behavior sets the
   standard for the entire team as much as explicit expectations
 
-### 5.3 Ascribed Work Style
+### 5.3 Peer Ascription
 
 - "Foundation in entrepreneurship"
 - "Strong work ethic"
@@ -638,13 +638,13 @@ Guided by essential first principles.
 - "Perfectionist approach to software, inside and out"
 - "Perpetual learner and early technology adopter"
 
-### 5.4 Technology Foresight
+### 5.4 Technical Foresight
 
 Early adopter for what became paradigm shifting within the software industry.
 
 #### Programming
 
-- C ➔ C++ ➔ Java ➔ C++ ➔ Typescript ➔ Rust
+- C ➔ C++, C++ ➔ Java ➔ C++, Javascript ➔ Typescript, C/C++ ➔ Rust
 
 #### Scaling
 
@@ -668,7 +668,7 @@ Early adopter for what became paradigm shifting within the software industry.
 #### Architecture patterns
 
 - Data pipeline
-- Domain driven
+- Domain model driven
 - Inversion of control
 - Declarative systems
 
@@ -676,7 +676,7 @@ Early adopter for what became paradigm shifting within the software industry.
 
 - Booch, Rumbaugh, Coad/Yourdon, Schlaer-Mellor
 - Steve McConnell, Robert C. Martin, Martin Fowler, Gang of Four
-- Domain Modeling, Interface Driven Design, Frameworks, Design Patterns
+- Domain Model & Interface Driven Design, Frameworks, Design Patterns
 - McConnel, Unified Process, Agile
 - CI/CD, DevOps
 
@@ -689,19 +689,17 @@ Early adopter for what became paradigm shifting within the software industry.
 
 ### 5.6 Notable Achievements
 
-| Achievement          | Details                                                                                                  |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Serial Entrepreneur  | Multiple startups from inception                                                                         |
-| Patent Portfolio     | 5 issued patents across 2 families: medical imaging (Hologic) and social media analytics (J.D. Power)    |
-| Acquisition Success  | Led technology for company acquired by J.D. Power                                                        |
-| Industry Recognition | Jolt Cola Award, Boulder Colorado Innovators Award                                                       |
-| Peer Recognition     | Multiple Award's of Excellence, over 200 Skills Endorsements on LinkedIn                                 |
-| Scale Experience     | Guided companies through significant growth phases (4 to 20+ employees, $500 to $30K daily revenue)      |
-| Technical Innovation | Early adoption of ML/NLP, cloud computing, distributed systems, microservices architecture               |
-| Leadership Skills    | Developed and executed technology strategies for successful software, service, anhd retail organizations |
-| Strategic Vision     | Guided companies through significant growth phases (4 to 20+ employees, $50 to 30K daily revenue)        |
+| Achievement          | Details                                                                                               |
+| -------------------- | ----------------------------------------------------------------------------------------------------- |
+| Serial Entrepreneur  | Multiple startups from inception                                                                      |
+| Patent Portfolio     | 5 issued patents across 2 families: medical imaging (Hologic) and social media analytics (J.D. Power) |
+| Acquisition Success  | Led technology for company acquired by J.D. Power                                                     |
+| Industry Recognition | Jolt Cola Award (XVT Software), BizWest IQ Award (Umbria Communications)                              |
+| Peer Recognition     | Multiple Awards of Excellence, over 200 Skills Endorsements on LinkedIn                               |
+| Business Growth      | Guided companies through significant growth phases (4 to 100+ employees)                              |
+| Technical Innovation | Early adoption of ML/NLP, cloud computing, distributed systems, microservices                         |
+| Business Breadth     | Developed and executed technology strategies for product, service, and retail organizations           |
 
 ### 5.7 Personal Interests
 
-- [Musician](https://soundcloud.com/tedvkremer), Gastronomy, Horticulture,
-  History, Science, Space exploration, Design
+- [Musician](https://soundcloud.com/tedvkremer), Gastronomy (Culinary School of the Rockies), Horticulture, History, Science, Space exploration, Design
