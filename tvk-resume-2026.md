@@ -19,7 +19,7 @@ distributed processing, machine learning and artificial intelligence. Throughout
 remained committed to the first principles of agile guarantees, disciplined engineering
 and best practices.
 
-Today, I employ agentic and generative AI across the SDLC and full development stack:
+Today, I employ AI across the SDLC and full development stack:
 imagining, planning and architecture through development, deployment and maintenance.
 
 ## 1. Contact
