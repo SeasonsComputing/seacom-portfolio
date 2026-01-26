@@ -142,7 +142,39 @@ _Umbria Inc. / J.D. Power (2006–2013)_
 
 ## 4. Experience
 
-### 4.1 Seasons Computing (2014-2018, 2024-2025)
+### 4.1 SwarmAg (2025-present)
+
+_Technical Founder_
+
+Agricultural services startup providing aerial drone applications and ground machinery services in North Texas.
+
+#### Key Responsibilities
+
+- Complete operational platform definition, architecture and development
+- Domain model driven, architecture specification and implementation
+- 3 applications: Operations, Administration, and Customer portal
+- 1 backend service for all applications, data stoage, processing and analytics
+- Designed and implemented company website and marketing materials
+
+#### Core Platforms
+
+| Platform       | Purpose                                    |
+| -------------- | ------------------------------------------ |
+| Netlify        | Frontends, functions compute, DNS, SSL     |
+| Supabase       | Postgres, Auth, Storage, Realtime          |
+| GitHub Actions | CI/CD                                      |
+| UI platform    | SolidJS + TanStack + Kobalte + vanilla CSS |
+
+#### Of Interest
+
+- Offline-Capable PWA
+- Append-only logs
+- Zero-cost infrastructure
+- TypeScript domain ontology
+
+Employed generative and agentic AI in all aspects of the platform. For a solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 additional developers and a budget of more than $300K.
+
+### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
 _Founder / Principal Consultant_
 
@@ -181,7 +213,7 @@ Responsible for website design & programming and technology marketing including
 mobile strategy & SEO; counseled company ownership on branding strategy;
 authored original content for marketing communications & messaging.
 
-### 4.2 Tapwow (2019-2023)
+### 4.3 Tapwow (2019-2023)
 
 _Technical Founder, Chief Technology Officer_
 
@@ -237,7 +269,7 @@ and user engagement.
 - Over six months, I refactored the entire architecture and delivered a major 2.0 release with substantial features and improvements across the solution
 - Post-pandemic, I presented the architecture and new features directly to investors and acquirers during liquidity discussions, which proved instrumental in securing a white-label licensing agreement
 
-### 4.3 Grow Big Supply (2012-2014)
+### 4.4 Grow Big Supply (2012-2014)
 
 _Technical Founder, Chief Technology Officer_
 
@@ -265,7 +297,7 @@ largest and only 24x7 brick & mortar retail hydroponics superstore in North Amer
 - Built scalable infrastructure supporting 60x retail growth
 - Integrated diverse technology platforms into cohesive ecosystem
 
-### 4.4 30dB (2010-2011)
+### 4.5 30dB (2010-2011)
 
 _Cofounder, Chief Technology Officer_
 
@@ -295,7 +327,7 @@ search to aggregate real-time crowd opinion.
 - Managed development of initial MVP iteration
 - Established development processes and standards
 
-### 4.5 Umbria Communications (2003-2008)
+### 4.6 Umbria Communications (2003-2008)
 
 _Cofounder, Chief Technology Officer_
 
@@ -354,7 +386,7 @@ classification.
 - J.D. Power
 - 2008
 
-### 4.6 Green Planet Software (2003)
+### 4.7 Green Planet Software (2003)
 
 _Cofounder, Chief Technology Officer_
 
@@ -388,7 +420,7 @@ activity.
 - Client-side machine learning for personalization
 - Cross-platform compatibility strategy
 
-### 4.7 Fischer Imaging (2002-2003)
+### 4.8 Fischer Imaging (2002-2003)
 
 _Software Architect_
 
@@ -427,7 +459,7 @@ acquisition and review of digital x-rays over unreliable wide area networks.
 - Multiple patents on distributed mammographic imaging architecture
 - Filed under Hologic (Fischer Imaging acquisition)
 
-### 4.8 Athene Software (1998-2001)
+### 4.9 Athene Software (1998-2001)
 
 _Technical Founder, Chief Software Architect_
 
@@ -473,7 +505,7 @@ actionable results via a multi-channel CRM.
 - Web component framework with advanced UI capabilities
 - Business object infrastructure aggregating UI and business rules
 
-### 4.9 Flatirons Computing (1996-1998)
+### 4.10 Flatirons Computing (1996-1998)
 
 _Cofounder / Principal Consultant_
 
@@ -508,7 +540,7 @@ with database and machine learning thought-leader Richard Wolniewicz Ph.D.
 | Project                | Asset management application      |
 | Technologies           | C++, Microsoft Foundation Classes |
 
-### 4.10 XVT Software (1992-1996)
+### 4.11 XVT Software (1992-1996)
 
 _Principal Engineer (1994-1996), Software Engineer (1992-1994), Technical
 Support (1992)_
@@ -548,7 +580,7 @@ _XVT-Power++ (Cross-platform C++ application framework)_
 
 - Recipient of XVT Software Award of Excellence (two consecutive years)
 
-### 4.11 ProtoSoft (1990-1992)
+### 4.12 ProtoSoft (1990-1992)
 
 _Software Engineer_
 
