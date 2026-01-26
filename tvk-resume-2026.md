@@ -167,7 +167,7 @@ Agricultural services startup providing aerial drone applications and ground mac
 
 #### AI
 
-Employed generative and agentic AI in all aspects of the platform. For a solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 additional developers and a budget of more than $300K taking 6 months or more. I completed the entire project by myself in 3 months. Engineering discipline of documentation and knowledge management was fully and properly adhered to. Best practices of unit, integration testing and code reviews were not sacrificed.
+Employed AI in all aspects of the project. Solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 developers and a budget $300K taking 6 months. I completed the entire project solo in 3 months. Engineering discipline of documentation and knowledge management were fully and properly adhered to. Best practices of style-guide, unit & integration testing and code reviews were not sacrificed.
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
