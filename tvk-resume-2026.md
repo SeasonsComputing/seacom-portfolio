@@ -142,7 +142,7 @@ _Umbria Inc. / J.D. Power (2006–2013)_
 
 ## 4. Experience
 
-### 4.1 SwarmAg (2025-present)
+### 4.1 swarmAg (2025-present)
 
 _Technical Founder_
 
@@ -150,13 +150,13 @@ Agricultural services startup providing aerial drone applications and ground mac
 
 #### Key Responsibilities
 
-- Complete operational platform definition, architecture and development
+- Complete operational platform definition, architecture and implementation
 - Domain model driven, architecture specification and implementation
 - 3 applications: Operations, Administration, and Customer portal
 - 1 backend service for all applications, data stoage, processing and analytics
 - Designed and implemented company website and marketing materials
 
-#### Core Platforms
+#### Technology
 
 | Platform       | Purpose                                    |
 | -------------- | ------------------------------------------ |
@@ -165,14 +165,9 @@ Agricultural services startup providing aerial drone applications and ground mac
 | GitHub Actions | CI/CD                                      |
 | UI platform    | SolidJS + TanStack + Kobalte + vanilla CSS |
 
-#### Of Interest
+#### AI
 
-- Offline-Capable PWA
-- Append-only logs
-- Zero-cost infrastructure
-- TypeScript domain ontology
-
-Employed generative and agentic AI in all aspects of the platform. For a solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 additional developers and a budget of more than $300K.
+Employed generative and agentic AI in all aspects of the platform. For a solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 additional developers and a budget of more than $300K taking 6 months or more. I completed the entire project by myself in 3 months. Engineering discipline of documentation and knowledge management was fully and properly adhered to. Best practices of unit, integration testing and code reviews were not sacrificed.
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
