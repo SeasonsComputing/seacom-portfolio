@@ -14,7 +14,7 @@ as if it were my own. I'm hands-on across the SDLC — from R&D, architecture
 and code to customer acceptance and feedback.
 
 I'm an early adopter of most software paradigm shifts of the last 30 years —
-from object-oriented/dynamic/functional programming and FOSS to cloud computing/SaaS/IaaS,
+from object-oriented/dynamic/functional programming and OSS to cloud computing/SaaS/IaaS,
 distributed processing, machine learning and NLP. Throughout, I've
 remained committed to the first principles of agile guarantees, disciplined engineering
 and best practices.
@@ -22,7 +22,7 @@ and best practices.
 Today, I employ AI across the entire SDLC and full development stack:
 imagining, planning and architecture through development, deployment and evolution.
 
-## 1 Contact
+## 1. Contact
 
 | Information | Details                               |
 | ----------- | ------------------------------------- |
@@ -34,7 +34,7 @@ imagining, planning and architecture through development, deployment and evoluti
 | Website     | <https://seasonscomputing.com>        |
 | GitHub      | <https://github.com/SeasonsComputing> |
 
-## 2 Skills
+## 2. Skills
 
 ### 2.1 Language, Library & Framework
 
@@ -73,7 +73,7 @@ imagining, planning and architecture through development, deployment and evoluti
 | Analytics                   | Text Mining, Data Mining, OLAP                                  |
 | Persistence                 | Document-text, Key-value, Message-oriented, Relational, NoSQL   |
 
-## 3 Patents
+## 3. Patents
 
 ### 3.1 Medical Imaging
 
@@ -138,21 +138,22 @@ _Umbria Inc. / J.D. Power (2006–2013)_
 | Issued    | January 8, 2013                                                                     |
 | Summary   | Systems for categorizing and analyzing user posts in social networks                |
 
-## 4 Experience
+## 4. Experience
 
 ### 4.1 swarmAg (2025-present)
 
-_Technical Founder_
+_Founding Contributor_
 
 Agricultural services startup providing aerial drone applications and ground machinery services in North Texas.
 
-#### Key Responsibilities
+#### AI Immersion
 
-- Complete operational platform definition, architecture and implementation
-- Domain model driven, architecture specification and implementation
-- 3 applications: Operations, Administration, and Customer portal
-- 1 backend service for all applications, data stoage, processing and analytics
-- Designed and implemented company website and marketing materials
+Employed AI as first-class engineering tool to deliver multi-client, model-driven system with
+offline-capable PWA field workflows and web applications for administration and customer access.
+Architectural decisions, tooling, and coding practices reflected personal judgment; AI constrained
+by experience and applied as accelerator rather than substitute. Delivered solo in 3 months what
+typically requires ~3 engineers, ~$300K budget, and 6-month cycle, while preserving agile guarantees,
+disciplined engineering and best practices.
 
 #### Technology
 
@@ -162,10 +163,15 @@ Agricultural services startup providing aerial drone applications and ground mac
 | Supabase       | Postgres, Auth, Storage, Realtime          |
 | GitHub Actions | CI/CD                                      |
 | UI platform    | SolidJS + TanStack + Kobalte + vanilla CSS |
+| AI             | Cline+Grok, Codex, Claude Code\*           |
 
-#### AI
+_(\*) Claude Code is my current preferred AI tool for contemporary software construction._
 
-Employed AI in all aspects of the project. Solution of this complexity and scale, in my experience, would have necessitated a team of at least 3 developers and a budget $300K taking 6 months. I completed the entire project solo in 3 months. Engineering discipline of documentation and knowledge management were fully and properly adhered to. Best practices of style-guide, unit & integration testing and code reviews were not sacrificed.
+#### Cross Functional Contributions
+
+- Designed and implemented corporate website and marketing materials
+- Contributed to regulatory compliance and policy development
+- Managed and optimized SEO for improved online visibility
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
@@ -210,11 +216,11 @@ authored original content for marketing communications & messaging.
 
 _Technical Founder, Chief Technology Officer_
 
-Tapwow develops a cutting-edge platform that transforms the way digital markers
-(NFC, GS1, QRC, RFID) are utilized. The platform streamlines the processes of
-designing, managing, deploying and analyzing these markers, catering to various
-industries such as manufacturing, supply chain tracking, product authentication
-and user engagement.
+Tapwow develops a cutting-edge platform, DIRX2, that transforms the way digital markers
+(NFC, GS1, QRC, RFID) are utilized. DIRX2 is a SaaS, desktop web application and mobile application.
+The platform streamlines the processes of designing, managing, deploying and analyzing these
+markers, catering to various industries as manufacturing, supply chain tracking,
+product authentication, anti-diversion, anti-counterfeiting and user engagement.
 
 #### Key Responsibilities
 
@@ -223,44 +229,41 @@ and user engagement.
 - Core component software development
 - Technical presentations to customers, investors and acquirers
 
-#### Technology Stack
+#### Backend Stack
 
-| Backend        | Stack                                       |
-| -------------- | ------------------------------------------- |
-| Infrastructure | AWS (EC2, RDS, SES, S3, R53), Nginx, Docker |
-| Runtime        | Node.js                                     |
-| Framework      | NestJS                                      |
-| Database       | PostgreSQL, Redis                           |
-| Language       | TypeScript                                  |
-| ORM            | TypeORM                                     |
-| Tools          | Swagger, JWT, Sentry, Handlebars            |
+| Backend    | Stack                                                                         |
+| ---------- | ----------------------------------------------------------------------------- |
+| Platform   | AWS (EC2, RDS, SES, S3, R53), Docker, Node, PostgreSQL, Redis, Tableau Server |
+| Foundation | TypeScript, NestJS, TypeORM, Swagger, JWT, Sentry, Handlebars                 |
 
-| Frontend         | Stack      |
-| ---------------- | ---------- |
-| Framework        | React      |
-| UI Library       | Ant Design |
-| Server           | Express    |
-| State Management | MobX       |
-| Language         | JavaScript |
+#### Frontend Stack
 
-| Marketing | Stack                   |
-| --------- | ----------------------- |
-| Database  | MongoDB                 |
-| CMS       | Strapi                  |
-| Analytics | Tableau Embedded/Server |
+| Frontend   | Stack                                                          |
+| ---------- | -------------------------------------------------------------- |
+| Platform   | SPA Web Applcation & Web Mobile, iPhone/iOS , Nginx            |
+| Foundation | JavaScript, React, Express, MobX, Ant Design, Tableau Embedded |
 
-| SDLC          | Tool       |
-| ------------- | ---------- |
-| Version       | GitHub     |
-| Documentation | Confluence |
-| Project       | Jira       |
+#### Marketing Applications
+
+Marketing-driven applications demonstrating DIRX2
+
+- Mobile & Desktop Applications
+- MongoDB & Strapi
+
+#### SDLC Tooling
+
+- GitLab, Confluence and Jira
 
 #### Notable Achievements
 
-- When Covid forced Tapwow to scale back operations, the team was reduced to the principal founders and myself as the sole technical resource
-- I assumed all software development roles—architect, DevOps, full-stack developer, tester, and project manager
-- Over six months, I refactored the entire architecture and delivered a major 2.0 release with substantial features and improvements across the solution
-- Post-pandemic, I presented the architecture and new features directly to investors and acquirers during liquidity discussions, which proved instrumental in securing a white-label licensing agreement
+- When Covid forced Tapwow to scale back operations, the team was reduced to the
+  principal founders and myself as the sole technical resource
+- I assumed all software development roles: architect, UX designer, DevOps, full-stack developer
+- Over six months, I refactored the entire architecture and delivered a major 2.0 release with
+  substantial features and improvements across the solution, including a suite of marketing-driven
+  applications to demonstrate DIRX2 2.0 capabilities
+- Post-pandemic, I presented the architecture and new features directly to investors and acquirers
+  during liquidity discussions, which proved instrumental in securing a white-label licensing agreement
 
 ### 4.4 Grow Big Supply (2012-2014)
 
@@ -601,7 +604,7 @@ The full specification of a methodology was a "Paradigm".
 | Technologies             | C, XVT, Raima dbVista               |
 | Diagramming capabilities | Supported multiple notation systems |
 
-## 5 Personal
+## 5. Personal
 
 ### 5.1 Background
 
