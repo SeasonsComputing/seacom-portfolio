@@ -22,7 +22,7 @@ and best practices.
 Today, I employ AI across the entire SDLC and full development stack:
 imagining, planning and architecture through development, deployment and evolution.
 
-## 1. Contact
+## 1 Contact
 
 | Information | Details                               |
 | ----------- | ------------------------------------- |
@@ -34,48 +34,46 @@ imagining, planning and architecture through development, deployment and evoluti
 | Website     | <https://seasonscomputing.com>        |
 | GitHub      | <https://github.com/SeasonsComputing> |
 
-## 2. Skills
+## 2 Skills
 
-### 2.1 Languages & Frameworks
+### 2.1 Language, Library & Framework
 
 | Category | Details                                                    |
 | -------- | ---------------------------------------------------------- |
-| Primary  | TypeScript, JavaScript, C++, C, PHP, Java                  |
+| Language | TypeScript, JavaScript, C++, C, PHP, Java                  |
 | Frontend | Solid, React, HTML, CSS, Ajax, jQuery, Bootstrap, JSP, ASP |
 | Backend  | Deno, Node.js, NestJS, Laravel, WordPress, OpenCart        |
 | Java EE  | Spring, Hibernate, JavaBeans                               |
+| DevOps   | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j    |
 | Legacy   | Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA   |
 
-### 2.2 Architecture & Infrastructure
+### 2.2 Platform, Deployment & Structure
 
-| Category               | Details                                                               |
-| ---------------------- | --------------------------------------------------------------------- |
-| Platforms              | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
-| Architectural Patterns | Cloud, Microservice, Grid, Distributed, Client/Server,                |
-|                        | Desktop, Mobile Single Page Application, Responsive & Adaptive Design |
-| Development Patterns   | Library, Framework, Component, Patterns, Object-Oriented              |
-| DevOps                 | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j               |
+| Category  | Details                                                               |
+| --------- | --------------------------------------------------------------------- |
+| Platforms | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
+| Backend   | Cloud, Microservice, Grid, Distributed, Client/Server                 |
+| Frontend  | Desktop, Mobile Single Page Application, Responsive & Adaptive Design |
+| Structure | Library, Framework, Component, Patterns, Object-Oriented              |
 
 ### 2.3 Data & Integration
 
-| Category    | Details                               |
-| ----------- | ------------------------------------- |
-| Relational  | PostgreSQL, MySQL, Oracle, SQL Server |
-|             | TypeORM, ODBC/JDBC                    |
-| Alternative | MongoDB, Redis, eXist, Lucene         |
-|             | JSON, XML, XSLT, XQuery               |
-| Remote      | REST, SOAP                            |
+| Category         | Details                                        |
+| ---------------- | ---------------------------------------------- |
+| Relational Model | PostgreSQL, MySQL, Oracle, SQL Server          |
+| Alternative      | TypeORM, MongoDB, Redis, eXist, Lucene         |
+| Query & Exchange | REST, SOAP, ODBC/JDBC, JSON, XML, XSLT, XQuery |
 
 ### 2.4 Specialized Domains
 
-| Domain      | Details                                                       |
-| ----------- | ------------------------------------------------------------- |
-| AI/ML       | Artificial Neural Networks, Natural Language Processing       |
-|             | Sentiment Analysis, Topic Extraction, Predictive Modeling     |
-| Analytics   | Text Mining, Data Mining, OLAP                                |
-| Persistence | Document-text, Key-value, Message-oriented, Relational, NoSQL |
+| Domain                      | Details                                                         |
+| --------------------------- | --------------------------------------------------------------- |
+| Machine Learning            | Artificial Neural Networks, Predictive Modeling, Classification |
+| Natural Language Processing | Parts of Speech Tagging, Topic Extraction, Sentiment Analysis   |
+| Analytics                   | Text Mining, Data Mining, OLAP                                  |
+| Persistence                 | Document-text, Key-value, Message-oriented, Relational, NoSQL   |
 
-## 3. Patents
+## 3 Patents
 
 ### 3.1 Medical Imaging
 
@@ -140,7 +138,7 @@ _Umbria Inc. / J.D. Power (2006–2013)_
 | Issued    | January 8, 2013                                                                     |
 | Summary   | Systems for categorizing and analyzing user posts in social networks                |
 
-## 4. Experience
+## 4 Experience
 
 ### 4.1 swarmAg (2025-present)
 
@@ -160,7 +158,7 @@ Agricultural services startup providing aerial drone applications and ground mac
 
 | Platform       | Purpose                                    |
 | -------------- | ------------------------------------------ |
-| Netlify        | Frontends, functions compute, DNS, SSL     |
+| Netlify        | Functions compute, DNS, SSL                |
 | Supabase       | Postgres, Auth, Storage, Realtime          |
 | GitHub Actions | CI/CD                                      |
 | UI platform    | SolidJS + TanStack + Kobalte + vanilla CSS |
@@ -186,7 +184,7 @@ and manager of SDLC functions.
 - SDLC management
 - Technology marketing and digital strategy
 
-#### Clients (Seasons Computing)
+#### Clients
 
 ##### MedCAD (2024-2025)
 
@@ -336,7 +334,7 @@ classification.
 - Machine learning
   - Artificial neural networks
   - Clustering & Classification
-  - Predictive Modeling
+  - Predictive modeling
   - Reinforcement learning
 - Natural language processing
   - Parts of speech tagging
@@ -374,8 +372,8 @@ classification.
 | Aspect       | Details                                               |
 | ------------ | ----------------------------------------------------- |
 | Technology   | HTML, CSS, JavaScript, Java, RMI, Servlets, XML, XSLT |
-| Features     | Analysis, visualization, personalization              |
-| Target Users | Market researchers and analysts                       |
+| Features     | Analysis, Visualization, Personalization              |
+| Target Users | Market Researchers and Analysts                       |
 
 #### Press Recognition
 
@@ -603,7 +601,7 @@ The full specification of a methodology was a "Paradigm".
 | Technologies             | C, XVT, Raima dbVista               |
 | Diagramming capabilities | Supported multiple notation systems |
 
-## 5. Personal
+## 5 Personal
 
 ### 5.1 Background
 
@@ -664,7 +662,7 @@ Early adopter for what became paradigm shifting within the software industry.
 
 - Data pipeline, Stream processing, Event-driven
 - ETML, Map/reduce
-- Inversion of control, Declarative systems
+- Inversion of Control, Declarative systems
 
 #### Methodologies
 
