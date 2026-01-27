@@ -151,14 +151,14 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
 .MarkdownContent table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
   background: var(--sc-bg-table);
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 1rem;
   overflow: hidden;
-  border-bottom: 3px solid var(--sc-color-blue);
 }
 
 .MarkdownContent thead {
@@ -167,21 +167,24 @@
 
 .MarkdownContent th {
   padding-block: 0.75rem;
-  padding-inline-start: 1rem;
+  padding-inline-start: 1.5rem;
   color: var(--sc-text-light);
   text-align: left;
   font-weight: 600;
 }
 
+.MarkdownContent tr:not(:last-child) {
+  border-bottom: 1px solid var(--sc-border-table);
+}
+
 .MarkdownContent td {
   padding-block: 0.6rem;
-  padding-inline-start: 1rem;
-  border-bottom: 1px solid var(--sc-border-table);
+  padding-inline-start: 1.5rem;
   line-height: 1.6;
 }
 
 .MarkdownContent td:first-child {
-  width: 25%;
+  width: 22%;
 }
 
 .MarkdownContent th:last-child,
@@ -200,6 +203,7 @@
 
 .MarkdownContent ul > li::marker {
   color: var(--sc-text-dim);
+  font-size: 1.25rem;
 }
 
 .MarkdownContent a {

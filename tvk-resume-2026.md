@@ -245,7 +245,7 @@ product authentication, anti-diversion, anti-counterfeiting and user engagement.
 
 #### Marketing Applications
 
-Marketing-driven applications demonstrating DIRX2
+Marketing-driven applications demonstrating DIRX2.
 
 - Mobile & Desktop Applications
 - MongoDB & Strapi
@@ -428,7 +428,7 @@ activity.
 _Software Architect_
 
 Fischer Imaging developed a full-field digital mammography system for
-acquisition and review of digital x-rays over unreliable wide area networks.
+acquisition and review of digital x-rays over unreliable wide Aspect networks.
 
 #### System Architecture
 
@@ -521,27 +521,35 @@ with database and machine learning thought-leader Richard Wolniewicz Ph.D.
 - Financial management
 - Client project delivery
 
-#### Client Projects (Flatirons Computing)
+#### Clients
 
-| HeurisTec    | Details                                      |
+##### HeurisTec
+
+| Aspect       | Details                                      |
 | ------------ | -------------------------------------------- |
 | Project      | SuperSked for Windows scheduling application |
 | Technologies | C++, MFC, ODBC, Visual Basic, ActiveX        |
 
-| Qwest Communications | Details                                                  |
-| -------------------- | -------------------------------------------------------- |
-| Project              | Network Operations Center (NOC) work request application |
-| Technologies         | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
+##### Qwest Communications
 
-| TransLogic   | Details                                           |
+| Aspect       | Details                                                  |
+| ------------ | -------------------------------------------------------- |
+| Project      | Network Operations Center (NOC) work request application |
+| Technologies | Visual Basic, ActiveX Document Server, DCOM, ADO, Oracle |
+
+##### TransLogic
+
+| Aspect       | Details                                           |
 | ------------ | ------------------------------------------------- |
 | Project      | Scheduling application for pneumatic tube systems |
 | Technologies | C++, XVT-Power++                                  |
 
-| Blue Cross/Blue Shield | Details                           |
-| ---------------------- | --------------------------------- |
-| Project                | Asset management application      |
-| Technologies           | C++, Microsoft Foundation Classes |
+##### Blue Cross/Blue Shield
+
+| Aspect       | Details                           |
+| ------------ | --------------------------------- |
+| Project      | Asset management application      |
+| Technologies | C++, Microsoft Foundation Classes |
 
 ### 4.11 XVT Software (1992-1996)
 
@@ -591,14 +599,16 @@ ProtoSoft produced a cross-platform meta-modeling software design tool,
 ParadigmPlus, supporting a variety of notations and methods for the aerospace
 industry in Clear Lake City, Texas.
 
-#### Technical Highlights
+#### Innovation
 
 Sophisticated meta-model, schemas & instances, with scripting  
-such that proprietary methods could be implemented (diagram types,
-regulatory content, auto-enforced methodology rules & constraints).
+such that proprietary methodology could be implemented (diagram types,
+regulatory content, auto-enforced rules & constraints).
 The full specification of a methodology was a "Paradigm".
 
-| Contribution             | Details                             |
+#### Technical Contributions
+
+| Aspect                   | Details                             |
 | ------------------------ | ----------------------------------- |
 | Diagramming kernel       | Programmed core diagramming engine  |
 | Technologies             | C, XVT, Raima dbVista               |
