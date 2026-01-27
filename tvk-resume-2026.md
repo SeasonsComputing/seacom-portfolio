@@ -157,13 +157,13 @@ disciplined engineering and best practices.
 
 #### Technology
 
-| Platform       | Purpose                                    |
-| -------------- | ------------------------------------------ |
-| Netlify        | Functions compute, DNS, SSL                |
-| Supabase       | Postgres, Auth, Storage, Realtime          |
-| GitHub Actions | CI/CD                                      |
-| UI platform    | SolidJS + TanStack + Kobalte + vanilla CSS |
-| AI             | Cline+Grok, Codex, Claude Code\*           |
+| Platform       | Purpose                                 |
+| -------------- | --------------------------------------- |
+| Netlify        | Functions compute, DNS, SSL             |
+| Supabase       | Postgres, Auth, Storage, Realtime       |
+| GitHub Actions | CI/CD                                   |
+| UI platform    | SolidJS, TanStack, Kobalte, vanilla CSS |
+| AI Coding      | Cline+Grok, Codex, Claude Code\*        |
 
 _(\*) Claude Code is my current preferred AI tool for contemporary software construction._
 
