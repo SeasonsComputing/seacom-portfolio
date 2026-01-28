@@ -428,7 +428,7 @@ activity.
 _Software Architect_
 
 Fischer Imaging developed a full-field digital mammography system for
-acquisition and review of digital x-rays over unreliable wide Aspect networks.
+acquisition and review of digital x-rays over unreliable wide area networks.
 
 #### System Architecture
 
