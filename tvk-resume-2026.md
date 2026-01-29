@@ -161,10 +161,10 @@ disciplined engineering and best practices.
 | Netlify        | Functions compute, DNS, SSL             |
 | Supabase       | Postgres, Auth, Storage, Realtime       |
 | GitHub Actions | CI/CD                                   |
-| UI platform    | SolidJS, TanStack, Kobalte, vanilla CSS |
+| UX Platform    | SolidJS, TanStack, Kobalte, vanilla CSS |
 | AI Coding      | Cline+Grok, Codex, Claude Code\*        |
 
-_(\*) Claude Code is my current preferred AI tool for contemporary software construction._
+_(\*) Claude Code primary AI tool for software construction._
 
 #### Cross Functional Contributions
 
