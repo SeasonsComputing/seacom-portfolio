@@ -13,7 +13,7 @@ import { $, $$ } from './utils.js';
  * const carousel = new Carousel('#my-carousel');
  * carousel.init();
  */
-export default class Carousel {
+export class Carousel {
   /**
    * Default duration in milliseconds between automatic slide transitions.
    * @type {number}

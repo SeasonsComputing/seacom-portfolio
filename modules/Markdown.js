@@ -64,7 +64,8 @@ export class Markdown {
       }
 
       const anchor = `${item.sectionNum}-${item.id}`;
-      html += `<li class="MarkdownIndexItem MarkdownIndexLevel${item.level}">` +
+      html +=
+        `<li class="MarkdownIndexItem MarkdownIndexLevel${item.level}">` +
         `<a href="#${anchor}">${item.sectionNum} ${item.title}</a>`;
 
       prevLevel = item.level;

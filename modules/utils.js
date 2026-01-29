@@ -18,4 +18,3 @@ export const $ = (selector, node = document) => node.querySelector(selector);
  * @returns {NodeList} A NodeList of matching elements
  */
 export const $$ = (selector, node = document) => node.querySelectorAll(selector);
-

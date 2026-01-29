@@ -36,42 +36,41 @@ imagining, planning and architecture through development, deployment and evoluti
 
 ## 2. Skills
 
-### 2.1 Language, Library & Framework
+### 2.1 Technology
 
-| Category | Details                                                    |
-| -------- | ---------------------------------------------------------- |
-| Language | TypeScript, JavaScript, C++, C, PHP, Java                  |
-| Frontend | Solid, React, HTML, CSS, Ajax, jQuery, Bootstrap, JSP, ASP |
-| Backend  | Deno, Node.js, NestJS, Laravel, WordPress, OpenCart        |
-| Java EE  | Spring, Hibernate, JavaBeans                               |
-| DevOps   | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j    |
-| Legacy   | Swing, AWT, MFC, Stingray, XVT, COM, ATL, ActiveX, CORBA   |
+| Category         | Details                                                                   |
+| ---------------- | ------------------------------------------------------------------------- |
+| Language         | TypeScript, JavaScript, C++, C, PHP, Java                                 |
+| Frontend         | Solid, React, HTML, CSS                                                   |
+| Backend          | Deno, Node, NestJS, Laravel, WordPress, OpenCart                          |
+| DevOps           | Docker, CI/CD, SCM, Jenkins/Hudson, Maven, JUnit, log4j                   |
+| Legacy Frontend  | Swing, AWT, MFC, Stingray, XVT, Ajax, jQuery, Bootstrap, JSP, ASP, Spring |
+| Legacy Component | COM, DCOM, ATL, ActiveX, CORBA, JavaBeans                                 |
 
-### 2.2 Platform, Deployment & Structure
+### 2.2 Architecture
 
 | Category  | Details                                                               |
 | --------- | --------------------------------------------------------------------- |
-| Platforms | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
+| Platform  | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
 | Backend   | Cloud, Microservice, Grid, Distributed, Client/Server                 |
 | Frontend  | Desktop, Mobile Single Page Application, Responsive & Adaptive Design |
 | Structure | Library, Framework, Component, Patterns, Object-Oriented              |
 
-### 2.3 Data & Integration
+### 2.3 Data
 
-| Category         | Details                                        |
-| ---------------- | ---------------------------------------------- |
-| Relational Model | PostgreSQL, MySQL, Oracle, SQL Server          |
-| Alternative      | TypeORM, MongoDB, Redis, eXist, Lucene         |
-| Query & Exchange | REST, SOAP, ODBC/JDBC, JSON, XML, XSLT, XQuery |
+| Category       | Details                                                              |
+| -------------- | -------------------------------------------------------------------- |
+| Structure      | Relational, Document-text, Key-value, Message-oriented               |
+| Vendor         | PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, eXist, Lucene, Redis |
+| API & Exchange | TypeORM, REST, SOAP, ODBC/JDBC, JSON, XML, XSLT, XQuery              |
+| Analytics      | Text Mining, Data Mining, OLAP                                       |
 
-### 2.4 Specialized Domains
+### 2.4 AI
 
 | Domain                      | Details                                                         |
 | --------------------------- | --------------------------------------------------------------- |
 | Machine Learning            | Artificial Neural Networks, Predictive Modeling, Classification |
 | Natural Language Processing | Parts of Speech Tagging, Topic Extraction, Sentiment Analysis   |
-| Analytics                   | Text Mining, Data Mining, OLAP                                  |
-| Persistence                 | Document-text, Key-value, Message-oriented, Relational, NoSQL   |
 
 ## 3. Patents
 
