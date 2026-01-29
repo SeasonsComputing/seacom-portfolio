@@ -49,12 +49,12 @@ imagining, planning and architecture through development, deployment and evoluti
 
 ### 2.2 Architecture
 
-| Category  | Details                                                               |
-| --------- | --------------------------------------------------------------------- |
-| Platform  | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)             |
-| Backend   | Cloud, Microservice, Grid, Distributed, Client/Server                 |
-| Frontend  | Desktop, Mobile Single Page Application, Responsive & Adaptive Design |
-| Structure | Library, Framework, Component, Patterns, Object-Oriented              |
+| Category  | Details                                                                |
+| --------- | ---------------------------------------------------------------------- |
+| Platform  | Linux, Win32, Web, AWS (EC2, S3, SDB, SQS, RDS, SES, R53)              |
+| Backend   | Cloud, Microservice, Grid, Distributed, Client/Server                  |
+| Frontend  | Desktop, Mobile, Single Page Application, Responsive & Adaptive Design |
+| Structure | Library, Framework, Component, Patterns, Object-Oriented               |
 
 ### 2.3 Data
 
