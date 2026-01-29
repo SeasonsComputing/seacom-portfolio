@@ -661,7 +661,7 @@ Early adopter for what became paradigm shifting within the software industry.
 
 #### Programming
 
-- C ➔ C++, C++ ➔ Java ➔ C++, Javascript ➔ Typescript, C/C++ ➔ Go ➔ Rust
+- C ➔ C++, C++ ➔ Java ➔ C++, Javascript ➔ Typescript, C++ ➔ Go ➔ Rust
 
 #### Scaling
 
