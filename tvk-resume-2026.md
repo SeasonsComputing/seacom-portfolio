@@ -625,8 +625,8 @@ The full specification of a methodology was a "Paradigm".
 
 ### 5.2 Career Philosophy
 
-Dedicated to building the best possible products, teams, and companies. Always curious.
-Guided by essential first principles.
+Dedicated to building the best possible products, teams, and companies.
+Always curious, always learning. Servant leadership, guided by essential first principles.
 
 - **Agile gaurantees, disciplined engineering and best practices** - only the
   "with what" and the "why" change, "how" remains constant
@@ -645,10 +645,11 @@ Guided by essential first principles.
   functional _while_ adhering to first principles is aspirational
 - **Leaders set the standard, even when they don't** - implicit behavior sets the
   standard for the entire team as much as explicit expectations
+- **Pride and purpose drives effort** - innovation is driven by a sense of purpose,
+  not just a desire for novelty or status. Pride is a powerful motivator for excellence.
 
 ### 5.3 Peer Ascription
 
-- "Foundation in entrepreneurship"
 - "Strong work ethic"
 - "Passion for technology and creativity"
 - "Drive for excellence and achievement"
@@ -657,7 +658,7 @@ Guided by essential first principles.
 
 ### 5.4 Technical Foresight
 
-Early adopter for what became paradigm shifting within the software industry.
+Early adopter for what became paradigm shifts within the software industry.
 
 #### Programming
 
@@ -670,19 +671,19 @@ Early adopter for what became paradigm shifting within the software industry.
 - Unstructured/Document/Attribute/Message-queue stores
 - Microservices/REST interfaces
 
-#### Architecture patterns
+#### Architecture Styles
 
 - Data pipeline, Stream processing, Event-driven
-- ETML, Map/reduce
+- ETML, Map/Reduce
 - Inversion of Control, Declarative systems
+- Domain Model & Interface driven design
+- Application Frameworks
+- Dynamic Component-based systems
 
-#### Methodologies
+#### Influences (Standing on the shoulders of giants)
 
 - Booch, Rumbaugh, Coad-Yourdon, Schlaer-Mellor
 - Steve McConnell, Robert C. Martin, Martin Fowler, Gang of Four
-- Domain Model & Interface Driven Design, Frameworks, Design Patterns
-- Steve McConnel, Unified Process, Agile
-- CI/CD, DevOps
 
 ### 5.5 Business Impact
 
