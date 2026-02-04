@@ -329,7 +329,7 @@ _Cofounder, Chief Technology Officer_
 Umbria converted unsolicited online opinions into actionable market research
 through the application of proprietary natural language processing and machine
 learning algorithms for topic extraction, sentiment analysis and author
-classification.
+classification. Winner of BizWest IQ Award for Innovation in Technology.
 
 #### Technology Focus
 
