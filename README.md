@@ -36,6 +36,7 @@ seacom-portfolio/
 ├── README.md
 ├── index.html                 # Main HTML entry point
 ├── markdown.html              # Markdown resume viewer
+├── tvk-resume-2026.md         # Markdown resume content
 ├── assets/                    # Static assets
 │   ├── Comfortaa-Regular.woff2
 │   ├── favicon.png
@@ -47,11 +48,10 @@ seacom-portfolio/
 │   ├── Markdown.js
 │   ├── utils.js
 │   └── Website.js
-├── styles/                    # CSS stylesheets
-│   ├── Carousel.css
-│   ├── Markdown.css
-│   └── index.css
-└── tvk-resume-2026.md         # Markdown resume content
+└── styles/                    # CSS stylesheets
+    ├── Carousel.css
+    ├── Markdown.css
+    └── index.css
 ```
 
 ## Architecture Patterns
