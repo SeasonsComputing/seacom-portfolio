@@ -1,4 +1,4 @@
-# Seasons Computing Website Architecture
+# Seasons Computing Website
 
 ## Overview
 
