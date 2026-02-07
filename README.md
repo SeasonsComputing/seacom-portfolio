@@ -51,10 +51,7 @@ seacom-portfolio/
 │   ├── Carousel.css
 │   ├── Markdown.css
 │   └── index.css
-├── tvk-resume-2026.md          # Markdown resume content
-├── .markdownlint.json          # Markdown lint rules
-├── .cspell.json                # Spellcheck dictionary
-└── .vscode/settings.json       # Editor settings
+└── tvk-resume-2026.md         # Markdown resume content
 ```
 
 ## Architecture Patterns
