@@ -1,23 +1,33 @@
 {
-  "lineWidth": 120,
+  "lineWidth": 95,
   "indentWidth": 2,
   "useTabs": false,
+  "excludes": ["vendors/**"],
   "typescript": {
     "semiColons": "asi",
     "quoteStyle": "alwaysSingle",
     "arrowFunction.useParentheses": "preferNone",
     "trailingCommas": "never",
-    "preferSingleLine": false,
+    "preferSingleLine": true,
     "memberExpression.linePerExpression": false,
-    "objectExpression.preferHanging": true,
-    "arguments.preferHanging": "always"
+    "objectExpression.preferHanging": false,
+    "arguments.preferHanging": "always",
+    "ifStatement.useBraces": "whenNotSingleLine",
+    "ifStatement.singleBodyPosition": "sameLine",
+    "whileStatement.useBraces": "whenNotSingleLine",
+    "whileStatement.singleBodyPosition": "sameLine",
+    "forStatement.useBraces": "whenNotSingleLine",
+    "forStatement.singleBodyPosition": "sameLine",
+    "forInStatement.useBraces": "whenNotSingleLine",
+    "forInStatement.singleBodyPosition": "sameLine",
+    "forOfStatement.useBraces": "whenNotSingleLine",
+    "forOfStatement.singleBodyPosition": "sameLine"
   },
   "json": {
     "indentWidth": 2
   },
   "markdown": {
-    "lineWidth": 120,
-    "textWrap": "never"
+    "lineWidth": 95
   },
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.0.wasm",

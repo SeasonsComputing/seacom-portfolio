@@ -3,7 +3,7 @@
  * @module Website
  */
 
-import { Carousel } from './Carousel.js';
+import { Carousel } from './Carousel.js'
 
 /**
  * Singleton class managing the website application.
@@ -14,13 +14,13 @@ export class Website {
    * Singleton instance of the Website.
    * @static @private @type {Website}
    */
-  static #the = null;
+  static #the = null
 
   /**
    * The hero carousel instance for the main page carousel
    * @private @type {Carousel}
    */
-  #heroCarousel = new Carousel('#hero-carousel');
+  #heroCarousel = new Carousel('#hero-carousel')
 
   /**
    * Initializes the website components.
@@ -28,11 +28,11 @@ export class Website {
    */
   #init() {
     try {
-      this.#heroCarousel.init();
+      this.#heroCarousel.init()
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
-    document.body.style.opacity = "1";
+    document.body.style.opacity = '1'
   }
 
   /**
@@ -41,8 +41,8 @@ export class Website {
    * @throws {Error} If bootstrap() has not been called first
    */
   static get the() {
-    if (!Website.#the) throw new Error('bootstrap() must be completed first!');
-    return Website.#the;
+    if (!Website.#the) throw new Error('bootstrap() must be completed first!')
+    return Website.#the
   }
 
   /**
@@ -50,8 +50,8 @@ export class Website {
    * Can only be called once; subsequent calls will log an error.
    */
   static bootstrap() {
-    if (Website.#the) console.error("bootstrap() already completed!");
-    Website.#the = new Website();
-    self.addEventListener('DOMContentLoaded', () => Website.the.#init());
+    if (Website.#the) console.error('bootstrap() already completed!')
+    Website.#the = new Website()
+    self.addEventListener('DOMContentLoaded', () => Website.the.#init())
   }
 }

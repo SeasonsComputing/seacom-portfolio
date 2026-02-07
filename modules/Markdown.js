@@ -3,11 +3,11 @@
  * @module Markdown
  */
 
-import { marked } from "./marked.esm.js";
-import { $, $$ } from "./utils.js";
+import { marked } from '../vendors/marked.esm.js'
+import { $, $$ } from './utils.js'
 
 /** Matches headers with section numbers (e.g., "## 1. Title", "### 2.1 Title"). */
-const HEADER_REGEX = /^(#{1,6})\s+(\d+(?:\.\d+)*\.?)\s+(.+)$/;
+const HEADER_REGEX = /^(#{1,6})\s+(\d+(?:\.\d+)*\.?)\s+(.+)$/
 
 /**
  * Utilities for loading markdown, rendering HTML, and building a table of contents.
@@ -18,7 +18,9 @@ export class Markdown {
    * @param {string} md - Markdown text to transform.
    * @returns {string} Rendered HTML.
    */
-  static transformContentToHtml(md) { return marked.parse(md); }
+  static transformContentToHtml(md) {
+    return marked.parse(md)
+  }
 
   /**
    * Builds a table-of-contents index from numbered markdown headers.
@@ -28,56 +30,55 @@ export class Markdown {
    */
   static transformIndexToHtml(md) {
     // Extract index from markdown headings
-    const index = [];
-    const lines = md.split("\n");
+    const index = []
+    const lines = md.split('\n')
     lines.forEach(line => {
-      const match = line.match(HEADER_REGEX);
+      const match = line.match(HEADER_REGEX)
       if (match) {
-        const level = match[1].length; // Number of # symbols
-        const sectionNum = match[2].replace(/\.$/, ""); // Remove trailing dot if present
-        const title = match[3].trim();
-        const id = title.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
-        index.push({ level, sectionNum, title, id });
+        const level = match[1].length // Number of # symbols
+        const sectionNum = match[2].replace(/\.$/, '') // Remove trailing dot if present
+        const title = match[3].trim()
+        const id = title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')
+        index.push({ level, sectionNum, title, id })
       }
-    });
+    })
 
     // Build nested list structure
-    let html = '<nav><ul class="MarkdownIndexList">';
-    let prevLevel = 2; // Start at h2 level
+    let html = '<nav><ul class="MarkdownIndexList">'
+    let prevLevel = 2 // Start at h2 level
 
     index.forEach((item, index) => {
-      const levelDiff = item.level - prevLevel;
+      const levelDiff = item.level - prevLevel
 
       if (levelDiff > 0) {
         // Going deeper - open new child-list
         for (let i = 0; i < levelDiff; i++) {
-          html += '<ul class="MarkdownIndexChildList">';
+          html += '<ul class="MarkdownIndexChildList">'
         }
       } else if (levelDiff < 0) {
         // Going up - close child-list
         for (let i = 0; i < Math.abs(levelDiff); i++) {
-          html += "</li></ul>";
+          html += '</li></ul>'
         }
-        html += "</li>";
+        html += '</li>'
       } else if (index > 0) {
-        html += "</li>";
+        html += '</li>'
       }
 
-      const anchor = `${item.sectionNum}-${item.id}`;
-      html +=
-        `<li class="MarkdownIndexItem MarkdownIndexLevel${item.level}">` +
-        `<a href="#${anchor}">${item.sectionNum} ${item.title}</a>`;
+      const anchor = `${item.sectionNum}-${item.id}`
+      html += `<li class="MarkdownIndexItem MarkdownIndexLevel${item.level}">`
+        + `<a href="#${anchor}">${item.sectionNum} ${item.title}</a>`
 
-      prevLevel = item.level;
-    });
+      prevLevel = item.level
+    })
 
     // Close any remaining open tags
     for (let i = prevLevel; i >= 2; i--) {
-      html += "</li></ul>";
+      html += '</li></ul>'
     }
-    html += "</nav>";
+    html += '</nav>'
 
-    return { html, index };
+    return { html, index }
   }
 
   /**
@@ -87,12 +88,12 @@ export class Markdown {
    * @throws {Error} When the request fails or returns a non-OK status.
    */
   static async load(url) {
-    const response = await fetch(url);
+    const response = await fetch(url)
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
     }
-    const text = await response.text();
-    return text;
+    const text = await response.text()
+    return text
   }
 
   /**
@@ -101,12 +102,12 @@ export class Markdown {
    * @returns {void}
    */
   static postProcessContentHtml(contentDiv) {
-    $$("table", contentDiv).forEach((table) => {
-      const scroller = document.createElement("div");
-      scroller.className = "MarkdownContentTableScroller";
-      table.parentNode.insertBefore(scroller, table);
-      scroller.appendChild(table);
-    });
+    $$('table', contentDiv).forEach(table => {
+      const scroller = document.createElement('div')
+      scroller.className = 'MarkdownContentTableScroller'
+      table.parentNode.insertBefore(scroller, table)
+      scroller.appendChild(table)
+    })
   }
 
   /**
@@ -118,42 +119,40 @@ export class Markdown {
    */
   static async renderHtml(filename, contentId, indexId) {
     // Get markdown
-    const md = await Markdown.load(filename);
+    const md = await Markdown.load(filename)
 
     // Markdown content
-    const contentDiv = $(contentId);
-    const contentHtml = Markdown.transformContentToHtml(md);
-    contentDiv.innerHTML = contentHtml;
-    Markdown.postProcessContentHtml(contentDiv);
+    const contentDiv = $(contentId)
+    const contentHtml = Markdown.transformContentToHtml(md)
+    contentDiv.innerHTML = contentHtml
+    Markdown.postProcessContentHtml(contentDiv)
 
     // Markdown index
-    const indexDiv = $(indexId);
-    const { html: indexHtml, index } = Markdown.transformIndexToHtml(md);
-    indexDiv.innerHTML = indexHtml;
+    const indexDiv = $(indexId)
+    const { html: indexHtml, index } = Markdown.transformIndexToHtml(md)
+    indexDiv.innerHTML = indexHtml
 
     // Anchors from index  to conent
     const toAnchor = (h, i, a) =>
-      h.textContent.includes(i.sectionNum) &&
-      h.textContent.includes(i.title) &&
-      (h.id = a);
+      h.textContent.includes(i.sectionNum) && h.textContent.includes(i.title) && (h.id = a)
     index.forEach(i => {
-      const a = `${i.sectionNum}-${i.id}`;
-      const headers = $$(`h${i.level}`, contentDiv);
-      headers.forEach(h => toAnchor(h, i, a));
-    });
+      const a = `${i.sectionNum}-${i.id}`
+      const headers = $$(`h${i.level}`, contentDiv)
+      headers.forEach(h => toAnchor(h, i, a))
+    })
 
     // Toggle Menu button
-    const menuBtn = $(".MarkdownMenuButton");
-    const toggleMenu = () => document.body.classList.toggle("menu-open");
-    const closeMenu = () => document.body.classList.remove("menu-open");
-    menuBtn.addEventListener("click", toggleMenu);
-    $$("a", indexDiv).forEach(a => a.addEventListener("click", closeMenu));
+    const menuBtn = $('.MarkdownMenuButton')
+    const toggleMenu = () => document.body.classList.toggle('menu-open')
+    const closeMenu = () => document.body.classList.remove('menu-open')
+    menuBtn.addEventListener('click', toggleMenu)
+    $$('a', indexDiv).forEach(a => a.addEventListener('click', closeMenu))
 
     // Scroll Top button
-    const topBtn = $("#scrollTop");
-    const showTop = () => topBtn.classList.toggle("visible", self.scrollY > 300);
-    const toTop = () => self.scrollTo({ top: 0, behavior: "smooth" });
-    self.addEventListener("scroll", showTop);
-    topBtn.addEventListener("click", toTop);
+    const topBtn = $('#scrollTop')
+    const showTop = () => topBtn.classList.toggle('visible', self.scrollY > 300)
+    const toTop = () => self.scrollTo({ top: 0, behavior: 'smooth' })
+    self.addEventListener('scroll', showTop)
+    topBtn.addEventListener('click', toTop)
   }
 }

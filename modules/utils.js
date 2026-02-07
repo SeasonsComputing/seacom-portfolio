@@ -9,7 +9,7 @@
  * @param {Element} [node=document] - Root element to search within
  * @returns {Element|null} The first matching element or null if not found
  */
-export const $ = (selector, node = document) => node.querySelector(selector);
+export const $ = (selector, node = document) => node.querySelector(selector)
 
 /**
  * Select multiple DOM elements using a CSS selector.
@@ -17,4 +17,4 @@ export const $ = (selector, node = document) => node.querySelector(selector);
  * @param {Element} [node=document] - Root element to search within
  * @returns {NodeList} A NodeList of matching elements
  */
-export const $$ = (selector, node = document) => node.querySelectorAll(selector);
+export const $$ = (selector, node = document) => node.querySelectorAll(selector)

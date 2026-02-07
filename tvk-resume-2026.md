@@ -156,15 +156,13 @@ disciplined engineering and best practices.
 
 #### Technology
 
-| Platform       | Purpose                                 |
-| -------------- | --------------------------------------- |
-| Netlify        | Functions compute, DNS, SSL             |
-| Supabase       | Postgres, Auth, Storage, Realtime       |
-| GitHub Actions | CI/CD                                   |
-| UX Platform    | SolidJS, TanStack, Kobalte, vanilla CSS |
-| AI Coding      | Cline+Grok, Codex, Claude Code\*        |
-
-_(\*) Claude Code primary AI tool for software construction._
+| Platform       | Purpose                                    |
+| -------------- | ------------------------------------------ |
+| Netlify        | Functions compute, DNS, SSL                |
+| Supabase       | Postgres, Auth, Storage, Realtime          |
+| GitHub Actions | CI/CD                                      |
+| UX Platform    | SolidJS, TanStack, Kobalte, vanilla CSS    |
+| AI Coding      | Cline+Grok, Codex, Claude Code, Gemini CLI |
 
 #### Cross Functional Contributions
 
@@ -600,10 +598,7 @@ industry in Clear Lake City, Texas.
 
 #### Innovation
 
-Sophisticated meta-model, schemas & instances, with scripting  
-such that proprietary methodology could be implemented (diagram types,
-regulatory content, auto-enforced rules & constraints).
-The full specification of a methodology was a "Paradigm".
+Sophisticated meta-model, schemas & instances, with scripting such that proprietary methodology could be implemented (diagram types, regulatory content, auto-enforced rules & constraints). The full specification of a methodology was a "Paradigm".
 
 #### Technical Contributions
 
