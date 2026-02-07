@@ -19,7 +19,7 @@ distributed processing, machine learning and NLP. Throughout, I've
 remained committed to the first principles of agile guarantees, disciplined engineering
 and best practices.
 
-Today, I employ AI across the entire SDLC and full development stack:
+Today, I employ AI coding across the entire SDLC and full development stack:
 imagining, planning and architecture through development, deployment and evolution.
 
 ## 1. Contact
