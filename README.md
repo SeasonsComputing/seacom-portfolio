@@ -1,4 +1,6 @@
-# Seasons Computing Website Architecture
+# Seasons Computing Website
+
+[Seasons Computing](https://seasonscomputing.com)
 
 ## Overview
 
@@ -36,6 +38,7 @@ seacom-portfolio/
 ├── README.md
 ├── index.html                 # Main HTML entry point
 ├── markdown.html              # Markdown resume viewer
+├── tvk-resume-2026.md         # Markdown resume content
 ├── assets/                    # Static assets
 │   ├── Comfortaa-Regular.woff2
 │   ├── favicon.png
@@ -47,14 +50,10 @@ seacom-portfolio/
 │   ├── Markdown.js
 │   ├── utils.js
 │   └── Website.js
-├── styles/                    # CSS stylesheets
-│   ├── Carousel.css
-│   ├── Markdown.css
-│   └── index.css
-├── tvk-resume-2026.md          # Markdown resume content
-├── .markdownlint.json          # Markdown lint rules
-├── .cspell.json                # Spellcheck dictionary
-└── .vscode/settings.json       # Editor settings
+└── styles/                    # CSS stylesheets
+    ├── Carousel.css
+    ├── Markdown.css
+    └── index.css
 ```
 
 ## Architecture Patterns
