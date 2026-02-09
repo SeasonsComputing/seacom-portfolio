@@ -41,7 +41,7 @@ Software development on this system operates through three distinct, non-overlap
 
 _The Chief Architect's time is spent on decisions that matter, not on work that can be derived._
 
-### 1.2 Architect AI (Claude / ChatGPT / Equivalent)
+### 1.2 Architect AI (Claude / ChatGPT / Gemini)
 
 **Authority:** Propositional only. No unilateral decision-making.
 
@@ -144,7 +144,7 @@ The Architect AI owns and enforces the agenda. Work proceeds in strict phases. N
 ### 2.3 Token Efficiency
 
 **Problem:**\
-Conversational AIs (Claude, ChatGPT) burn tokens on:
+Conversational AIs (Claude, ChatGPT, Gemini) burn tokens on:
 
 - Context maintenance
 - Conversational niceties
@@ -354,17 +354,18 @@ That path leads to **architectural drift**.
 
 ### 6.1 Token Limits (The Reality)
 
-**Claude Pro:** ~200K token context, but rate-limited aggressively\
-**ChatGPT:** Higher throughput, but loses context in long sessions\
-**Codex/Cursor:** Fast execution, minimal reasoning
+- **Claude Pro:** ~200K token context, but rate-limited aggressively
+- **ChatGPT:** Higher throughput, but loses context in long sessions
+**Claude Code/Codex:** Fast execution, smaller context reduced tokens consumed
 
 **The Constraint:**
+
 Long architectural discussions burn tokens faster than code generation.
 
 **The Solution:**
 
-- Use conversational AI (Claude/ChatGPT) for **decisions** (high-value tokens)
-- Use coding engines (Codex/Cursor) for **execution** (high-throughput tokens)
+- Use conversational AI (Claude/ChatGPT/Gemini) for **decisions** (high-value tokens)
+- Use coding engines (Claude Code/Codex/Gemini CLI) for **execution** (high-throughput tokens)
 - When conversational AI hits limits: **switch tools**, not sessions
 
 ### 6.2 Tool Switching Protocol
