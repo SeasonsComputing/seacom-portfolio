@@ -356,7 +356,7 @@ That path leads to **architectural drift**.
 
 - **Claude Pro:** ~200K token context, but rate-limited aggressively
 - **ChatGPT:** Higher throughput, but loses context in long sessions
-**Claude Code/Codex:** Fast execution, smaller context reduced tokens consumed
+  **Claude Code/Codex:** Fast execution, smaller context reduced tokens consumed
 
 **The Constraint:**
 
