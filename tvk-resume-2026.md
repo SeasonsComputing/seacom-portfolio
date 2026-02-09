@@ -20,13 +20,13 @@ remained committed to the first principles of agile guarantees, disciplined engi
 and best practices.
 
 Today, I employ AI coding across the entire SDLC and full development stack:
-imagining, planning and architecture through development, deployment and evolution. 
+imagining, planning and architecture through development, deployment and evolution.
 I employ a [three-role model of development](markdown.html?tvk-mod-3rm.md) in my
 development process for effective application of AI coding.
 
-This model of development evolved from necessity, through trial and error, while 
-incorporating AI coding across the SDLC. AI coding is constantly evolving, 
-and so my [model of development](markdown.html?tvk-mod-1st.md) is constantly evolving as well. 
+This model of development evolved from necessity, through trial and error, while
+incorporating AI coding across the SDLC. AI coding is constantly evolving,
+and so my [model of development](markdown.html?tvk-mod-1st.md) is constantly evolving as well.
 
 ## 1. Contact
 

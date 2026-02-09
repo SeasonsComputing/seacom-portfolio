@@ -2,7 +2,7 @@
 
 This document introduces 3 **operational models** for software development using AI coding tools. It establishes roles, responsibilities, handoff protocols, and workflow patterns for human and AI contributors.
 
-While this project did not begin as a theoretical framework. **"3rb"** is a working model born from practical constraints and refined through real architectural work. 
+While this project did not begin as a theoretical framework. **"3rb"** is a working model born from practical constraints and refined through real architectural work.
 
 However recently I have imagined an evolution commensurate with the rapid advances in AI & AI coding.
 
@@ -12,7 +12,7 @@ Model of development: [**"3rm"**](markdown.html?tvk-mod-3rm.md)
 
 ### 1.1. Use Case
 
-What would the scope of my most recent project, swarmAg Operations System, be if 
+What would the scope of my most recent project, swarmAg Operations System, be if
 constructed with a traditional software team?
 
 - Optimistic scope is me + 3 engineers, ~6+ months

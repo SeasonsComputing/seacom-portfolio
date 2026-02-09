@@ -201,6 +201,8 @@ Development proceeds in strict phases, with explicit handoffs between roles.
 └─────────────────────────────────────────────────────────┘
 ```
 
+The **Coding Loop** is a continuous feedback loop involving the Chief Architect, Architect AI, and Coding Engine. Each loop follows the strict phases: IDEATION, PRODUCTION, CONSTRUCTION, and DECISION.
+
 ### 3.2 Key Rules
 
 1. **No phase skipping** - Each phase completes before the next begins
@@ -211,7 +213,7 @@ Development proceeds in strict phases, with explicit handoffs between roles.
 ### 3.3 Phases: Knowledge Loop
 
 ```
-┌──  KNOWLEDGE: AGENDA, SOLUTION SPACE, FEATURE SPACE  ───┐
+┌─────────────────────────────────────────────────────────┐
 │  ┌────────────────┐        IDEATION                     │
 │  │ Chief Architect│  Frames the problem                 │
 │  │       +        │  States constraints                 │
@@ -232,7 +234,7 @@ Development proceeds in strict phases, with explicit handoffs between roles.
 └─────────────────────────────────────────────────────────┘
 ```
 
-The **Planning Phase Loop** are sessions involving only the Chief Architect and Architect AI. The end result is typically a documentation artifact as markdown.
+The **Knowledge Loop** are sessions involving only the Chief Architect and Architect AI. The end result is a decision or documentation artifact as markdown. Knowledge documents direct, constrain, and verify the entire solution.
 
 ## 4. Handoff Protocols
 
