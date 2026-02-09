@@ -5,7 +5,7 @@
 ## Overview
 
 This project is a single-page portfolio website for Ted V. Kremer, operating
-under the brand "Seasons Computing", plus a markdown resume viewer. It
+under the brand "Seasons Computing", plus a markdown viewer. It
 showcases professional experience, services, and contact information through a
 modern, responsive web interface.
 
@@ -37,8 +37,9 @@ modern, responsive web interface.
 seacom-portfolio/
 ├── README.md
 ├── index.html                 # Main HTML entry point
-├── markdown.html              # Markdown resume viewer
-├── tvk-resume-2026.md         # Markdown resume content
+├── markdown.html              # Markdown viewer
+├── tvk-resume-2026.md         # Resume content
+├── tvk-mod-*.md               # Model of Development w/ AI Coding
 ├── assets/                    # Static assets
 │   ├── Comfortaa-Regular.woff2
 │   ├── favicon.png
