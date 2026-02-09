@@ -84,7 +84,7 @@ export class Markdown {
   /**
    * Fetches markdown text from a URL or relative path.
    * @param {string} url - URL or path to the markdown file.
-   * @returns {string} Markdown file contents.
+   * @returns {Promise<string>} Markdown file contents.
    * @throws {Error} When the request fails or returns a non-OK status.
    */
   static async load(url) {
@@ -92,8 +92,7 @@ export class Markdown {
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}: ${response.statusText}`)
     }
-    const text = await response.text()
-    return text
+    return response.text()
   }
 
   /**
@@ -132,7 +131,7 @@ export class Markdown {
     const { html: indexHtml, index } = Markdown.transformIndexToHtml(md)
     indexDiv.innerHTML = indexHtml
 
-    // Anchors from index  to conent
+    // Anchors from index -> content
     const toAnchor = (h, i, a) =>
       h.textContent.includes(i.sectionNum) && h.textContent.includes(i.title) && (h.id = a)
     index.forEach(i => {
@@ -141,18 +140,15 @@ export class Markdown {
       headers.forEach(h => toAnchor(h, i, a))
     })
 
-    // Toggle Menu button
+    // UI Interactions
     const menuBtn = $('.MarkdownMenuButton')
-    const toggleMenu = () => document.body.classList.toggle('menu-open')
-    const closeMenu = () => document.body.classList.remove('menu-open')
-    menuBtn.addEventListener('click', toggleMenu)
-    $$('a', indexDiv).forEach(a => a.addEventListener('click', closeMenu))
+    menuBtn.onclick = () => document.body.classList.toggle('menu-open')
+    $$('a', indexDiv).forEach(a => {
+      a.onclick = () => document.body.classList.remove('menu-open')
+    })
 
-    // Scroll Top button
     const topBtn = $('#scrollTop')
-    const showTop = () => topBtn.classList.toggle('visible', self.scrollY > 300)
-    const toTop = () => self.scrollTo({ top: 0, behavior: 'smooth' })
-    self.addEventListener('scroll', showTop)
-    topBtn.addEventListener('click', toTop)
+    window.onscroll = () => topBtn.classList.toggle('visible', window.scrollY > 300)
+    topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
