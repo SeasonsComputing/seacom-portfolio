@@ -629,7 +629,7 @@ Sophisticated meta-model, schemas & instances, with scripting such that propriet
 Dedicated to building the best possible products, teams, and companies.
 Always curious, always learning. Servant leadership, guided by essential first principles.
 
-- **Agile gaurantees, disciplined engineering and best practices** - only the
+- **Agile guarantees, disciplined engineering and best practices** - only the
   "with what" and the "why" change, "how" remains constant
 - **Less is almost always more** - less design, fewer features, less code results in
   more quality, more reliability. It is the single greatest tool for minimizing complexity
@@ -644,6 +644,8 @@ Always curious, always learning. Servant leadership, guided by essential first p
 - **Anyone can write code that works** - writing functional software is the bare minimum.
   Constructing software that is essential, durable, minimalist, comprehensible _and_
   functional _while_ adhering to first principles is aspirational
+- **Dead code is a liability, dead content is a lie** - this is the corollary to less is
+  more. Delete it and move it. The ideas have been rejected or outdated. 
 - **Leaders set the standard, even when they don't** - implicit behavior sets the
   standard for the entire team as much as explicit expectations
 - **Pride and purpose drives effort** - innovation is driven by a sense of purpose,
