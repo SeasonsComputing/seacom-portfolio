@@ -89,9 +89,7 @@ export class Markdown {
    */
   static async load(url) {
     const response = await fetch(url)
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
-    }
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`)
     return response.text()
   }
 

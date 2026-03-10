@@ -1,172 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta
+      name='description'
+      content='Ted V. Kremer - Four decades of experience in technology leadership, entrepreneurship, and innovation.'
+    >
+    <link rel='icon' type='image/png' href='assets/favicon.png'>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Ted V. Kremer - Four decades of experience in technology leadership, entrepreneurship, and innovation.">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+    <title>Seasons Computing</title>
 
-  <title>Seasons Computing</title>
+    <link rel='preload' href='assets/Varino-Regular.woff2' as='font' type='font/woff2' crossorigin>
+    <link rel='preload' href='assets/Comfortaa-Regular.woff2' as='font' type='font/woff2' crossorigin>
+    <link rel='preload' href='assets/RockSalt-Regular.woff2' as='font' type='font/woff2' crossorigin>
 
-  <link rel="preload" href="assets/Varino-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/RockSalt-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel='stylesheet' href='styles/Carousel.css'>
+    <link rel='stylesheet' href='styles/index.css'>
 
-  <link rel="stylesheet" href="styles/Carousel.css">
-  <link rel="stylesheet" href="styles/index.css">
+    <script type='module'>
+    import { Website } from './modules/Website.js'
+    Website.bootstrap()
+    </script>
+  </head>
 
-  <script type="module">
-    import { Website } from "./modules/Website.js";
-    Website.bootstrap();
-  </script>
-</head>
-
-<body class="Layout">
-  <header>
-    <div class="LogoLayout">
-      <img class="Logo" src="assets/logo.png" alt="Seasons Computing Logo">
-      <div class="LayoutTight">
-        <p class="CompanyName">Seasons Computing</p>
-        <p class="CompanyTagline">Leadership | Design | Content | Code</p>
+  <body class='Layout light'>
+    <header>
+      <div class='LogoLayout'>
+        <img class='Logo' src='assets/logo.png' alt='Seasons Computing Logo'>
+        <div class='LayoutTight'>
+          <p class='CompanyName'>Seasons Computing</p>
+          <p class='CompanyTagline'>Leadership | Design | Content | Code</p>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="Hero">
-    <div id="hero-carousel" class="Carousel">
-      <div class="CarouselContainer">
-        <div class="CarouselSlide">
-          <div class="CarouselSlideOverlay">
-            <div class="HeroContents">
-              <p>
-                Hi, I'm Ted V. Kremer. I provide software construction services lending
-                four decades of experience to a clientele of startups, SMBs,
-                and enterprises.
-              </p>
+    <section class='Hero'>
+      <div id='hero-carousel' class='Carousel'>
+        <div class='CarouselContainer'>
+          <div class='CarouselSlide'>
+            <div class='CarouselSlideOverlay'>
+              <div class='HeroContents'>
+                <p>
+                  Hi, I'm Ted V. Kremer. I provide software construction services lending four decades of
+                  experience to a clientele of startups, SMBs, and enterprises.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class='CarouselSlide'>
+            <div class='CarouselSlideOverlay'>
+              <div class='HeroContents'>
+                <p>
+                  I am effective in roles as a technology executive, software architect, full-stack
+                  developer, and manager of SDLC functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class='CarouselSlide'>
+            <div class='CarouselSlideOverlay'>
+              <div class='HeroContents'>
+                <p>
+                  Whether you need executive guidance, hands-on architecture, or full-stack development,
+                  Seasons Computing is your partner for building and scaling modern software solutions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="CarouselSlide">
-          <div class="CarouselSlideOverlay">
-            <div class="HeroContents">
-              <p>
-                I am effective in roles as a technology executive,
-                software architect, full-stack developer, and
-                manager of SDLC functions.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="CarouselSlide">
-          <div class="CarouselSlideOverlay">
-            <div class="HeroContents">
-              <p>
-                Whether you need executive guidance, hands-on architecture, or full-stack development, Seasons
-                Computing is your partner for building and scaling modern software solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="CarouselIndicators" role="tablist" aria-label="Slide indicators">
-        <button class="CarouselDot" role="tab" aria-label="1"></button>
-        <button class="CarouselDot" role="tab" aria-label="2"></button>
-        <button class="CarouselDot" role="tab" aria-label="3"></button>
-      </div>
-    </div>
-  </section>
-
-  <main class="Layout">
-    <section class="Story">
-      <div class="Container">
-        <div class="StoryLayout">
-          <div class="StoryCard">
-            <div class="StoryNumber">01</div>
-            <h3>Origin</h3>
-            <p>I began my professional journey in 1981, writing accounting software on the TRS-80 for my
-              father's software startup.</p>
-          </div>
-          <div class="StoryCard">
-            <div class="StoryNumber">02</div>
-            <h3>Foundation</h3>
-            <p>That early experience revealed a passion for entrepreneurship and technology that still
-              drives me.</p>
-          </div>
-          <div class="StoryCard">
-            <div class="StoryNumber">03</div>
-            <h3>Innovation</h3>
-            <p>Over four decades as a serial entrepreneur, I've led technology for half-a-dozen companies,
-              authored novel innovations awarded patent protection and navigated successful liquidity events.</p>
-          </div>
-          <div class="StoryCard">
-            <div class="StoryNumber">04</div>
-            <h3>Adoption</h3>
-            <p>I'm an early adopter of most software paradigm shifts of the last 30 years —
-            from object-oriented/dynamic/functional programming and FOSS to cloud computing/SaaS/IaaS,
-            distributed processing, machine learning and NLP.</p>
-          </div>
-          <div class="StoryCard">
-            <div class="StoryNumber">05</div>
-            <h3>Principles</h3>
-            <p>I remain committed to the first principles of agile guarantees, disciplined
-              engineering and best practices.</p>
-          </div>
-          <div class="StoryCard">
-            <div class="StoryNumber">06</div>
-            <h3>Today</h3>
-            <p>I employ AI coding across the entire SDLC and full development stack:
-             imagining, planning and architecture through development, deployment and evolution.</p>
-          </div>
+        <div class='CarouselIndicators' role='tablist' aria-label='Slide indicators'>
+          <button class='CarouselDot' role='tab' aria-label='1'></button>
+          <button class='CarouselDot' role='tab' aria-label='2'></button>
+          <button class='CarouselDot' role='tab' aria-label='3'></button>
         </div>
       </div>
     </section>
 
-    <section class="Contact">
-      <div class="Container">
-        <div class="Layout">
-          <div class="ContactHeader">
-            <p>I am always interested in discussing new opportunities, collaborations, and ideas.
-              Please feel free to reach out via email or phone.</p>
-          </div>
-          <div class="ContactCard">
-            <div class="LogoLayout">
-              <img class="Logo" src="assets/logo.png" alt="Seasons Computing Logo">
-              <div class="LayoutTight">
-                <p class="CompanyName">Seasons Computing</p>
-                <p class="CompanyTagline">Leadership | Design | Content | Code</p>
-              </div>
+    <main class='Layout'>
+      <section class='Story'>
+        <div class='Container'>
+          <div class='StoryLayout'>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>01</div>
+              <h3>Origin</h3>
+              <p>
+                I began my professional journey in 1981, writing accounting software on the TRS-80 for my
+                father's software startup.
+              </p>
             </div>
-            <div class="LayoutTight">
-              <div class="ContactSignature">
-                Ted V<span class="Accent">.</span> Kremer
-              </div>
-              <div class="LayoutTight">
-                <span>Dallas & Denver</span>
-                <a href="tel:720-961-3885">720-961-3885</a>
-                <a href="mailto:ted@seasonscomputing.com">ted@seasonscomputing.com</a>
-              </div>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>02</div>
+              <h3>Foundation</h3>
+              <p>
+                That early experience revealed a passion for entrepreneurship and technology that still
+                drives me.
+              </p>
             </div>
-          </div>
-          <div class="ContactLearnMore">
-            <div class="ContactLearnMoreGrid">
-              <a href="markdown.html?tvk-resume-2026.md" target="_blank" class="BtnResume"
-                title="Ted V. Kremer - Resume">
-                Learn More
-              </a>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>03</div>
+              <h3>Innovation</h3>
+              <p>
+                Over four decades as a serial entrepreneur, I've led technology for half-a-dozen
+                companies, authored novel innovations awarded patent protection and navigated successful
+                liquidity events.
+              </p>
+            </div>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>04</div>
+              <h3>Adoption</h3>
+              <p>
+                I'm an early adopter of most software paradigm shifts of the last 30 years — from
+                object-oriented/dynamic/functional programming and FOSS to cloud computing/SaaS/IaaS,
+                distributed processing, machine learning and NLP.
+              </p>
+            </div>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>05</div>
+              <h3>Principles</h3>
+              <p>
+                I remain committed to the first principles of agile guarantees, disciplined engineering
+                and best practices.
+              </p>
+            </div>
+            <div class='StoryCard'>
+              <div class='StoryNumber'>06</div>
+              <h3>Today</h3>
+              <p>
+                I employ AI coding across the entire SDLC and full development stack: imagining, planning
+                and architecture through development, deployment and evolution.
+              </p>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class='Contact'>
+        <div class='Container'>
+          <div class='Layout'>
+            <div class='ContactHeader'>
+              <p>
+                I am always interested in discussing new opportunities, collaborations, and ideas. Please
+                feel free to reach out via email or phone.
+              </p>
+            </div>
+            <div class='ContactCard'>
+              <div class='LogoLayout'>
+                <img class='Logo' src='assets/logo.png' alt='Seasons Computing Logo'>
+                <div class='LayoutTight'>
+                  <p class='CompanyName'>Seasons Computing</p>
+                  <p class='CompanyTagline'>Leadership | Design | Content | Code</p>
+                </div>
+              </div>
+              <div class='LayoutTight'>
+                <div class='ContactSignature'>
+                  Ted V<span class='Accent'>.</span> Kremer
+                </div>
+                <div class='LayoutTight'>
+                  <span>Dallas & Denver</span>
+                  <a href='tel:720-961-3885'>720-961-3885</a>
+                  <a href='mailto:ted@seasonscomputing.com'>ted@seasonscomputing.com</a>
+                </div>
+              </div>
+            </div>
+            <div class='ContactLearnMore'>
+              <div class='ContactLearnMoreGrid'>
+                <a
+                  href='markdown.html?tvk-resume-2026.md'
+                  target='_blank'
+                  class='BtnResume'
+                  title='Ted V. Kremer - Resume'
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class='FooterLayout'>
+        <p class='CompanyName'>Seasons Computing</p>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="FooterLayout">
-      <p class="CompanyName">Seasons Computing</p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

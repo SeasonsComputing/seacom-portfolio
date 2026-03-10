@@ -27,58 +27,101 @@
 }
 
 :root {
-  --sc-company-color: #00b0f0;
-  --sc-red-color: #f43971;
-  --sc-subtitle-color: #dedede;
-  --sc-text-color: #e2e8f0;
-  --sc-text-white: #ffffff;
-  --sc-text-light: #f0f0f0;
-  --sc-text-antique: #faedb7;
-  --sc-text-muted: #94a3b8;
-  --sc-text-muted-dark: #64748b;
-  --sc-text-dim: #707070;
-
+  --sc-color-teal: #00b0f0;
+  --sc-color-red: #f43971;
   --sc-color-blue: #60a5fa;
+  --sc-color-blue-dark: #3b82f6;
   --sc-color-blue-bright: #08abf1;
   --sc-color-blue-light: #a5b4fc;
-  --sc-color-pink: #ff4ca4;
-  --sc-color-pink-alt: #ec4899;
+  --sc-color-pink: #ec4899;
   --sc-color-purple: #8b5cf6;
 
+  --sc-text-base: #e2e8f0;
+  --sc-text-white: #ffffff;
+  --sc-text-light: #f0f0f0;
+  --sc-text-subtitle: #dedede;
+  --sc-text-antique: #faedb7;
+  --sc-text-muted: #94a3b8;
+  --sc-text-faint: #64748b;
+  --sc-text-dim: #707070;
+
+  --sc-bg-page: #15181ef2;
   --sc-bg-dark: #0a0a0a;
-  --sc-bg-dark-trans: #0a0a0a33;
-  --sc-bg-table: rgba(255, 255, 255, 0.02);
-  --sc-bg-hover: rgba(59, 130, 246, 0.05);
+  --sc-bg-overlay: #0a0a0a33;
+  --sc-bg-table: #ffffff05;
+  --sc-bg-hover: #3b82f60d;
+
   --sc-border-table: #334155;
+  --sc-border-card: 1px solid #94a3b81a;
 
-  --sc-bg-card: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(51, 65, 85, 0.6) 100%);
-  --sc-border-card: 1px solid rgba(148, 163, 184, 0.1);
+  --sc-gradient-brand: linear-gradient(
+    135deg,
+    var(--sc-color-teal) 0%,
+    var(--sc-color-purple) 50%,
+    var(--sc-color-pink) 100%
+  );
+  --sc-gradient-btn: linear-gradient(
+    135deg,
+    var(--sc-color-blue-dark) 0%,
+    var(--sc-color-purple) 50%,
+    var(--sc-color-pink) 100%
+  );
+  --sc-gradient-stripe: linear-gradient(
+    90deg,
+    var(--sc-color-blue-dark),
+    var(--sc-color-purple),
+    var(--sc-color-pink)
+  );
+  --sc-gradient-card: linear-gradient(135deg, #1e293bcc 0%, #33415599 100%);
+  --sc-gradient-hero: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--sc-color-blue-dark) 70%, transparent) 0%,
+    color-mix(in srgb, var(--sc-color-blue-dark) 90%, transparent) 30%,
+    var(--sc-color-purple) 70%,
+    color-mix(in srgb, var(--sc-color-pink) 50%, transparent) 100%
+  );
 
-  --sc-blur-bg: blur(10px);
-  --sc-gradient-blue: linear-gradient(135deg, #00b0f0 0%, #8b5cf6 50%, #ec4899 100%);
-  --sc-hero-gradient-blue: linear-gradient(135deg, rgba(59, 130, 246, 0.7) 0%, rgba(59, 130, 246, 0.9) 30%, #8b5cf6 70%, rgba(236, 72, 153, 0.5) 100%);
-  --sc-shadow-blue-light: 0 0 20px rgba(59, 130, 246, 0.3);
-  --sc-shadow-blue: 0 0 30px rgba(59, 130, 246, 0.3);
+  --sc-shadow-glow-sm: 0 0 20px color-mix(in srgb, var(--sc-color-blue-dark) 30%, transparent);
+  --sc-shadow-glow: 0 0 30px color-mix(in srgb, var(--sc-color-blue-dark) 30%, transparent);
+  --sc-shadow-btn:
+    0 15px 40px color-mix(in srgb, var(--sc-color-blue-dark) 40%, transparent),
+    0 0 40px color-mix(in srgb, var(--sc-color-purple) 30%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 30%, transparent);
+
+  --sc-radial-1: #7877c64d;
+  --sc-radial-2: #ff77c626;
+  --sc-radial-3: #78dbff1a;
 
   --sc-gap: 4rem;
+  --sc-gutter: 4rem;
   --sc-radius-large: 2rem;
   --sc-radius-medium: 1rem;
 
-  --sc-logo-font-family: 'Varino', ui-sans-serif, system-ui, sans-serif;
-  --sc-main-font-family: 'Comfortaa', ui-sans-serif, system-ui, sans-serif;
-  --sc-signature-font-family: 'Rock Salt', cursive;
-  --sc-story-num-font-family: 'Varino', ui-sans-serif, system-ui, sans-serif;
-  --sc-button-font-family: 'Varino', ui-sans-serif, system-ui, sans-serif;
+  --sc-font-varino: 'Varino', ui-sans-serif, system-ui, sans-serif;
+  --sc-font-main: 'Comfortaa', ui-sans-serif, system-ui, sans-serif;
+  --sc-font-signature: 'Rock Salt', cursive;
+
+  --sc-blur: blur(10px);
+  --sc-gpu-acceleration: translateZ(0);
 }
 
 @media (max-width: 1024px) {
   :root {
+    --sc-gutter: 3rem;
+    --sc-gap: 3.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --sc-gutter: 2.5rem;
     --sc-gap: 3rem;
   }
 }
 
 @media (max-width: 450px) {
   :root {
+    --sc-gutter: 1.5rem;
     --sc-gap: 2rem;
   }
 }
@@ -99,13 +142,13 @@ html {
 }
 
 body {
-  margin-top: var(--sc-gap);
+  margin-top: var(--sc-gutter);
   height: 100%;
   width: 100%;
   max-width: 100vw;
-  background: rgba(21, 24, 30, 0.95);
-  color: var(--sc-text-color);
-  font-family: var(--sc-main-font-family);
+  background: var(--sc-bg-page);
+  color: var(--sc-text-base);
+  font-family: var(--sc-font-main);
   opacity: 0;
   transition: opacity 150ms ease-in;
 }
@@ -113,9 +156,9 @@ body {
 body::before {
   animation: backgroundShift 5s ease-in-out infinite;
   background:
-    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+    radial-gradient(circle at 20% 80%, var(--sc-radial-1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--sc-radial-2) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, var(--sc-radial-3) 0%, transparent 50%);
   content: '';
   height: 100%;
   width: 100%;
@@ -129,7 +172,6 @@ body::before {
   0%, 100% {
     opacity: 1;
   }
-
   50% {
     opacity: 0.8;
   }
@@ -148,12 +190,18 @@ p {
   Container & Layout
  *************************************/
 
+.Container {
+  max-width: 1440px;
+  padding-inline: var(--sc-gutter);
+  margin: 0 auto;
+}
+
 .Layout {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--sc-gap);
+  gap: var(--sc-gutter);
 }
 
 .LayoutTight {
@@ -161,12 +209,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.Container {
-  max-width: 1440px;
-  padding-inline: var(--sc-gap);
-  margin: 0 auto;
 }
 
 /*************************************
@@ -177,8 +219,11 @@ p {
   width: 100%;
   display: flex;
   flex-direction: row;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
+  transform: var(--sc-gpu-acceleration);
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (max-width: 768px) {
@@ -187,51 +232,51 @@ p {
   }
 }
 
-.LogoLayout>.Logo {
+.LogoLayout > .Logo {
   height: 6rem;
   padding: 5px;
   width: auto;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.LogoLayout>.Logo:hover {
-  filter: drop-shadow(0 12px 24px rgba(59, 130, 246, 0.5));
+.LogoLayout > .Logo:hover {
+  filter: drop-shadow(
+    0 12px 24px color-mix(in srgb, var(--sc-color-blue-dark) 50%, transparent)
+  );
   transform: scale(1.1) rotate(5deg);
 }
 
 .CompanyName {
   display: inline-block;
-  background: var(--sc-gradient-blue);
-  color: var(--sc-company-color);
-  font-family: var(--sc-logo-font-family);
-  font-size: 2rem;
+  background: var(--sc-gradient-brand);
+  color: var(--sc-color-teal);
+  font-family: var(--sc-font-varino);
+  font-size: 31px;
   letter-spacing: 1.5px;
   line-height: 1;
-  text-shadow: var(--sc-shadow-blue);
   white-space: nowrap;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.45px transparent;
+  text-shadow: var(--sc-shadow-glow);
 }
 
 .CompanyTagline {
-  color: var(--sc-subtitle-color);
-  font-family: var(--sc-logo-font-family);
-  font-size: 13px;
-  letter-spacing: 4px;
-  white-space: nowrap;
+  color: var(--sc-text-subtitle);
+  font-family: var(--sc-font-varino);
+  font-size: 14px;
+  letter-spacing: 2.9px;
   margin-inline-start: 2px;
+  white-space: nowrap;
 }
 
 /*
-For CompanyName & CompanyTagline only.
+  CompanyName & CompanyTagline
 
-I've given up on finding the exact voodoo for clamp() to obtain
-the UX I desire. I've tried a dizzying array of get-AI from
-various vendors and source samples. Eyeballing it here.
-
-Verbose & sadly it is tacky but it is aesthetically
-superior to clamp() in this circumstance. In general,
-I'm a fan of clamp() as a design tool.
+  I've given up on finding the exact voodoo for clamp() to obtain
+  the UX I desire. Tacky but it is aesthetically superior to clamp()
+  in this circumstance.
 */
 
 @media (max-width: 565px) {
@@ -286,8 +331,8 @@ I'm a fan of clamp() as a design tool.
   Hero
  *************************************/
 
-.Hero>.Carousel {
-  background: var(--sc-hero-gradient-blue);
+.Hero > .Carousel {
+  background: var(--sc-gradient-hero);
   height: 13rem;
 }
 
@@ -297,17 +342,17 @@ I'm a fan of clamp() as a design tool.
   text-align: left;
 }
 
-.HeroContents>p {
+.HeroContents > p {
   letter-spacing: 0.5px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px #00000033;
 }
 
 @media (max-width: 768px) {
-  .Hero>.Carousel {
+  .Hero > .Carousel {
     height: 15.5rem;
   }
 
-  .HeroContents>p {
+  .HeroContents > p {
     line-height: 1.45;
   }
 }
@@ -322,13 +367,9 @@ I'm a fan of clamp() as a design tool.
   Story
  *************************************/
 
-.Story>.Container {
-  max-width: 1440px;
-}
-
 .StoryLayout {
   display: grid;
-  gap: var(--sc-gap);
+  gap: var(--sc-gutter);
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
@@ -340,23 +381,21 @@ I'm a fan of clamp() as a design tool.
 }
 
 .StoryCard {
-  background: var(--sc-bg-card);
+  background: var(--sc-gradient-card);
   border: var(--sc-border-card);
   border-radius: var(--sc-radius-medium);
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px #0000004d, inset 0 1px 0 #ffffff1a;
   width: 100%;
   height: 100%;
   overflow: hidden;
   padding: var(--sc-gap);
   position: relative;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  backdrop-filter: var(--sc-blur-bg);
+  backdrop-filter: var(--sc-blur);
 }
 
 .StoryCard::before {
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  background: var(--sc-gradient-stripe);
   content: '';
   height: 3px;
   left: 0;
@@ -367,7 +406,7 @@ I'm a fan of clamp() as a design tool.
 }
 
 .StoryCard::after {
-  background: linear-gradient(45deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+  background: linear-gradient(45deg, transparent, #3b82f61a, transparent);
   content: '';
   height: 200%;
   left: -50%;
@@ -380,11 +419,8 @@ I'm a fan of clamp() as a design tool.
 }
 
 .StoryCard:hover {
-  border-color: rgba(59, 130, 246, 0.3);
-  box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.4),
-    0 0 40px rgba(59, 130, 246, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-color: #3b82f64d;
+  box-shadow: 0 30px 60px #00000066, 0 0 40px #3b82f633, inset 0 1px 0 #ffffff33;
   transform: translateY(-8px) scale(1.02);
 }
 
@@ -404,9 +440,9 @@ I'm a fan of clamp() as a design tool.
 }
 
 .StoryNumber {
-  background: var(--sc-gradient-blue);
+  background: var(--sc-gradient-brand);
   background-clip: text;
-  font-family: var(--sc-story-num-font-family);
+  font-family: var(--sc-font-varino);
   font-size: clamp(2rem, calc(2rem + 0.5vw), 3rem);
   font-weight: 700;
   letter-spacing: 0;
@@ -414,7 +450,7 @@ I'm a fan of clamp() as a design tool.
   opacity: 0.6;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: var(--sc-shadow-blue-light);
+  text-shadow: var(--sc-shadow-glow-sm);
 }
 
 .StoryCard h3 {
@@ -422,29 +458,29 @@ I'm a fan of clamp() as a design tool.
   font-size: clamp(1.2rem, calc(1.2rem + 0.5vw), 1.5rem);
   font-weight: 700;
   margin-bottom: 1.5rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 4px #0000004d;
 }
 
 .StoryCard p {
   color: #cbd5e1;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px #00000033;
 }
 
 /*************************************
   Contact
  *************************************/
 
-.Contact>.Container {
+.Contact > .Container {
   max-width: 1024px;
 }
 
 @media (max-width: 450px) {
-  .Contact>.Container {
+  .Contact > .Container {
     padding-inline: 1.5rem;
   }
 }
 
-.ContactHeader>p {
+.ContactHeader > p {
   text-align: center;
 }
 
@@ -456,14 +492,15 @@ I'm a fan of clamp() as a design tool.
   padding: var(--sc-gap);
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   justify-content: center;
-  background: #0a0a0a33;
+  background: var(--sc-bg-overlay);
   border: var(--sc-border-card);
   border-radius: var(--sc-radius-medium);
-  backdrop-filter: var(--sc-blur-bg);
+  backdrop-filter: var(--sc-blur);
 }
 
-.ContactCard>.LogoLayout {
+.ContactCard > .LogoLayout {
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 .ContactCard .Logo {
@@ -471,24 +508,24 @@ I'm a fan of clamp() as a design tool.
 }
 
 .ContactCard .CompanyName {
-  font-size: clamp(1.1rem, calc(1.1rem + 0.9vw), 1.3rem);
-  letter-spacing: clamp(1.1px, calc(1px + 0.8vw), 1.3px);
+  font-size: 21px;
+  letter-spacing: 1.5px;
 }
 
 .ContactCard .CompanyTagline {
-  font-size: clamp(0.62rem, calc(0.6rem + 0.2vw), 0.66rem);
-  letter-spacing: clamp(0px, calc(0.6px + 0.15vw), 1.15px);
+  font-size: 11px;
+  letter-spacing: 1.15px;
 }
 
 .ContactSignature {
-  color: var(--sc-text-color);
-  font-family: var(--sc-signature-font-family);
+  color: var(--sc-text-base);
+  font-family: var(--sc-font-signature);
   font-size: 1.65rem;
   font-weight: normal;
 }
 
-.ContactSignature>.Accent {
-  color: var(--sc-red-color);
+.ContactSignature > .Accent {
+  color: var(--sc-color-red);
 }
 
 .ContactCard a, .ContactCard span {
@@ -496,12 +533,12 @@ I'm a fan of clamp() as a design tool.
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-decoration: none;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px #00000033;
   transition: all 0.3s ease;
 }
 
 .ContactCard a:hover {
-  background: var(--sc-gradient-blue);
+  background: var(--sc-gradient-brand);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -514,14 +551,12 @@ I'm a fan of clamp() as a design tool.
 }
 
 .BtnResume {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  background: var(--sc-gradient-btn);
   border-radius: var(--sc-radius-large);
-  box-shadow:
-    0 10px 30px rgba(59, 130, 246, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px #3b82f64d, inset 0 1px 0 #ffffff33;
   color: white;
   display: inline-block;
-  font-family: var(--sc-button-font-family);
+  font-family: var(--sc-font-varino);
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
@@ -538,7 +573,7 @@ I'm a fan of clamp() as a design tool.
 }
 
 .BtnResume::before {
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, #ffffff33, transparent);
   content: '';
   height: 100%;
   left: -100%;
@@ -549,10 +584,7 @@ I'm a fan of clamp() as a design tool.
 }
 
 .BtnResume:hover {
-  box-shadow:
-    0 15px 40px rgba(59, 130, 246, 0.4),
-    0 0 40px rgba(139, 92, 246, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: var(--sc-shadow-btn);
   transform: translateY(-3px);
 }
 
@@ -567,9 +599,9 @@ I'm a fan of clamp() as a design tool.
 .FooterLayout {
   padding: 1.25rem;
   text-align: center;
-  background: #0a0a0a33;
+  background: var(--sc-bg-overlay);
   border-top: var(--sc-border-card);
-  backdrop-filter: var(--sc-blur-bg);
+  backdrop-filter: var(--sc-blur);
 }
 
 .FooterLayout .CompanyName {

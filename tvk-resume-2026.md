@@ -645,7 +645,7 @@ Always curious, always learning. Servant leadership, guided by essential first p
   Constructing software that is essential, durable, minimalist, comprehensible _and_
   functional _while_ adhering to first principles is aspirational
 - **Dead code is a liability, dead content is a lie** - this is the corollary to less is
-  more. Delete it and move it. The ideas have been rejected or outdated. 
+  more. Delete it and move it. The ideas have been rejected or outdated.
 - **Leaders set the standard, even when they don't** - implicit behavior sets the
   standard for the entire team as much as explicit expectations
 - **Pride and purpose drives effort** - innovation is driven by a sense of purpose,

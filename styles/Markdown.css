@@ -17,15 +17,15 @@
   width: 100%;
   overflow: hidden;
   padding: var(--sc-gap);
-  background: var(--sc-bg-dark-trans);
+  background: var(--sc-bg-overlay);
   border: var(--sc-border-card);
   border-radius: var(--sc-radius-medium);
-  backdrop-filter: var(--sc-blur-bg);
+  backdrop-filter: var(--sc-blur);
 }
 
 .MarkdownCard::before {
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
-  content: "";
+  background: var(--sc-gradient-stripe);
+  content: '';
   height: 3px;
   left: 0;
   opacity: 0.8;
@@ -42,8 +42,7 @@
   padding: calc(0.5 * var(--sc-gap));
 }
 
-.MarkdownIndexList,
-.MarkdownIndexChildList {
+.MarkdownIndexList, .MarkdownIndexChildList {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -67,14 +66,13 @@
   transition: color 0.2s ease;
 }
 
-.MarkdownIndexItem a:hover,
-.MarkdownIndexItem a:focus {
+.MarkdownIndexItem a:hover, .MarkdownIndexItem a:focus {
   color: var(--sc-color-blue);
   outline: none;
 }
 
 .MarkdownIndexLevel2 > a {
-  color: var(--sc-subtitle-color);
+  color: var(--sc-text-subtitle);
   font-weight: 600;
   font-size: 0.95rem;
 }
@@ -83,9 +81,8 @@
   color: var(--sc-text-muted);
 }
 
-.MarkdownIndexLevel4 > a,
-.MarkdownIndexLevel5 > a {
-  color: var(--sc-text-muted-dark);
+.MarkdownIndexLevel4 > a, .MarkdownIndexLevel5 > a {
+  color: var(--sc-text-faint);
   font-size: 0.85rem;
 }
 
@@ -113,8 +110,7 @@
   line-height: 1.4;
 }
 
-.MarkdownContent h4,
-.MarkdownContent h5 {
+.MarkdownContent h4, .MarkdownContent h5 {
   font-size: 1rem;
 }
 
@@ -158,17 +154,17 @@
   border-collapse: collapse;
   margin: 1rem 0;
   background: var(--sc-bg-table);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
 .MarkdownContent thead {
-  background: var(--sc-gradient-blue);
+  background: var(--sc-gradient-brand);
 }
 
 .MarkdownContent th {
   padding-block: 0.75rem;
-  padding-inline-start: 1.5rem;
+  padding-inline: 0.5rem;
   color: var(--sc-text-light);
   text-align: left;
   font-weight: 600;
@@ -179,32 +175,25 @@
 }
 
 .MarkdownContent td {
-  padding-block: 0.6rem;
-  padding-inline-start: 1.5rem;
+  padding: 0.5rem;
   line-height: 1.6;
 }
 
 .MarkdownContent td:first-child {
-  width: 25%;
-}
-
-.MarkdownContent th:last-child,
-.MarkdownContent td:last-child {
-  padding-inline-end: 1rem;
+  width: 20%;
 }
 
 .MarkdownContent tr:hover {
   background-color: var(--sc-bg-hover);
 }
 
-.MarkdownContent ol,
-.MarkdownContent ul {
+.MarkdownContent ol, .MarkdownContent ul {
   padding-inline-start: 1.5rem;
   line-height: 1.6;
 }
 
 .MarkdownContent ul > li::marker {
-  color: var(--sc-text-muted);
+  color: var(--sc-text-antique);
   font-size: 1.25rem;
 }
 
@@ -217,8 +206,7 @@
   transition: color 0.2s ease;
 }
 
-.MarkdownContent a:hover,
-.MarkdownContent a:focus {
+.MarkdownContent a:hover, .MarkdownContent a:focus {
   color: var(--sc-color-blue);
   text-decoration: underline;
   text-underline-offset: 5px;
@@ -231,7 +219,7 @@
 
 .MarkdownMenuButton {
   display: none;
-  background: var(--sc-bg-dark-trans);
+  background: var(--sc-bg-overlay);
   border: none;
   cursor: pointer;
   position: fixed;
@@ -249,9 +237,7 @@
   width: 1.125rem;
   height: 0.125rem;
   background: var(--sc-text-light);
-  transition:
-    transform 0.25s ease,
-    opacity 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
 .MarkdownMenuButton span:nth-child(1) {
@@ -283,13 +269,13 @@ body.menu-open .MarkdownMenuButton span:nth-child(3) {
  *************************************/
 
 .BtnScrollTop {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  background: var(--sc-gradient-btn);
   border: none;
   border-radius: 50%;
   bottom: 2rem;
   box-shadow:
-    0 10px 30px rgba(59, 130, 246, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    0 10px 30px color-mix(in srgb, var(--sc-color-blue-dark) 30%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 20%, transparent);
   color: white;
   cursor: pointer;
   display: flex;
@@ -308,13 +294,8 @@ body.menu-open .MarkdownMenuButton span:nth-child(3) {
 }
 
 .BtnScrollTop::before {
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  content: "";
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  content: '';
   height: 100%;
   left: -100%;
   position: absolute;
@@ -333,18 +314,13 @@ body.menu-open .BtnScrollTop {
   pointer-events: none;
 }
 
-.BtnScrollTop:hover,
-.BtnScrollTop:focus {
-  box-shadow:
-    0 15px 40px rgba(59, 130, 246, 0.4),
-    0 0 40px rgba(139, 92, 246, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+.BtnScrollTop:hover, .BtnScrollTop:focus {
+  box-shadow: var(--sc-shadow-btn);
   transform: translateY(-0.1875rem);
   outline: none;
 }
 
-.BtnScrollTop:hover::before,
-.BtnScrollTop:focus::before {
+.BtnScrollTop:hover::before, .BtnScrollTop:focus::before {
   left: 100%;
 }
 
@@ -373,15 +349,11 @@ body.menu-open .BtnScrollTop {
     overflow-y: auto;
     opacity: 0;
     transform: scale(0.9);
-    transition:
-      opacity 0.25s ease,
-      transform 0.25s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
     pointer-events: none;
   }
 
-  .MarkdownContent p,
-  .MarkdownContent th,
-  .MarkdownContent td {
+  .MarkdownContent p, .MarkdownContent th, .MarkdownContent td {
     font-size: 1rem;
   }
 
