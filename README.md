@@ -1,3 +1,5 @@
+![Seasons Computing](seasonscomputing-logo.png)
+
 # Seasons Computing Website
 
 [Seasons Computing](https://seasonscomputing.com)
