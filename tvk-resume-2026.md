@@ -243,7 +243,7 @@ product authentication, anti-diversion, anti-counterfeiting and user engagement.
 
 | Frontend   | Stack                                                          |
 | ---------- | -------------------------------------------------------------- |
-| Platform   | SPA Web Applcation & Web Mobile, iPhone/iOS , Nginx            |
+| Platform   | SPA Web Application & Web Mobile, iPhone/iOS, Nginx            |
 | Foundation | JavaScript, React, Express, MobX, Ant Design, Tableau Embedded |
 
 #### Marketing Applications
@@ -290,7 +290,7 @@ largest and only 24x7 brick & mortar retail hydroponics superstore in North Amer
 | Customer Experience | In-store digital UX, Mobile applications           |
 | Marketing           | SEM, Print, Email, Radio campaigns                 |
 
-#### Noteable Achievements
+#### Noteworthy Achievements
 
 - Defined evolutionary rollout strategy ensuring minimal disruption
 - Built scalable infrastructure supporting 60x retail growth
@@ -626,30 +626,34 @@ Sophisticated meta-model, schemas & instances, with scripting such that propriet
 
 ### 5.2 Career Philosophy
 
-Dedicated to building the best possible products, teams, and companies.
-Always curious, always learning. Servant leadership, guided by essential first principles.
+Dedicated to building the best possible products, teams, and companies. 
 
-- **Agile guarantees, disciplined engineering and best practices** - only the
-  "with what" and the "why" change, "how" remains constant
-- **Less is almost always more** - less design, fewer features, less code results in
-  more quality, more reliability. It is the single greatest tool for minimizing complexity
-- **Pareto principle of feature design** - craft the 20% of functionality that
-  satisfies 80% of customer needs
-- **Better to kill a feature than ship incomplete** - half-baked features that
-  aren't used and reflect poorly on the whole product are costly and worse,
-  may result in reputational damage and distrust
-- **Do it right, do it now** - it's never faster nor cheaper to do it right
-  later. In fact, it's worse because often time misjudgment becomes institutionalized
-  in shared memories and imbued in the software produced
-- **Anyone can write code that works** - writing functional software is the bare minimum.
-  Constructing software that is essential, durable, minimalist, comprehensible _and_
-  functional _while_ adhering to first principles is aspirational
-- **Dead code is a liability, dead content is a lie** - this is the corollary to less is
-  more. Delete it and move it. The ideas have been rejected or outdated.
-- **Leaders set the standard, even when they don't** - implicit behavior sets the
-  standard for the entire team as much as explicit expectations
-- **Pride and purpose drives effort** - innovation is driven by a sense of purpose,
-  not just a desire for novelty or status. Pride is a powerful motivator for excellence.
+Always curious. Always learning. Servant leadership. Guided by essential first principles.
+
+- **Agile guarantees, disciplined engineering, best practices**  
+  The *how* remains constant; only the *with what* and *why* evolve.
+- **Less is almost always more**  
+  Less design, fewer features, less code → more quality, more reliability.  
+  The most effective tool for minimizing complexity.
+- **Pareto-driven feature design**  
+  Build the 20% that delivers 80% of the value.
+- **Kill weak features early**  
+  Half-baked features cost more than they deliver.  
+  They erode trust, dilute the product, and linger as debt.
+- **Do it right, do it now**  
+  It is never cheaper or faster later.  
+  Misjudgment hardens into architecture, process, and culture.
+- **Working code is the floor, not the goal**  
+  Anyone can make software function.  
+  The craft is in making it essential, durable, minimal, and comprehensible.
+- **Dead code is a liability; dead content is a lie**  
+  If it’s not used, delete it.  
+  If it’s outdated, remove it. Systems must reflect truth.
+- **Leaders set the standard—always**  
+  Behavior, not intention, defines the bar.
+- **Pride and purpose drive excellence**  
+  Innovation follows meaning, not novelty.  
+  Pride in the work produces better outcomes than pressure ever will.
 
 ### 5.3 Peer Ascription
 
