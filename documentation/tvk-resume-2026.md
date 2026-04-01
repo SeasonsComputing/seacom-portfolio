@@ -1,6 +1,6 @@
 # Professional Experience
 
-Source: [Ted V. Kremer - Résumé - 2026](tvk-resume-2026.md)
+Source: [Ted V. Kremer - Résumé - 2026](documentation/tvk-resume-2026.md)
 
 I began my professional journey in 1981, writing accounting software on the
 TRS-80 for my father's software startup. That early experience revealed a
@@ -19,14 +19,13 @@ distributed processing, machine learning and NLP. Throughout, I've
 remained committed to the first principles of agile guarantees, disciplined engineering
 and best practices.
 
-Today, I employ AI coding across the entire SDLC and full development stack:
+I've established a [Model of Development w/ AI Coding](markdown.html?documentation/tvk-mod-3rm.md) 
+and [CONSTITUTION.md](markdown.html?documentation/CONSTITUTION.md) in support of applied AI 
+for software construction; and employ AI coding across the entire SDLC and full development stack:
 imagining, planning and architecture through development, deployment and evolution.
-I employ a [three-role model of development](markdown.html?tvk-mod-3rm.md) in my
-development process for effective application of AI coding.
 
 This model of development evolved from necessity, through trial and error, while
-incorporating AI coding across the SDLC. AI coding is constantly evolving,
-and so my [model of development](markdown.html?tvk-mod-1st.md) is constantly evolving as well.
+immersing AI coding. AI coding is constantly evolving and so too is this [model of development](markdown.html?documentation/tvk-mod-1st.md).
 
 ## 1. Contact
 
@@ -174,7 +173,7 @@ offline-capable PWA field workflows mobile application; web applications for adm
 
 - Applied AI as a first-class engineering tool to produce a well-documented architecture and domain model, codified in a shared domain SDK and realized through three focused applications, deployed on Netlify and Supabase for scalable operations.
 - Leveraged AI to compress a typical four-person, six-to-eight-month effort into a single-engineer delivery completed in half the time, while maintaining a durable architecture aligned with agile guarantees, disciplined engineering, and established best practices.
-- Established a [three-role model of development](markdown.html?tvk-mod-3rm.md) and [CONSTITUTION.md](markdown.html?CONSTITUTION.md) in support of applied AI for software construction. 
+- Established a [three-role model of development](markdown.html?documentation/tvk-mod-3rm.md) and [CONSTITUTION.md](markdown.html?documentation/CONSTITUTION.md) in support of applied AI for software construction. 
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 

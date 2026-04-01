@@ -1,8 +1,10 @@
 # Model of Development w/ AI Coding
 
+Source: [Model of Development w/ AI Coding](documentation/tvk-mod-3rm.md)
+
 This document defines the **operational model** for software development using AI coding tools. It establishes roles, responsibilities, handoff protocols, and workflow patterns for human and AI contributors.
 
-This is not a theoretical framework. It is a working model born from practical constraints and refined through real architectural work.
+This is not a theoretical framework. It is a working model born from practical constraints and refined through real architectural work. [CONSTITUTION.md](markdown.html?documentation/CONSTITUTION.md) codifies this model as an AI agent invariant ruleset.
 
 ## 1. The Three-Role Model
 

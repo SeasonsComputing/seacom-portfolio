@@ -1,5 +1,7 @@
 # Software Architecture Constitution
 
+Source: [CONSTITUTION.md](documentation/CONSTITUTION.md)
+
 ## 1. Purpose and Authority
 
 This document is the **highest governing authority** for all work performed in this repository, whether by humans or artificial intelligence systems.

@@ -20,7 +20,7 @@ modern, responsive web interface.
 2. Open `http://localhost:8000/` to verify the page loads, the hero carousel
    auto-advances, and the indicator dots respond to clicks. Avoid `file://`
    since fonts will fail to load due to CORS.
-3. Open `http://localhost:8000/markdown.html?tvk-resume-2026.md` to view the
+3. Open `http://localhost:8000/markdown.html?documentation/tvk-resume-2026.md` to view the
    markdown resume and its generated index.
 
 ## Technology Stack
@@ -40,8 +40,10 @@ seacom-portfolio/
 ├── README.md
 ├── index.html                 # Main HTML entry point
 ├── markdown.html              # Markdown viewer
-├── tvk-resume-2026.md         # Resume content
-├── tvk-mod-*.md               # Model of Development w/ AI Coding
+├── documentation/             # Markdown documents
+│   ├── CONSTITUTION.md
+│   ├── tvk-resume-2026.md
+│   └── tvk-mod-*.md
 ├── assets/                    # Static assets
 │   ├── Comfortaa-Regular.woff2
 │   ├── favicon.png
@@ -117,7 +119,7 @@ A comprehensive design system built with CSS custom properties:
 
 - Keep preload `href`s in `index.html` aligned with `@font-face` `src` URLs in
   `styles/index.css`.
-- When updating the resume, verify `markdown.html?tvk-resume-2026.md` renders
+- When updating the resume, verify `markdown.html?documentation/tvk-resume-2026.md` renders
   headings and index anchors correctly.
 - CSS variables drive spacing, colors, and typography; tweak them in `:root`
   and check responsive overrides.
