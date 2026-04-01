@@ -151,14 +151,8 @@ _Founding Contributor_
 
 Agricultural services startup providing aerial drone applications and ground machinery services in North Texas.
 
-#### AI Immersion
-
-Employed AI as first-class engineering tool to deliver multi-client, model-driven system with
-offline-capable PWA field workflows and web applications for administration and customer access.
-Architectural decisions, tooling, and coding practices reflected personal judgment; AI constrained
-by experience and applied as accelerator rather than substitute. Delivered solo in 3 months what
-typically requires ~3 engineers, ~$300K budget, and 6-month cycle, while preserving agile guarantees,
-disciplined engineering and best practices.
+Business is supported by a proprietary system composed of a suite of specialized applications: an
+offline-capable PWA field workflows mobile application; web applications for administration and customer access.
 
 #### Technology
 
@@ -175,6 +169,11 @@ disciplined engineering and best practices.
 - Designed and implemented corporate website and marketing materials
 - Contributed to regulatory compliance and policy development
 - Managed and optimized SEO for improved online visibility
+
+#### Noteworthy Achievements
+
+- Applied AI as a first-class engineering tool to produce a well-documented architecture and domain model, codified in a shared domain SDK and realized through three focused applications, deployed on Netlify and Supabase for scalable operations.
+- Leveraged AI to compress a typical four-person, six-to-eight-month effort into a single-engineer delivery completed in half the time, while maintaining a durable architecture aligned with agile guarantees, disciplined engineering, and established best practices.
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
