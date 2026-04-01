@@ -257,9 +257,9 @@ Marketing-driven applications demonstrating DIRX2.
 
 - GitLab, Confluence and Jira
 
-#### Notable Achievements
+#### Noteworthy Achievements
 
-- When Covid forced Tapwow to scale back operations, the team was reduced to the
+- When Covid-19 forced Tapwow to scale back operations, the team was reduced to the
   principal founders and myself as the sole technical resource
 - I assumed all software development roles: architect, UX designer, DevOps, full-stack developer
 - Over six months, I refactored the entire architecture and delivered a major 2.0 release with
@@ -699,7 +699,7 @@ Early adopter for what became paradigm shifts within the software industry.
 - Acquisition readiness and due diligence
 - Cross-functional team leadership (development, marketing, sales)
 
-### 5.6 Notable Achievements
+### 5.6 Noteworthy Achievements
 
 | Achievement          | Details                                                                                               |
 | -------------------- | ----------------------------------------------------------------------------------------------------- |
