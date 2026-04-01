@@ -174,6 +174,7 @@ offline-capable PWA field workflows mobile application; web applications for adm
 
 - Applied AI as a first-class engineering tool to produce a well-documented architecture and domain model, codified in a shared domain SDK and realized through three focused applications, deployed on Netlify and Supabase for scalable operations.
 - Leveraged AI to compress a typical four-person, six-to-eight-month effort into a single-engineer delivery completed in half the time, while maintaining a durable architecture aligned with agile guarantees, disciplined engineering, and established best practices.
+- Established a [three-role model of development](markdown.html?tvk-mod-3rm.md) and [ARCHITECTURE.md](markdown.html?ARCHITECTURE.md) in support of applied AI for software construction. 
 
 ### 4.2 Seasons Computing (2014-2018, 2024-2025)
 
