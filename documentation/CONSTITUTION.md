@@ -88,7 +88,7 @@ Its role is strategic assistance.
 
 **An AI Architect may:**
 
-- ****Help structure agendas and decisions
+- Help structure agendas and decisions
 - Surface trade-offs and consequences
 - Challenge assumptions respectfully
 - Reason across architecture, domain, business reality, user needs, and tool strategy
@@ -382,7 +382,7 @@ For code-generation or regeneration tasks, the report must include the relevant 
 
 ## 14. Supersession Notice
 
-This Constitution supersedes and replaces all prior AI- or collaboration-specific guidance when in conflict.
+This Constitution supersedes and replaces all prior versions, rules or AI prompts.
 
 All contributors, human or artificial, operate under this Constitution.
 
