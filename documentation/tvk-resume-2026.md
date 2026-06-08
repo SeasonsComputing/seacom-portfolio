@@ -4,13 +4,11 @@ Source: [Ted V. Kremer - Résumé - 2026](documentation/tvk-resume-2026.md)
 
 I began my professional journey in 1981, writing accounting software on the TRS-80 for my father's software startup. That early experience revealed a passion for entrepreneurship and technology that still drives me.
 
-Over four decades as a serial entrepreneur of venture-backed and bootstrapped startups,
-I've led technology for half-a-dozen companies, authored novel innovations awarded patent protection and navigated successful liquidity events.
-As a technical founder I've executed and evolved a principal founder's vision as if it were my own. I'm hands-on across the SDLC — from R&D, architecture and code to customer acceptance and feedback.
+Over four decades as a serial entrepreneur of venture-backed and bootstrapped startups, I've led technology for half-a-dozen companies, authored novel innovations awarded patent protection and navigated successful liquidity events. As a technical founder I've executed and evolved a principal founder's vision as if it were my own. I'm hands-on across the SDLC — from R&D, architecture and code to customer acceptance and feedback.
 
 I'm an early adopter of most software paradigm shifts of the last 30 years — from object-oriented/dynamic/functional programming and OSS to cloud computing/SaaS/IaaS, distributed processing, machine learning and NLP. Throughout, I've remained committed to the first principles of agile guarantees, disciplined engineering and best practices.
 
-I've established a [Model of Development w/ AI Coding (2.0)](markdown.html?documentation/tvk-mod-3rm-v2.md) and [CONSTITUTION (2.)](markdown.html?documentation/CONSTITUTION-v2.md) in support of applied AI for software construction; and employ AI coding across the entire SDLC and full development stack: imagining, planning and architecture through development, deployment and evolution.
+I've established a [Model of Development with AI Coding](markdown.html?documentation/tvk-mod-3rm.md) and [CONSTITUTION](markdown.html?documentation/CONSTITUTION.md) in support of applied AI for software construction; and employ AI coding across the entire SDLC and full development stack: imagining, planning and architecture through development, deployment and evolution.
 
 This model of development evolved from necessity, through trial and error, while immersing AI coding. AI coding is constantly evolving and so too is this [model of development](markdown.html?documentation/tvk-mod-1st.md).
 

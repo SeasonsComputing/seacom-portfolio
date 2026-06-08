@@ -1,652 +1,971 @@
-# Model of Development w/ AI Coding
+# Model of Development with AI Coding (2.0)
 
-Source: [Model of Development w/ AI Coding](documentation/tvk-mod-3rm.md)
+- Source: [tvk-mod-3rm.md](documentation/tvk-mod-3rm.md)
+- Version: 2.0
+- Published: 2026 June 7th
+- Author: Ted V. Kremer
+
+## 1. Purpose
 
 This document defines the **operational model** for software development using AI coding tools. It establishes roles, responsibilities, handoff protocols, and workflow patterns for human and AI contributors.
 
-This is not a theoretical framework. It is a working model born from practical constraints and refined through real architectural work. [CONSTITUTION.md](markdown.html?documentation/CONSTITUTION.md) codifies this model as an AI agent invariant ruleset.
+This is a human-first methodology document.
 
-## 1. The Three-Role Model
+It explains how and why the operating model works. Mechanical enforcement belongs in CONSTITUTION.md, AGENTS.md, architecture documents, style guides, guard scripts, and project checks.
 
-Software development on this system operates through three distinct, non-overlapping roles:
+## 2. Prologue
 
-### 1.1 Chief Architect (Human)
+The original Three-Role Model was created during the foundational phase of a substantive greenfield system, when the primary risks were architectural drift, domain corruption, premature abstraction, persistence mistakes, context loss, and uncontrolled AI code generation. 
 
-**Authority:** Final and absolute on all architectural, domain, and irreversible decisions.
+That model worked.
+
+The project and the AI coding marketplace have since evolved.
+
+### 2.1 Project Maturity
+
+The system has moved from foundational construction into feature expansion.
+
+**The foundation now includes:**
+
+- Core runtime architecture
+- Backend architecture
+- UX architecture
+- Shared domain contracts
+- Design-language primitives
+- Application shells
+- DevOps workflows
+- Guard scripts
+- Three application surfaces
+- Established import and dependency boundaries
+- Established documentation hierarchy
+
+**The primary development question is no longer only:**
+
+```text
+What is the system?
+What are the boundaries?
+What are the invariants?
+```
+
+**It is increasingly:**
+
+```text
+What does this user need?
+What feature slice satisfies that need?
+How does the feature fit the established system?
+What app-local workflow should be built?
+What must remain untouched?
+```
+
+This requires an evolved operating model.
+
+### 2.2 AI Coding Tool Evolution
+
+The AI coding market has materially changed.
+
+AI Coding Engines are no longer merely code-completion tools or literal prompt executors.
+
+**AI Coding Engines increasingly provide:**
+
+- Repository-wide context
+- Persistent project memory
+- Rule ingestion
+- Agent-facing instruction files
+- Multi-file editing
+- Test and guard execution
+- Error feedback loops
+- Conversational repair
+- Local implementation reasoning
+- Diff-grounded discussion
+
+As a result, the AI Coding Engine can now participate in tactical implementation reasoning.
+
+This does not give the AI Coding Engine architectural authority.
+
+It changes the conversation model.
+
+### 2.3 Memory and Context Improvements
+
+Early AI coding workflows suffered from weak continuity. Architectural context had to be restated frequently. Prompt precision compensated for unreliable session memory, brittle repo grounding, and poor instruction retention.
+
+**That burden has been reduced by:**
+
+- Project memory
+- Repository instructions
+- Agent instruction files
+- Persistent rules
+- Better chat front-ends
+- Better repo indexing
+- Better guard integration
+
+Prompt precision remains useful, but it is no longer the primary operational mechanism for ordinary feature work.
+
+### 2.4 Prompt Precision Has Narrowed
+
+The original model emphasized precise AI Architect to AI Coding Engine prompts.
+
+That remains useful for high-risk work.
+
+However, ordinary feature construction now often proceeds through bounded engineering dialog between the Chief Architect and the AI Coding Engine.
+
+**The operational distinction is:**
+
+- **Prompt precision:** Old mechanism for getting brittle tools to behave.
+- **Scope and authorization:** Governance mechanism for protecting project assets.
+
+Prompt precision may relax. Production authorization may not.
+
+### 2.5 Reasoning Has Become Stratified
+
+This model refines the reasoning role into layers.
+
+| Reasoning             | Role                                 |
+|-----------------------|--------------------------------------|
+| Strategic reasoning   | Chief Architect + AI Architect       |
+| Tactical reasoning    | Chief Architect + AI Coding Engine   |
+| Mechanical execution  | AI Coding Engine                     |
+
+This is the central evolution.
+
+The AI Architect remains strongest when reasoning across the solution space and the problem space: architecture, business reality, domain knowledge, end-user needs, tool strategy, and long-term consequences.
+
+The AI Coding Engine is strongest when reasoning from direct contact with the repository: files, imports, tests, guards, diffs, runtime errors, and existing patterns.
+
+The Chief Architect owns judgment across both.
+
+### 2.6 The Core Thesis
+
+The Three-Role Model preserves fixed authority while allowing reasoning to become stratified and execution to become increasingly agentic.
+
+```text
+Authority remains fixed.
+Reasoning becomes stratified.
+Execution becomes increasingly agentic.
+Production remains gated.
+```
+
+## 3. The Three-Role Model
+
+Software development operates through three distinct roles:
+
+1. Chief Architect
+2. AI Architect
+3. AI Coding Engine
+
+The roles may collaborate differently depending on work mode, but their authority boundaries do not collapse.
+
+Capability is not authority.
+
+Correct output does not imply correct authority.
+
+### 3.1 Chief Architect
+
+**Authority:**
+
+- Final and absolute on all architectural, domain, product, persistence, and irreversible decisions.
+- The Chief Architect is the human owner of judgment.
 
 **Responsibilities:**
 
 - Define domain meaning and business intent
+- Own product direction and end-user outcomes
 - Make architectural trade-offs
 - Approve or reject design proposals
 - Lock decisions once made
-- Own the agenda
+- Own final production authorization
 - Resolve ambiguity
 - Protect solution space from premature collapse
+- Preserve long-term system integrity
+- Decide when a concern is architectural, tactical, or mechanical
+- Decide whether a AI Coding Engine may proceed from dialog into production
 
 **Tools:**
 
-- Constitutional authority (CONSTITUTION.md)
+- Constitutional authority
 - Domain knowledge
 - Business context
+- Real-world user knowledge
 - Long-term system vision
-- 40 years of engineering judgment
+- Engineering judgment
+- Architecture documents
+- Guard results
+- AI reasoning partners
+- AI Coding Engines
 
-**Does NOT:**
+**Does Not:**
 
 - Write every line of code
-- Implement mechanical changes
-- Generate boilerplate
 - Perform repetitive file operations
+- Generate mechanical boilerplate
+- Accept AI production without review
+- Surrender authority to tool confidence
 
 **Key Principle:**
 
-_The Chief Architect's time is spent on decisions that matter, not on work that can be derived._
+The Chief Architect's time is spent on decisions that matter, not on work that can be derived, delegated, checked, or mechanically produced.
 
-### 1.2 Architect AI (Claude / ChatGPT / Gemini)
+### 3.2 AI Architect
 
-**Authority:** Propositional only. No unilateral decision-making.
+The AI Architect is a design partner, second inner monologue, agenda lead, trade-off explorer, documentation assistant, and tool-strategy advisor.
 
-**Role:** Design partner, second inner monologue, reasoning engine, documentation enforcer.
+**Authority:**
+
+- Propositional only. 
+- No unilateral decision-making.
+
+**Primary reasoning mode:**
+
+- Strategic reasoning.
 
 **Responsibilities:**
 
+- Help structure agendas and decision paths
 - Surface trade-offs and consequences
 - Challenge assumptions respectfully
-- Structure agendas and track progress
-- Translate decisions into precise prompts for execution
-- Generate or refine documentation
+- Reason across architecture, domain, business reality, user needs, and tool strategy
+- Connect software architecture to real-world domain conditions
+- Help translate business/user needs into system implications
 - Identify architectural drift
-- Enforce constitutional rules
-- Produce decision-ready options, not final answers
+- Produce decision-ready options
+- Refine methodology and process
+- Draft or revise governance and architecture documents
+- Generate precise implementation briefs when appropriate
+- Help decide which AI tool should own which phase
+- Help distinguish strategic, tactical, and mechanical work
 
-**Tools:**
+**Strongest When:**
 
-- Constitutional knowledge
-- Domain model understanding
-- Architectural pattern recognition
-- Documentation generation
-- Prompt engineering for coding engines
+- The problem crosses codebase boundaries
+- The question requires domain and business reasoning
+- The work affects architecture, product shape, methodology, or governance
+- Tool choice matters
+- Documentation needs to be created or revised
+- Long-term consequences matter
+- Multiple solution paths need comparison
 
-**Does NOT:**
+**Must Not:**
 
 - Make final decisions
-- Write code directly (except for documentation/prompts)
-- Proceed past unresolved ambiguity
-- Override Chief Architect judgment
-- Invent new abstractions without approval
+- Modify project assets without explicit authorization
+- Implement code independently in production contexts
+- Refactor without agreement
+- Introduce new patterns or abstractions unilaterally
+- Proceed past unresolved decision boundaries
+- Treat its own reasoning as authority
 
 **Key Principle:**
 
-_The Architect AI is a reasoning partner, not an implementer. It thinks, it does not do._
+The AI Architect thinks strategically, but the Chief Architect decides.
 
-### 1.3 Coding Engine AI (Codex / Cursor / Copilot / Cline / Equivalent)
+### 3.3 AI Coding Engine
 
-**Authority:** None. Pure mechanical executor.
+The AI Coding Engine is an implementation partner inside approved boundaries. It may reason tactically about the repository, existing patterns, local implementation options, file impacts, tests, guards, and diffs.
 
-**Role:** Fast, literal, deterministic code generator.
+It may not reason authoritatively about architecture, domain meaning, persistence semantics, or irreversible decisions.
+
+**Authority:** 
+
+- None. 
+- Production authority is granted only by the Chief Architect for an approved scope.
+
+**Primary reasoning modes:** 
+
+- Tactical reasoning and mechanical execution.
 
 **Responsibilities:**
 
-- Execute prompts exactly as given
-- Perform file operations (create, move, edit)
-- Generate boilerplate code
-- Implement repositories, handlers, migrations
+- Participate in bounded implementation dialog
+- Inspect the repository
+- Identify existing local patterns
+- Propose implementation approaches inside approved scope
+- Surface conflicts between requested work and existing code
+- Execute approved changes
+- Perform file operations
+- Generate boilerplate
 - Update imports and references
-- Follow patterns without deviation
+- Run checks, tests, and guards when available
+- Report modified files, failures, unresolved questions, and omitted work
+- Act as language lawyer for implementation details
+- Preserve existing architecture unless explicitly authorized to change it
 
-**Tools:**
+**May Reason About:**
 
-- Codebase access
-- Fast token throughput
-- Pattern replication
-- Mechanical precision
+- Local implementation shape
+- Existing file patterns
+- Import paths
+- Type errors
+- Test failures
+- Guard failures
+- Component composition
+- Small reversible local refactors
+- How to satisfy an approved feature slice
+- Whether the requested change conflicts with the current repository
 
-**Does NOT:**
+**Must Escalate when work touches or implies changes to:**
 
-- Make architectural decisions
-- Reinterpret intent
-- Invent abstractions
-- Cross boundaries without permission
-- Optimize or "improve" unless instructed
+- Architecture
+- Domain meaning
+- Persistence model
+- Database migrations
+- Cross-package boundaries
+- Shared contracts
+- Security boundaries
+- Authorization rules
+- Design-language primitives
+- Guard rules
+- Foundational documentation
+- Irreversible or high-impact decisions
+
+**Must Not:**
+
+- Own architectural decisions
+- Reinterpret product intent beyond approved scope
+- Invent new abstractions without authorization
+- Modify foundational documents without explicit consent
+- Cross architectural boundaries without permission
+- Treat passing tests as authority to change meaning
+- Convert tactical reasoning into unilateral production
 
 **Key Principle:**
 
-_The Coding Engine is a tool, not a colleague. It executes, it does not reason._
+The AI Coding Engine may reason tactically inside an approved scope. It may not reason authoritatively outside that scope.
 
-## 2. Why This Model Works
+## 4. Reasoning and Authority
 
-### 2.1 Separation of Concerns
+Reasoning capability is separate from decision authority.
 
-**Thinking vs Doing:**\
-Architecture and implementation are distinct skills. Mixing them causes:
+### 4.1 Reasoning Stratification
 
-- Over-engineered implementations
-- Under-thought architectures
-- Drift between intent and reality
+#### 4.1.1 Strategic Reasoning
 
-**This model enforces clean separation:**
+Participants: **Chief Architect + AI Architect**
 
-- Chief Architect + Architect AI = thinking
-- Coding Engine = doing
+Concerns:
 
-### 2.2 Agenda Discipline
+- What should exist?
+- What should remain invariant?
+- What user/domain reality matters?
+- What trade-offs are acceptable?
+- What deserves documentation?
+- What tool should own the work?
+- What risks must be controlled?
 
-**Problem:**\
-LLMs (especially conversational ones) drift toward "helpfulness" which often means:
+#### 4.1.2 Tactical Reasoning
 
-- Scope creep
-- Unsolicited redesigns
-- Premature optimization
-- Feature invention
+Participants: **Chief Architect + AI Coding Engine**
 
-**Solution:**\
-The Architect AI owns and enforces the agenda. Work proceeds in strict phases. Nothing advances without approval.
+Concerns:
 
-### 2.3 Token Efficiency
+- How does this feature fit the existing system?
+- Which files should change?
+- What local pattern should be followed?
+- What does the failing guard imply?
+- Is the requested change consistent with the repo?
+- What implementation path is smallest and safest?
 
-**Problem:**\
-Conversational AIs (Claude, ChatGPT, Gemini) burn tokens on:
+#### 4.1.3 Mechanical Execution
 
-- Context maintenance
-- Conversational niceties
-- Re-explaining decisions
-- Regenerating understood context
+Participant: **AI Coding Engine**
 
-**Solution:**\
-Use conversational AI for decisions (high value per token), then hand off execution to a coding engine (high throughput, low context requirements).
+Concerns:
 
-### 2.4 Durability Across Tools
+- Make the edits.
+- Run the checks.
+- Report the diff.
+- Fix authorized failures.
+- Stop at boundary violations.
 
-**Problem:**\
-AI tools change. APIs evolve. Models improve. Token limits shift.
+### 4.2 Authority Boundary
 
-**Solution:**\
-This model is **tool-agnostic**:
+Reasoning may be shared.
 
-- Chief Architect role is human (stable)
-- Architect AI role can be filled by any reasoning LLM
-- Coding Engine role can be filled by any code-generation tool
+Authority is not shared.
 
-The **CONSTITUTION.md** and **architecture documents** are the stable interface, not the tools.
-
-## 3. The Workflow Pattern
-
-Development proceeds in strict phases, with explicit handoffs between roles.
-
-### 3.1 Phases: Coding Loop
-
-```
-┌──  PHASE LOOP: n, n+1  ─────────────────────────────────┐
-│  ┌────────────────┐       IDEATION                      │
-│  │ Chief Architect│  Frames the problem                 │
-│  │       +        │  States constraints                 │
-│  │  Architect AI  │  Debates options                    │
-│  └────────┬───────┘  Locks decision                     │
-│           │                                             │
-│           v                                             │
-│  ┌────────────────┐      PRODUCTION                     │
-│  │ Architect AI   │  Produces execution prompt          │
-│  └────────┬───────┘  (deterministic, scoped)            │
-│           │                                             │
-│           v                                             │
-│  ┌────────────────┐     CONSTRUCTION                    │
-│  │ Coding Engine  │  Executes prompt                    │
-│  └────────┬───────┘  Reports completion                 │
-│           │                                             │
-│           v                                             │
-│  ┌────────────────┐      DECISION                       │
-│  │ Chief Architect│  Reviews output                     │
-│  │       +        │  Approves or rejects                │
-│  │  Architect AI  │  If approved: advance to Phase N+1  │
-│  └────────────────┘  If rejected: refine and re-execute │
-└─────────────────────────────────────────────────────────┘
+```text
+The Chief Architect owns authority.
+The AI Architect owns strategic assistance.
+The AI Coding Engine owns tactical assistance and execution.
 ```
 
-The **Coding Loop** is a continuous feedback loop involving the Chief Architect, Architect AI, and Coding Engine. Each loop follows the strict phases: IDEATION, PRODUCTION, CONSTRUCTION, and DECISION.
+AI-generated observations are evidence.
 
-### 3.2 Key Rules
+They are not decisions.
 
-1. **No phase skipping** - Each phase completes before the next begins
-2. **Explicit approval required** - Chief Architect must approve phase completion
-3. **Prompts are binding** - Coding Engine follows prompts literally
-4. **Agenda is sacred** - Architect AI enforces phase boundaries
+### 4.3 Evidence vs. Governance
 
-### 3.3 Phases: Knowledge Loop
+**The AI Coding Engine may report:**
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  ┌────────────────┐        IDEATION                     │
-│  │ Chief Architect│  Frames the problem                 │
-│  │       +        │  States constraints                 │
-│  │  Architect AI  │  Debates options                    │
-│  └────────┬───────┘  Locks decision                     │
-│           │                                             │
-│           v                                             │
-│  ┌────────────────┐      CONSTRUCTION                   │
-│  │ Architect AI   │  Constructs artifacts               │
-│  └────────┬───────┘                                     │
-│           │                                             │
-│           v                                             │
-│  ┌────────────────┐       DECISION                      │
-│  │ Chief Architect│  Reviews output                     │
-│  │       +        │  Approves or rejects                │
-│  │  Architect AI  │  If approved: advance to Phase N+1  │
-│  └────────────────┘  If rejected: refine and re-execute │
-└─────────────────────────────────────────────────────────┘
+```text
+This requested implementation conflicts with the existing pattern in these files.
 ```
 
-The **Knowledge Loop** are sessions involving only the Chief Architect and Architect AI. The end result is a decision or documentation artifact as markdown. Knowledge documents direct, constrain, and verify the entire solution.
+That is evidence.
 
-## 4. Handoff Protocols
+**The Chief Architect decides whether:**
 
-### 4.1 Chief Architect → Architect AI
+```text
+The implementation should adapt to the pattern.
+```
 
-**When:** At the start of a design session or when a decision point is reached.
+or:
+
+```text
+The pattern should change.
+```
+
+or:
+
+```text
+The issue should escalate to strategic design.
+```
+
+## 5. Operating Modes
+
+The Three-Role Model uses operating modes to select the correct workflow, authorization level, and reasoning posture.
+
+The mode is not ceremonial. It determines how the session proceeds.
+
+### 5.1 Exploration Mode
+
+Exploration Mode is used when the work is discussion, analysis, inspection, comparison, planning, or option generation.
+
+**Typical Uses:**
+
+- Discussing possible approaches
+- Reviewing trade-offs
+- Inspecting code without mutation
+- Asking a AI Coding Engine to identify likely files
+- Asking an AI Architect to compare strategies
+- Drafting a proposed scope
+
+**Production Rule:**
+
+No project assets are modified in Exploration Mode.
+
+Exploration may produce a proposed production scope.
+
+### 5.2 Foundation Mode
+
+Foundation Mode applies when work affects architecture, domain, persistence, shared contracts, design language, guard systems, DevOps structure, or cross-application boundaries.
+
+**Typical Uses:**
+
+- Domain model changes
+- Persistence model changes
+- Migrations
+- Architecture document changes
+- Shared API contracts
+- UX primitive changes
+- Guard script changes
+- Cross-package refactors
+- Security or authorization changes
+- Core runtime changes
+
+**Required Pattern:**
+
+```text
+Chief Architect + AI Architect
+  → strategic reasoning
+  → decision
+  → documentation update
+  → scoped production authorization
+  → AI Coding Engine execution
+  → checks/guards
+  → Chief Architect review
+```
+
+**Principle:**
+
+Foundation work requires deliberate decision, documented authority, scoped production, and explicit approval.
+
+### 5.3 Feature Mode
+
+Feature Mode applies when work adds end-user capability inside established architecture.
+
+**Typical Uses:**
+
+- App-local page
+- App-local widget
+- Feature workflow
+- Form behavior
+- List/detail view
+- Report screen
+- Dashboard card
+- Existing API consumption
+- Existing Ui control composition
+- App-local state handling
+- Loading, error, and empty states
+
+**Required Pattern:**
+
+```text
+Chief Architect + AI Coding Engine
+  → bounded tactical dialog
+  → scope proposal
+  → production authorization
+  → implementation
+  → checks/guards
+  → review
+```
+
+**Principle:**
+
+Feature work may proceed through dialog, but production remains gated.
+
+### 5.4 Repair Mode
+
+Repair Mode applies when the system fails a check, test, guard, build, or runtime expectation.
+
+**Typical Uses:**
+
+- Type failures
+- Build failures
+- Guard failures
+- Broken imports
+- Runtime defects
+- Test failures
+- Regression repair
+
+**Required Pattern:**
+
+```text
+Failure observed
+  → AI Coding Engine investigates
+  → AI Coding Engine explains likely cause
+  → Chief Architect confirms repair scope
+  → AI Coding EngineEngine fixes
+  → checks re-run
+  → result reported
+```
+
+**Principle:**
+
+A failing check authorizes investigation. It does not automatically authorize unrelated refactoring.
+
+## 6. Production Authorization
+
+Production means creating, modifying, moving, deleting, generating, or regenerating project assets.
+
+### 6.1 Production Gate
+
+**Before production begins, the agent must identify:**
+
+- Goal
+- Operating mode
+- Files or directories expected to change
+- Files or directories explicitly out of scope
+- Architectural boundaries involved
+- Checks or guards to run
+- Known risks or ambiguities
+
+```text
+The Chief Architect must authorize the scope.
+```
+
+### 6.2 Dialog vs. Production
+
+Dialog may be fluid.
+
+Production must be gated.
+
+**Allowed before authorization:**
+
+- Discuss
+- Analyze
+- Inspect
+- Propose
+- Compare
+- Ask
+- Identify risks
+- Draft scope
+
+**Not allowed before authorization:**
+
+- Modify files
+- Generate code into project assets
+- Move files
+- Delete files
+- Update architecture documents
+- Change persistence
+- Run destructive commands
+
+### 6.3 Scope Is a Contract
+
+Once production scope is authorized:
+
+- Do not silently expand scope
+- Do not skip requested checks
+- Do not introduce new abstractions unless authorized
+- Do not modify out-of-scope files unless required to fix an authorized check
+- Escalate if new required work exceeds scope
+
+## 7. Workflow Patterns
+
+### 7.1 Strategic Loop
+
+Used for Foundation Mode, methodology, architecture, domain, persistence, and cross-system decisions.
+
+```text
+STRATEGIC LOOP
+
+Chief Architect + AI Architect
+  → Ideation / Strategic Reasoning
+     - Frame problem
+     - State constraints
+     - Explore options
+     - Surface trade-offs
+     - Consider problem space and solution space
+  → Decision
+     - Chief Architect accepts/rejects
+     - Decision boundary locked
+  → Documentation
+     - Update governing docs if needed
+     - Define implementation constraints
+  → Production Scope
+     - Identify files/areas
+     - Identify forbidden changes
+     - Identify checks
+  → Authorization
+     - Chief Architect approves production
+```
+
+### 7.2 Tactical Feature Loop
+
+Used for app-local feature construction inside established architecture.
+
+```text
+TACTICAL FEATURE LOOP
+
+Chief Architect + AI Coding Engine
+  → Feature Intent
+     - User need
+     - App context
+     - Desired workflow
+     - Acceptance criteria
+  → Tactical Reasoning
+     - Inspect repo
+     - Find existing patterns
+     - Identify likely files
+     - Identify risks
+     - Propose implementation path
+  → Scope Proposal
+     - Files to touch
+     - Files not to touch
+     - Checks to run
+     - Escalation boundaries
+  → Production Authorization
+     - Chief Architect approves, revises, or rejects scope
+  → Construction
+    AI Coding Engine edits
+     - Runs checks
+     - Fixes in-scope failures
+  → Report
+     - Files changed
+     - Checks run
+     - Pass/fail
+     - Unresolved issues
+  → Review
+     - Chief Architect approves or redirects
+```
+
+### 7.3 Mechanical Execution Loop
+
+Used after scope is approved and implementation is clear.
+
+```text
+MECHANICAL EXECUTION LOOP
+
+Approved Scope
+  → AI Coding Engine Executes
+  → Run Checks / Guards
+     → Pass: Report Completion
+     → Fail: Fix In-Scope Violations
+        → Re-run Checks
+           → Pass: Report Completion
+           → Fail Outside Scope: Escalate
+```
+
+### 7.4 Repair Loop
+
+Used when a guard, test, build, or runtime behavior fails.
+
+```text
+REPAIR LOOP
+
+Failure
+  → Investigate
+  → Explain Cause
+  → Propose Repair Scope
+  → Chief Architect Authorizes
+  → Fix
+  → Re-run Check
+     → Pass: Report
+     → Fail: Escalate or Continue if In Scope
+```
+
+## 8. Handoff Protocols
+
+### 8.1 Chief Architect to AI Architect
+
+Used for strategic reasoning.
 
 **Format:**
 
-- State the problem or decision to be made
-- Provide constraints (time, resources, risk tolerance)
-- Specify what is negotiable vs non-negotiable
+- State problem or decision
+- Provide constraints
+- Identify negotiable and non-negotiable concerns
+- Indicate whether output should be options, recommendation, document draft, or implementation brief
 
-**Example:**
+**AI Architect Response:**
 
-> "We need to decide how to handle offline execution for the Ops app. Constraints: must work without network, must sync eventually, must not lose data. Non-negotiable: append-only logs, domain model purity."
-
-**Architect AI Response:**
-
-- Surfaces options (A, B, C)
+- Clarifies the decision boundary
+- Surfaces options
 - Explains trade-offs
-- Asks clarifying questions if needed
-- Does NOT choose unilaterally
+- Identifies consequences
+- Challenges assumptions respectfully
+- Produces decision-ready output
+- Does not decide unilaterally
 
-### 4.2 Architect AI → Coding Engine
+### 8.2 Chief Architect to AI Coding Engine
 
-**When:** After a decision is locked and implementation is required.
+Used for tactical reasoning or production.
+
+**Exploration / Tactical Dialog Format:**
+
+- State feature/user need
+- State app context
+- State known boundaries
+- Ask AI Coding Engine to inspect, reason, or propose
+
+**Production Format:**
+
+- Goal
+- Approved scope
+- Files/directories to touch
+- Files/directories not to touch
+- Constraints
+- Checks to run
+- Stop conditions
+- Reporting expectations
+
+### 8.3 AI Architect to AI Coding Engine
+
+Used when strategic reasoning has produced an implementation brief.
 
 **Format:**
 
-- Single-purpose prompt
-- Scoped to one phase
-- Explicit boundaries (what to touch, what not to touch)
-- Clear completion criteria
+- Single-purpose brief
+- Explicit scope
+- Explicit boundaries
+- Clear acceptance criteria
+- Required checks
+- Forbidden actions
+- Escalation conditions
 
-**Example:**
+**Rules:**
 
-> "Create repository implementations for User, Job, and Service abstractions. Scope: source/backends/serverless/repositories/ only. Pattern: expose get/create/update/softDelete methods. Return domain types. Do not modify domain code. Do not create handlers."
+- One brief may support one feature slice or one production phase.
+- Do not bundle unrelated work.
 
-**Critical Rules:**
+### 8.4 AI Coding Engine to Chief Architect
 
-- One prompt = one phase
-- No ambiguity allowed
-- Stop conditions explicit
-- Forbidden actions listed
+Used after tactical reasoning, construction, repair, or checks.
 
-### 4.3 Coding Engine → Chief Architect + Architect AI
+**Tactical Report:**
 
-**When:** After execution completes.
+- Existing patterns found
+- Proposed files to touch
+- Risks or ambiguities
+- Boundary concerns
+- Suggested implementation path
 
-**Format:**
+**Production Report:**
 
-- List of files created/modified
-- Any errors or ambiguities encountered
-- Explicit statement of what was NOT done
+- Files created
+- Files modified
+- Files deleted
+- Checks run
+- Check results
+- Failures fixed
+- Failures remaining
+- Work explicitly not done
+- Questions requiring Chief Architect decision
 
-**Example:**
+## 9. Documentation as Stable Interface
 
-> "Phase B.6 complete. Modified: user-repository.ts, job-repository.ts, service-repository.ts. Created: mappers/ directory. Did not modify domain code. Did not create handlers. Question: Should softDelete return void or the deleted entity?"
+Documents remain the stable interface across AI tools, humans, sessions, and time.
 
-**Chief Architect Response:**
+Software production is regenerable.
 
-- Reviews changes
-- Answers any questions
-- Approves ("locked") or rejects ("refine and re-execute")
-- Advances agenda if approved
+Architecture, domain meaning, and governance are authoritative.
 
-## 5. Documentation as the Stable Interface
+### 9.1 Documentation Hierarchy
 
-### 5.1 The Documentation Hierarchy
+**In order of authority:**
 
-In order of authority:
+1. CONSTITUTION.md
+2. Domain model documents
+3. Architecture documents
+4. UX/design-language documents
+5. DevOps documents
+6. Style guide
+7. Agent instructions
+8. Code examples
 
-1. **CONSTITUTION.md** - Governance, roles, philosophy
-2. **domain.md** - Domain meaning and rules
-3. **architecture-foundation.md** - System boundary and invariants
-4. **architecture-backend.md** - Backend implementation rules
-5. **architecture-frontend.md** - Frontend implementation rules
-6. **style-guide.md** - Coding conventions
+The exact hierarchy may be refined by the active Constitution and architecture authority chain.
 
-These documents are **more stable than code**.
+### 9.2 Documentation Before Foundational Code
 
-Code is regenerable. Documentation is authoritative.
-
-### 5.2 Why This Matters
-
-**AI models change.** GPT-4 → GPT-5. Claude 3 → Claude 4. Token limits shift. Capabilities evolve.
-
-**But if the documents are correct:**
-
-- Any AI can read them
-- Any AI can implement from them
-- Any human can understand the system
-
-The documents are the **contract**, not the conversation history.
-
-### 5.3 Document Maintenance
-
-Documents are updated **before code**, not after.
-
-Flow:
+**For Foundation Mode:**
 
 1. Identify architectural need
 2. Debate and decide
 3. Update documentation
-4. Generate code from documentation
+4. Authorize production
+5. Generate or modify code
+6. Verify with guards/checks
 
-Never:
+Never use code as the first durable expression of architectural decisions.
 
-1. Write code
-2. Realize it doesn't match docs
-3. Update docs to match code
+### 9.3 Feature Documentation
 
-That path leads to **architectural drift**.
+For Feature Mode, documentation requirements are lighter.
 
-## 6. Managing AI Tool Limitations
+A feature may be implemented from a scoped feature brief when it remains inside existing architecture.
 
-### 6.1 Token Limits (The Reality)
+**Update documentation when the feature:**
 
-- **Claude Pro:** ~200K token context, but rate-limited aggressively
-- **ChatGPT:** Higher throughput, but loses context in long sessions
-  **Claude Code/Codex:** Fast execution, smaller context reduced tokens consumed
+- Introduces a new pattern
+- Changes user workflow conventions
+- Adds reusable UX behavior
+- Alters public contracts
+- Changes architecture or domain meaning
+- Creates operational knowledge future agents need
 
-**The Constraint:**
+## 10. Managing AI Tool Capabilities
 
-Long architectural discussions burn tokens faster than code generation.
+### 10.1 Tool-Agnostic Governance
 
-**The Solution:**
+AI tools are interchangeable.
 
-- Use conversational AI (Claude/ChatGPT/Gemini) for **decisions** (high-value tokens)
-- Use coding engines (Claude Code/Codex/Gemini CLI) for **execution** (high-throughput tokens)
-- When conversational AI hits limits: **switch tools**, not sessions
+The Constitution, architecture documents, guard scripts, and project memory are the stable interface.
 
-### 6.2 Tool Switching Protocol
+### 10.2 Tool Selection
 
-**When switching from Claude to ChatGPT (or vice versa):**
+**Use AI Architect when:**
 
-1. **Save current state:**
-   - Lock current decisions in documents
-   - Update agenda explicitly
-   - Commit code changes
+- The question is strategic
+- Domain reality matters
+- Product consequences matter
+- Tool strategy matters
+- Documentation needs to be authored
+- Multiple solution paths must be compared
 
-2. **Provide handoff context to new AI:**
-   - "Ingest: CONSTITUTION.md, domain.md, architecture-\*.md"
-   - "Current agenda item: [Phase X]"
-   - "Last decision: [summary]"
+**Use AI Coding Engine when:**
 
-3. **Resume from explicit checkpoint:**
-   - No assumption of shared memory
-   - Documents are the source of truth
-   - Agenda is the contract
+- The question is repo-grounded
+- Existing patterns need inspection
+- File changes are likely
+- Guards/tests need to be run
+- A feature slice is ready
+- Tactical implementation questions dominate
 
-**Key Principle:**
+**Use both when:**
 
-_AI tools are interchangeable. Documents are permanent._
+- A feature touches user needs and non-trivial implementation
+- The local code path reveals strategic ambiguity
+- The AI Coding Engine finds a boundary conflict
+- A feature suggests architecture drift
 
-### 6.3 When to Switch vs When to Push Through
+### 10.3 Memory and Instruction Files
 
-**Switch when:**
+Project memory and instruction files reduce context loss but do not replace governance.
 
-- Token usage > 80% and major design decision pending
-- Session has drifted or lost focus
-- Need fresh perspective on a stuck problem
+Memory is context.
 
-**Push through when:**
+It is not authority.
 
-- < 20% tokens remaining but phase is nearly complete
-- Just need a final prompt generated
-- Switching would lose more time than token limit
+Agent instructions are operational guidance.
 
-**Never:**
+They do not supersede the Constitution.
 
-- Continue a session past 95% tokens
-- Make important decisions when fatigued or rushed
-- Skip documentation to "save time"
+### 10.4 Prompt Precision
 
-## 7. Common Anti-Patterns (What NOT To Do)
+Prompt precision is no longer the universal workflow requirement.
 
-### 7.1 Asking Coding Engines to Architect
+**It remains valuable for:**
 
-**Wrong:**
+- Foundation Mode
+- High-risk refactors
+- Cross-package changes
+- Migrations
+- Guard or architecture updates
+- Work handed between tools
+- Reproducible production phases
+- Work requiring strict replayability
 
-> "Codex, refactor the backend to support offline execution."
+For ordinary Feature Mode, structured engineering dialog may replace formal prompt handoff.
 
-**Why it fails:**
+## 11. Measuring Success
 
-- Coding engines don't reason about trade-offs
-- They invent solutions without understanding constraints
-- Result: architectural drift
+### 11.1 Good Signs
 
-**Right:**
+- Chief Architect remains in control
+- Tool choice is deliberate
+- Strategic and tactical reasoning are separated
+- Feature slices are small and reviewable
+- Production scopes are explicit
+- Guards fail early and usefully
+- AI Coding Engines raise boundary concerns
+- Documentation stays ahead of architecture
+- Ordinary feature work moves faster with less prompt ceremony
+- Code reviews focus on correctness and fit, not discovering intent
 
-> "Chief Architect + Architect AI debate offline strategy → lock decision → document it → generate prompt for Codex → Codex implements exactly what was decided"
+### 11.2 Warning Signs
 
-### 7.2 Letting Architect AI Code Directly
+- AI Coding Engine modifies assets without scope approval
+- Guards become the only protection against drift
+- Documentation lags foundational changes
+- Feature work introduces new patterns casually
+- Tactical convenience overrides strategic design
+- AI tool confidence substitutes for human judgment
+- Reviews become archaeology
 
-**Wrong:**
+### 11.3 When The Method Is Working
 
-> "Claude, implement the user repository."
+**You should feel:**
 
-**Why it fails:**
+- In control
+- Deliberate
+- Faster
+- Less burdened by prompt ceremony
+- Better supported by repo-grounded tactical dialog
+- Protected by production gates
+- Confident that architecture remains intact while feature throughput increases
 
-- Burns high-value reasoning tokens on low-value mechanical work
-- Hits token limits before architectural work is done
-- Slower than a dedicated coding engine
+## 12. Summary
 
-**Right:**
+The Three-Role Model preserves the original authority model while adapting to modern AI coding tools and a mature codebase.
 
-> "Claude, design the repository interface → generate a prompt → hand to Codex → Codex implements"
+**The roles remain:**
 
-### 7.3 Making Decisions in Code
+- **Chief Architect:** Owns authority, judgment, product intent, and final decisions.
+- **AI Architect:** Supports strategic reasoning across architecture, domain, business, methodology, and tooling.
+- **AI Coding Engine:** Supports tactical reasoning inside the repository and mechanical execution.
 
-**Wrong:**
+**The operational model is:**
 
-> "Let me try this approach and see if it works."
+| Reasoning             | Role                                 |
+|-----------------------|--------------------------------------|
+| Strategic reasoning   | Chief Architect + AI Architect       |
+| Tactical reasoning    | Chief Architect + AI Coding Engine   |
+| Mechanical execution  | AI Coding Engine                     |
 
-**Why it fails:**
+**The core rule is:**
 
-- Code becomes the design artifact
-- Refactoring becomes redesign
-- Documentation lags behind reality
+- Dialog may be fluid.
+- Production must be gated.
 
-**Right:**
+The model succeeds when AI tools increase leverage without acquiring unauthorized control over architecture, domain meaning, persistence, or project assets.
 
-> "Debate options → choose deliberately → document decision → implement once"
-
-### 7.4 Skipping Documentation Updates
-
-**Wrong:**
-
-> "I'll update the docs after I finish coding."
-
-**Why it fails:**
-
-- Documentation never gets updated
-- Future work diverges from intent
-- Institutional knowledge is lost
-
-**Right:**
-
-> "Update documentation first → generate code from documentation"
-
-## 8. Practical Examples
-
-### 8.1 Example 1: Adding a New Domain Concept
-
-**Scenario:** Need to add `Equipment` abstraction to track specialized tools.
-
-**Step 1: Design (Chief Architect + Architect AI)**
-
-- Debate: Is Equipment a first-class entity or subordinate to Asset?
-- Decision: First-class (independent lifecycle, regulatory tracking)
-- Update: domain.md, architecture-backend.md
-
-**Step 2: Prompt Generation (Architect AI)**
-
-```
-Create Equipment abstraction following pattern:
-- source/domain/abstractions/equipment.ts
-- source/domain/validators/equipment-validators.ts
-- source/domain/protocol/equipment-protocol.ts
-Pattern: same as Asset abstraction
-Do not modify existing files
-```
-
-**Step 3: Execution (Codex)**
-
-- Creates three files
-- Reports completion
-
-**Step 4: Review (Chief Architect + Architect AI)**
-
-- Verify files match domain.md
-- Approve or reject
-- If approved: advance to repository implementation
-
-### 8.2 Example 2: Fixing a Bug in Handler Logic
-
-**Scenario:** Users-get handler returns deleted users.
-
-**Step 1: Diagnosis (Chief Architect)**
-
-- Identify: Handler bypasses repository, queries Supabase directly
-- Root cause: Architectural violation (handler should use repository)
-
-**Step 2: Design (Chief Architect + Architect AI)**
-
-- Decision: Fix is not "add filter", fix is "use repository"
-- Verify: Repository already enforces soft-delete
-- Update: None needed (architecture already correct, code is wrong)
-
-**Step 3: Prompt Generation (Architect AI)**
-
-```
-Update users-get handler to use repository:
-- Remove direct Supabase import
-- Import userRepository
-- Call userRepository.get(id)
-- Repository handles soft-delete filtering
-Do not modify repository
-Do not modify domain
-```
-
-**Step 4: Execution (Codex)**
-
-- Updates handler
-- Reports completion
-
-**Step 5: Review (Chief Architect)**
-
-- Verify handler now uses repository
-- Test that deleted users no longer returned
-- Approve
-
-### 8.3 Example 3: Token Limit Hit Mid-Design
-
-**Scenario:** Debating offline sync strategy with Claude, hit 85% token limit, decision not yet made.
-
-**Step 1: Save State (Chief Architect)**
-
-- Document options discussed so far
-- Note unresolved questions
-- Commit any code changes
-
-**Step 2: Switch Tools (Chief Architect)**
-
-- Open ChatGPT
-- Provide context: "Ingest CONSTITUTION.md, domain.md, architecture-\*.md"
-- State current question: "Deciding between optimistic sync vs operation queue for offline execution"
-
-**Step 3: Resume (ChatGPT)**
-
-- Continues debate from documented state
-- Presents remaining options
-- Locks decision
-
-**Step 4: Hand to Codex (ChatGPT)**
-
-- Generates implementation prompt
-- Chief Architect hands to Codex
-
-**Key Point:**\
-_The conversation moved from Claude → ChatGPT without loss of context because the documents + explicit state captured everything that mattered._
-
-## 9. Measuring Success
-
-### 9.1 Good Signs
-
-- Documentation is always ahead of code
-- Prompts are short and unambiguous
-- Coding engines rarely ask clarifying questions
-- Refactors feel inevitable, not painful
-- AI tool switches are seamless
-- Code reviews focus on correctness, not intent
-
-### 9.2 Bad Signs
-
-- Documentation lags behind code
-- Prompts require multiple iterations
-- Coding engines "interpret" requirements
-- Refactors feel like redesigns
-- AI tool switches require re-explaining everything
-- Code reviews debate what the code should do
-
-### 9.3 When the Model is Working
-
-You should feel:
-
-- **In control** - not chasing the AI's suggestions
-- **Deliberate** - not reacting to what the AI generates
-- **Confident** - documentation matches reality
-- **Efficient** - reasoning time is spent on decisions, not mechanics
-
-## 10. Future Evolution
-
-This model will evolve as:
-
-- AI capabilities improve
-- Token limits increase (or disappear)
-- New tools emerge
-
-But the **core principle remains stable:**
-
-**Separate reasoning from execution.**
-
-Whether that separation is:
-
-- Human + AI vs AI
-- AI + AI vs AI
-- Human vs AI vs AI
-
-…the architecture is the same:
-
-1. Think deliberately
-2. Document authoritatively
-3. Execute mechanically
-4. Review carefully
-
-## 11. Summary
-
-### 11.1 The Model in One Paragraph
-
-Software development operates through three roles: **Chief Architect** (human, final authority), **Architect AI** (reasoning partner, agenda enforcer), and **Coding Engine** (mechanical executor). Work proceeds in strict phases with explicit handoffs. **Documentation is more stable than code.** AI tools are **interchangeable** as long as documents are authoritative. Token limits are managed by using conversational AI for **decisions** and coding engines for **execution**. The model succeeds when thinking and doing are cleanly separated.
-
-### 11.2 The Three Rules
-
-1. **Think before doing** - Design decisions are made deliberately and documented before code is written
-2. **Document before implementing** - Code is derived from documentation, not the other way around
-3. **Execute mechanically** - Implementation follows prompts literally, with no creative interpretation
-
-**End of Model of Development Document**
-
-This is a living document. It will be refined as the model proves itself in practice.
+__End of Model of Development with AI Coding (2.0) Document_

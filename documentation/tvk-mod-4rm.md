@@ -1,8 +1,8 @@
-# Model of Development w/ AI Coding (v2/Critic)
+# Model of Development with AI Coding (Critic)
 
 ## 1. Introduction
 
-This document defines the **v2.0 operational model** for software development using AI tools. It establishes a closed-loop system of development by introducing an adversarial **Critic** role to verify that mechanical execution never deviates from architectural intent.
+This document defines the **operational model** for software development using AI tools. It establishes a closed-loop system of development by introducing an adversarial **Critic** role to verify that mechanical execution never deviates from architectural intent.
 
 ## 2. The Four-Role Model
 
@@ -80,4 +80,4 @@ The Critic must assume the Coding Engine has failed until proven otherwise, usin
 3. **Execute mechanically:** Implementation follows prompts literally, with zero creative freedom.
 4. **Verify adversarially:** All output is audited by a Critic against the documentation before human review.
 
-**End of mod-v2.md**
+_End of Model of Development with AI Coding (Critic) Document_

@@ -1,4 +1,4 @@
-# Model of Development w/ AI Coding (v3/Swarm)
+# Model of Development with AI Coding (v3/Swarm)
 
 ## 1. Introduction
 

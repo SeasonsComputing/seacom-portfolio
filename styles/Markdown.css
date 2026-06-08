@@ -116,7 +116,6 @@
 
 .MarkdownContent h1 {
   padding-block-start: 0.25rem;
-  text-align: center;
   color: var(--sc-text-white);
 }
 
@@ -213,6 +212,19 @@
   outline: none;
 }
 
+.MarkdownContent pre {
+  background: var(--sc-bg-overlay);
+  border: var(--sc-border-card);
+  border-radius: 8px;
+  backdrop-filter: var(--sc-blur);
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.MarkdownContent pre > code {
+  font-size: 0.875rem;
+}
+
 /*************************************
   Responsive Menu
  *************************************/
@@ -224,7 +236,7 @@
   cursor: pointer;
   position: fixed;
   top: 0.75rem;
-  left: 0.5rem;
+  right: 0.5rem;
   z-index: 1001;
   width: 1.5rem;
   height: 1.25rem;
@@ -379,24 +391,22 @@ body.menu-open .BtnScrollTop {
     pointer-events: auto;
   }
 
+  body.menu-open .MarkdownIndex.MarkdownCard::before {
+    opacity: 0;
+  }
+
   .MarkdownMenuButton {
     display: block;
   }
 }
 
 @media (max-width: 630px) {
-  .Markdown .Container {
-    padding-inline: 0;
-  }
-
-  .MarkdownContent {
-    padding-block: 0;
-    border-color: transparent;
-    background: transparent;
-  }
+  .Markdown .Container { padding-inline: 1rem; }
+  .MarkdownContent { padding: 2rem; }
 }
 
 @media (max-width: 450px) {
+  .MarkdownContent { padding: 1rem; }
   .BtnScrollTop {
     bottom: 1rem;
     right: 1rem;
