@@ -18,19 +18,19 @@
     <link rel='stylesheet' href='styles/Markdown.css' />
 
     <script type='module'>
-    import { Markdown } from './modules/Markdown.js'
+      import { Markdown } from './modules/Markdown.js'
 
-    const init = async () => {
-      try {
-        const fn = window.location.search.substring(1)
-        await Markdown.renderHtml(fn, '#content', '#index')
-      } catch (err) {
-        console.error(err)
+      const init = async () => {
+        try {
+          const fn = window.location.search.substring(1)
+          fn ? await Markdown.renderHtml(fn, '#content', '#index') : window.location.replace('/')
+        } catch (err) {
+          console.error(err)
+        }
+        document.body.style.opacity = '1'
       }
-      document.body.style.opacity = '1'
-    }
 
-    window.addEventListener('DOMContentLoaded', () => init())
+      window.addEventListener('DOMContentLoaded', () => init())
     </script>
   </head>
 
