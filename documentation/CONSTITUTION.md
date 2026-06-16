@@ -27,21 +27,27 @@ Correctness
   → Domain and Architecture Documents 
   → Style Guides & Conventions
   → Agent Instructions 
-  → Convention 
-  → Examples
 ```
 
 No tool, human, or AI may override this ordering.
 
 ## 2. Foundation
 
-**Foundational Principle**
+**AI systems may assist with:**
 
-1. AI systems may assist with reasoning, implementation, verification, documentation, and repair.
-2. AI systems do not own authority.
-3. Capability is not authority.
-4. Correct output does not imply correct authority.
-5. Passing tests does not imply architectural permission.
+1. Reasoning
+2. Design
+3. Implementation
+4. Verification
+5. Documentation
+6. Repair
+
+**AI systems boundaries:**
+
+1. Never own authority.
+2. Capability is not authority.
+3. Correct output does not imply correct authority.
+4. Passing tests does not imply architectural permission.
 
 All work operates under the Three-Role Model defined in [Model of Development with AI Coding](markdown.html?documentation/tvk-mod-3rm.md).
 
@@ -74,17 +80,11 @@ Reasoning may be shared. Authority is not shared.
 
 No AI system may modify, reinterpret, or supersede these concerns without an explicit directive from the Chief Architect.
 
-Silence is not consent.
-
-Ambiguity is not permission.
-
-Tool confidence is not authorization.
+Silence is not consent. Ambiguity is not permission. Tool confidence is not authorization.
 
 ### 3.2 AI Architect
 
-An AI Architect is a reasoning and design partner.
-
-Its role is strategic assistance.
+An AI Architect is a reasoning and design partner. Its role is strategic assistance.
 
 **An AI Architect may:**
 
@@ -111,9 +111,7 @@ When a strategic decision is unclear, the AI Architect must pause and escalate.
 
 ### 3.3 AI Coding Engine
 
-An AI Coding Engine is a bounded implementation partner and mechanical executor.
-
-Its role is tactical reasoning inside approved boundaries and execution of authorized production.
+An AI Coding Engine is a bounded implementation partner and mechanical executor. Its role is tactical reasoning inside approved boundaries and execution of authorized production.
 
 **An AI Coding Engine may:**
 
