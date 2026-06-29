@@ -24,9 +24,9 @@ This document is the highest governing authority for all work performed in this 
 ```text
 Correctness 
   → This Constitution 
-  → Domain and Architecture Documents 
-  → Style Guides & Conventions
-  → Agent Instructions 
+    → Domain and Architecture Documents 
+      → Style Guides & Conventions
+        → Agent Instructions 
 ```
 
 No tool, human, or AI may override this ordering.

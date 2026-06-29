@@ -638,6 +638,8 @@ Always curious. Always learning. Servant leadership. Guided by essential first p
 - **Pride and purpose drive excellence**  
   Innovation follows meaning, not novelty.  
   Pride in the work produces better outcomes than pressure ever will.
+- **Trust in the Wisdom of Smart Team (WoST)**  
+  Trust the collective wisdom of smart teams. Smart teams trend towards the same best practices.
 
 ### 5.3 Peer Ascription
 
