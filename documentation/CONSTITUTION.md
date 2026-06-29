@@ -22,11 +22,21 @@ This document is the highest governing authority for all work performed in this 
 **In case of conflict, the order of precedence is:**
 
 ```text
-Correctness 
-  → This Constitution 
-    → Domain and Architecture Documents 
-      → Style Guides & Conventions
-        → Agent Instructions 
+▲  👑 [RANK 1] MAXIMUM CORRECTNESS
+│              ▲
+│              │
+│  📜 [RANK 2] THIS CONSTITUTION
+│              ▲
+│              │
+│  📐 [RANK 3] DOMAIN & ARCHITECTURE DOCUMENTS
+│              ▲
+│              │
+│  🎨 [RANK 4] STYLE GUIDES & CONVENTIONS
+│              ▲
+│              │
+│  🤖 [RANK 5] AGENT INSTRUCTIONS
+└──────────────────────────────────────────────────────────
+   ORDER OF PRECEDENCE: Resolution path climbs UPWARD
 ```
 
 No tool, human, or AI may override this ordering.
